@@ -1,0 +1,262 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array,graphicx,xcolor,hyperref,microtype,fancyhdr}
+\hypersetup{colorlinks=true,linkcolor=blue!55!black,urlcolor=blue!55!black,citecolor=blue!55!black}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Online Knapsack When the Price Lags}\fancyhead[R]{\small Audit revision}\fancyfoot[C]{\thepage}\setlength{\headheight}{14pt}
+\newtheorem{theorem}{Theorem}\newtheorem{proposition}{Proposition}
+\newcommand{\ALG}{\mathrm{ALG}}\newcommand{\OPT}{\mathrm{OPT}}
+\newcommand{\repo}{\url{https://github.com/fermibubble/lagged-budget-audit}}
+\title{Online Knapsack When the Price Lags:\\Metering Shared Budgets for Concurrent LLM Agents\\[0.6em]\large Revised manuscript with a reproducible computational audit}
+\author{Chaitanya Meesala \and Aayush Gautam \and Bibhudatta Panigrahi}
+\date{16 October 2026}
+\begin{document}\maketitle
+\begin{center}\small Computational revision of the supplied manuscript. Original theoretical statements are retained with their assumptions; empirical claims are replaced by the independently implemented experiments below. This revision does not attest that the authors have reviewed the new experiments.\end{center}
+\begin{abstract}
+An exact reservation ledger can prevent overspending even when an admission price reads stale utilization. The relevant quantity is unpriced commitment: settled plus reserved spend, including the current job, minus the price signal. We study what this distinction means for online knapsack meters and audit the supplied theoretical and empirical claims. The audit finds no numerical violations in 11,500 randomized or locally searched instances, independently cross-checks the delay differential equation, and reproduces the analytic values in the manuscript's Tables 5--6. Finite tests are not a proof. We repair the coarse-item example and restrict a constant-factor improvement statement to its tested parameter range. The replay uses 2,398 usable records from 2,404 available trajectories and evaluates 107,160 single-submission policy/block episodes. In the predeclared primary setting, structural lag-aware pricing averages 3.525 resolutions per block versus 1.475 for committed ZCL, 3.400 for expected-in-flight ZCL and 3.375 for a cap. Rechecking prices after refunds raises committed ZCL to 3.375, and the lag-aware advantage over the expected-in-flight baseline reverses on the common-complete-issue subset. Gains are therefore protocol- and baseline-dependent. Recorded-trace replay uses modeled timing, free historical calibration and one shared benchmark; it is not a fresh agent execution or a production deployment. The code, source locks, numerical measurements, configurations and complete result tables are public.
+\end{abstract}
+
+\section{Introduction}
+A shared budget poses two different problems. A reservation service must keep settled spend plus outstanding reservations below the cap. An admission policy must choose which jobs are worth running. Accurate enforcement alone does not imply good selection: a price based only on completed work can remain low while many expensive jobs are already committed.
+
+The supplied manuscript studies this separation through threshold pricing. For density bounds $0<L<U$, let $\alpha=1+\ln(U/L)$ and define the ZCL threshold
+\[\Psi(z)=L\exp(\alpha z-1),\qquad 0\le z\le1.\]
+Here $z$ is a normalized utilization signal. A job passes the price test when its value per unit of reserved budget exceeds the threshold. The purpose of the new audit is to determine which numerical claims are reproducible, which empirical effects survive explicit information constraints, and which statements need qualification.
+
+The evidence comes in two tracks. Synthetic theory instances have known values, bounded reservation densities, exact reservations and explicit completions. The empirical track replays existing SWE-agent costs and binary outcomes with imperfect predictions. The second track does not inherit the first track's competitive guarantees. Keeping that distinction visible is central to this revision.
+
+\section{Model and reservation ledger}
+Normalize the budget to one. Job $t$ has reservation $w_t\in(0,1]$, known value $v_t$ and density $\rho_t=v_t/w_t\in[L,U]$. Before admission, let $k_t$ be settled plus reserved spend and let $\widehat s_t\le k_t$ be the signal used for pricing. For a nondecreasing threshold $\varphi:[0,1]\to[0,U]$, the theoretical meter first rejects a job that does not fit; otherwise it rejects on price when $\rho_t<\varphi(\widehat s_t)$, and admits it otherwise. Ties are admitted.
+
+The unpriced commitment is
+\[\delta=\max_{t\in A}(k_t+w_t-\widehat s_t),\]
+with $\delta=0$ by convention when nothing is admitted. Committed pricing uses $\widehat s_t=k_t$, so its $\delta$ is the largest admitted job, not zero. Settled pricing omits all outstanding reservations. An expected-in-flight signal adds predicted running costs to settled spend while enforcement still uses reservations.
+
+Without refunds, let $z$ denote final commitment. A room refusal is harmful if its density exceeds $\varphi(z)$ or if $\varphi(z)\le L$. Let $\bar\rho$ be the largest density refused for room, or zero when there are none. Define
+\[J_{\varphi,\delta}(z)=\int_0^z\max\{L,\varphi((x-\delta)_+)\}\,dx,\qquad
+\lambda=\max\{L,\varphi(z),\bar\rho\}.\]
+These are ex post instance quantities. The practical empirical queues in Section~\ref{sec:methods} are distinguished from this irrevocable, room-first theoretical meter.
+
+\section{Theoretical claims and their scope}
+The following statements are from the supplied manuscript. Their assumptions are explicit here; the computational audit evaluates finite cases and numerical consequences, not universal proof correctness.
+
+\begin{theorem}[Instance bound]
+Under the model above,
+\[\ALG\ge J_{\varphi,\delta}(z),\qquad
+\OPT\le\ALG+\lambda-J_{\varphi,\delta}(z).\]
+When $J_{\varphi,\delta}(z)>0$, this implies $\OPT/\ALG\le\lambda/J_{\varphi,\delta}(z)$. The middle inequality also bounds the fractional optimum.
+\end{theorem}
+\begin{proof}
+Each admitted job occupies $[k_t,k_t+w_t]$ on the commitment axis. For $x$ in that interval, $(x-\delta)_+\le\widehat s_t$. Thus the coverage integrand is no larger than $\rho_t$ and also no larger than $\lambda$. Summing over disjoint intervals gives
+\[\sum_{t\in A}w_t\min(\rho_t,\lambda)\ge J_{\varphi,\delta}(z).\]
+For the fractional knapsack dual, take budget multiplier $\lambda$ and item multiplier $(v_t-\lambda w_t)_+$ for admitted jobs, zero for refused jobs. Price refusals and room refusals both have density at most $\lambda$, so this is feasible. Weak duality gives
+\[\OPT\le\lambda+\ALG-\sum_{t\in A}w_t\min(\rho_t,\lambda),\]
+which proves the middle inequality. Coverage proves the first. Since $J\le\lambda$ and $\ALG\ge J>0$, the ratio follows. Empty and all-refused cases use the additive inequality rather than an undefined ratio.
+\end{proof}
+
+For ZCL, the no-harmful-refusal guarantee is
+\[ B(\delta)=\begin{cases}
+\displaystyle\frac{U}{L\delta+(U/\alpha)e^{-\alpha\delta}},&\delta\le1-1/\alpha,\\
+U/L,&\delta>1-1/\alpha.
+\end{cases}\]
+In particular $B(0)=\alpha$ and $B(\delta)\le\alpha e^{\alpha\delta}$. This is not an unconditional finite-item bound. In the infinitesimal settled-pricing limit, the manuscript's endpoint adversary approaches this ratio. For coarse jobs, the instance certificate remains the appropriate unconditional statement.
+
+\subsection{The delay-aware threshold}
+For a design delay $d$, let $y(u)=1$ for $u\le0$ and solve
+\[y'(u)=\beta y(u-d).\]
+The threshold starts flat at $L$ until $z=1/\beta$, then equals $L y(z-1/\beta)$. Choose $\beta^*(d)$ so the endpoint equals $U$. For $d>0$ the delayed exponential has the finite-series representation
+\[y(u)=1+\sum_{j\ge1}\frac{\beta^j\bigl(u-(j-1)d\bigr)_+^j}{j!},\qquad u>0.\]
+The manuscript establishes optimality within the class of threshold rules facing bounded lag in the infinitesimal worst case, with a corresponding guarantee for instances without harmful refusals. This is not a claim of empirical dominance over every baseline or every queue. The audit compares this series with an independent numerical method of steps using RK45 and dense history interpolation.
+
+\subsection{Two corrections to the theoretical presentation}
+The original coarse example asks size-$0.1$ jobs to leave less than $0.1$ room. Nine such jobs leave exactly $0.1$, so a high-density job still fits. With $L=1,U=100$, our literal reconstruction has $\OPT/\ALG=5.666996845$. Adding an explicit size-$0.001$ threshold-density filler after the nine low-density jobs leaves $0.099$ room; all size-$0.1$, density-100 jobs are then refused. The corrected ratio is $12.981749433$, above $\alpha e^{0.1\alpha}=9.817892025$, while remaining below the instance certificate $16.813164423$. The filler is part of the corrected construction, not part of the original stated sequence.
+
+The phrase ``reshaping helps by a constant factor'' must be restricted to a finite parameter range. At $d=1/2$ and $R=U/L>2$, only the first two nonconstant terms contribute at the endpoint, yielding
+\[R=(\beta+2)^2/8,\qquad\beta^*(1/2)=\sqrt{8R}-2.\]
+Meanwhile $B(1/2)\sim\alpha\sqrt{eR}$ as $R\to\infty$, so $B(1/2)/\beta^*(1/2)\sim\alpha\sqrt{e/8}$ is unbounded. The manuscript's reported improvement of up to about $2.04$ on $R\le1000,d\le0.3$ is a finite-range observation, not a universal constant-factor relationship. The lower-bound inequality in the manuscript is a separate statement and is not refuted by this correction.
+
+\section{Refunds, forecasts and blind workers}
+A job can reserve $r_t$ and settle at actual cost $a_t\le r_t$. Commitment can then fall. Replace final commitment with peak commitment $z_*$. The reservation-cost bound becomes
+\[\OPT_r\le\ALG+\lambda-J_{\varphi,\delta}(z_*).\]
+The same coverage argument can assign each commitment level to the first admission crossing it. If all offered jobs have $a_t>0$, define $\gamma=\max_t r_t/a_t$. Then
+\[\OPT_a\le\ALG+\gamma\lambda-J_{\varphi,\delta}(z_*).\]
+Zero actual costs make this finite-$\gamma$ certificate unavailable; the implementation reports that explicitly and does not invent an epsilon actual cost.
+
+A forecast price $\widehat p$ may be clipped between $\Psi((z-s)_+)$ and $\Psi(\min(1,z+s))$. For the manuscript's conditions, including $s<1/\alpha$ and the relevant no-harmful-refusal requirement, its bound is
+\[\max\left\{\frac{\alpha}{1-\alpha s},\ e^{\alpha s}B(s+\delta)\right\}.\]
+The audit checks numerical consequences only inside these conditions. Forecast prices learned from previous outcomes are empirical heuristics; they do not make predicted binary values satisfy a positive realized-density floor.
+
+The manuscript also gives a deterministic lower bound $\min\{m,U/L\}$ for $m$ mutually blind workers with unbounded lag. No experiment in this revision establishes that universal lower bound. A shared reservation service alone does not imply that the pricer is blind, and the lower-bound information model should not be conflated with centralized committed pricing.
+
+\section{Numerical theory audit}
+The unchanged starter passed 64 tests and a 3,000-instance randomized campaign at seed 20261014. We added two 3,000-instance campaigns at seeds 20261015 and 20261016, and 2,500 local-search perturbations at seed 20261017. The search explores coarse items, threshold ties, refunds, completion schedules, step thresholds and values near admission boundaries. All tested instances satisfy the asserted reservation-density assumptions. Actual-cost tests requiring finite $\gamma$ are skipped explicitly when actual cost is zero. No numerical violations were found. This describes the tested population; it does not imply that counterexamples cannot exist.
+
+Forty-five independent DDE/root comparisons cover $U/L\in\{2,10,100,1000,10^6\}$ and delays through one. The maximum relative difference in $\beta$ is $8.57\times10^{-11}$. The integer knapsack solver agrees with brute force in 500 additional small instances. There are 108 band-bound checks within the stated parameter conditions. Table~\ref{tab:theory} records the recomputed analytic values; the separate lag-misspecification table agrees with the original to its reported three-decimal precision.
+\begin{table}[tbp]\centering\small
+\caption{Recomputed analytic values corresponding to the original Table 5. These are theoretical ratios, not empirical resolution rates.}\label{tab:theory}
+\begin{tabular}{lrrr}
+\toprule
+$U/L$ & $d$ & $B(d)$ & $\beta^*(d)$ \\ \midrule
+10 & 0.05 & 3.821 & 3.682 \\
+10 & 0.10 & 4.393 & 4.059 \\
+10 & 0.20 & 5.668 & 4.807 \\
+10 & 0.30 & 7.021 & 5.546 \\
+100 & 0.05 & 7.391 & 6.975 \\
+100 & 0.10 & 9.722 & 8.511 \\
+100 & 0.20 & 16.625 & 12.110 \\
+100 & 0.30 & 27.625 & 16.402 \\
+1000 & 0.05 & 11.736 & 10.986 \\
+1000 & 0.10 & 17.407 & 14.847 \\
+1000 & 0.20 & 38.158 & 25.430 \\
+1000 & 0.30 & 82.686 & 40.449 \\
+\bottomrule\end{tabular}\end{table}
+The endpoint adversary is run at 100, 400, 1600, 4000 and 16000 budget units, for both thresholds, three density ratios and four delays: 120 convergence cases. Each result records observed $\delta$ including the admitted item, the asymptotic target and finite-grid error. The maximum relative error against the asymptotic target is 0.1976\% at 4000 units and 0.0494\% at 16000 units; these are finite-resolution discrepancies, not confidence intervals. The first DDE integration attempt overflowed while using an excessive root bracket; its log is preserved, the bracket was corrected, and the successful independent checks were rerun. It was an implementation failure, not a theorem counterexample.
+
+\section{Recorded-trace experiments}\label{sec:methods}
+\subsection{Data, provenance and missingness}
+We use the five SWE-bench Verified submissions named in the original manuscript. They share the same 500 benchmark issues. The source versions are pinned as follows:
+\begin{quote}\small\begin{tabular}{@{}ll@{}}
+GitHub & \texttt{40f164d5b8f1d249bf95a6df8b74b577fd8e519d} \\
+Dataset & \texttt{c104f840cc67f8b6eec6f759ebc8b2693d585d4a}
+\end{tabular}\end{quote}
+ Outcomes come from official results, and costs come only from \texttt{info.model\_stats.instance\_cost}. Cumulative \texttt{total\_cost} is never substituted.
+\begin{table}[tbp]\centering\small
+\caption{Archive coverage and usable records. The five submissions reuse the same benchmark issues. Missing trajectories include 12 officially resolved Opus runs.}\label{tab:data}
+\begin{tabular}{lrrrr}
+\toprule
+Configuration & Trajectories & Usable & Missing & Unknown \\ \midrule
+Claude 3.5 Sonnet & 500 & 497 & 0 & 3 \\
+GPT-4o & 465 & 462 & 35 & 3 \\
+GPT-4 & 496 & 496 & 4 & 0 \\
+Claude 3 Opus & 443 & 443 & 57 & 0 \\
+Claude 4 Sonnet & 500 & 500 & 0 & 0 \\
+Total & 2404 & 2398 & 96 & 6 \\
+\bottomrule\end{tabular}\end{table}
+The four legacy archives are downloaded and content-hashed. The Claude 4 archive's full trajectories total 5.29 GB, exceeding the predeclared 1 GB download guard. A separate adapter instead obtains bounded HTTP suffix ranges, verifies Content-Range and ETag, parses the complete root-level metadata object, and hashes both downloaded ranges and extracted metadata. It is checked against a complete smoke trajectory. Full-object SHA256 values are explicitly unavailable for these range-acquired objects. This difference is recorded in every source lock.
+
+Missing trajectories do not represent free runs. Records listed as \texttt{no\_logs} without a known resolved outcome are excluded as unknown. Known \texttt{no\_generation} records with a trace are unresolved. There are 96 missing trajectories and six additional unknown-outcome exclusions. The retained records include 796 successful runs; these are not 796 unique issues. All retained costs are positive and below the chosen \$6 reservation. The common-complete-issue sensitivity contains 409 issues per submission. A sensitivity retains only issues complete across all five configurations. Neither complete-case analysis corrects potentially nonrandom missingness. Bounds on raw success counts are not bounds on policy differences: missing costs and queue interactions can change admission decisions.
+
+\subsection{Chronology and information}
+All 500 issues share one fixed map: sort by fixing-pull-request creation timestamp and instance ID, then make ten blocks of 50. Missing records stay missing within their assigned blocks. Blocks 0--1 supply historical calibration; blocks 2--9 are evaluated, with no circular rotations. PR creation time is a workload-order proxy, not a log of real deployment arrivals. All five agents use the same grouping, preventing one agent's missing records from shifting another agent's test issues into training.
+
+Both the logistic success predictor and ridge cost predictor use only repository and log issue character count. Difficulty annotations, reference patches, test patches, hints text, other agents' outcomes and post-run statistics are excluded from predictive features. Vocabularies and clipping are fitted on permitted history. The primary condition freezes predictors after warm-up. Admitted-only learning updates with that policy's admitted outcomes and costs after the preceding episode drains. Full-archive history is separately labeled privileged information. Warm-up data are free historical observations, not free exploration in a learning-from-scratch claim. Their recorded acquisition cost is published.
+
+\subsection{Decisions and endpoints}
+The primary setting is fixed before held-out replay: each submission separately, a \$24 block budget, \$6 reservation per job, 16 worker slots, expected-cost density, simultaneous arrivals, modeled 60-second duration and a 600-second deadline. The primary endpoint is resolutions completed by that deadline. Jobs admitted before it but completed after it are still charged. Price and reservation checks use the same ledger but different denominators. A worker slot is capacity, not evidence of achieved concurrency: in this setting at most four \$6 reservations fit in \$24.
+
+The three queue semantics are: (i) \emph{strict}, irrevocable room-first rejection; (ii) \emph{paper}, immediate price rejection but head-of-queue waiting on room; and (iii) \emph{defer}, scanning and rechecking both price and room after settlements. These are distinct policies with different information timing. We never attribute a queue change to the price formula alone.
+
+We compare a hard cap, ZCL using settled/committed/expected-in-flight signals, structural lag-aware pricing with design $d=\min(1,mr/B)$, own-previous-block lag-aware pricing, and fixed/banded forecasts. Warm-up-fixed prices, history-adaptive prices and privileged previous-day prices have distinct names. History-adaptive tuning uses an inner forward split of available past observations. Tuning and evaluation use the same deadline and endpoint. A previous-settled-ZCL lag estimate is evaluated only in the explicitly privileged condition.
+
+\subsection{Sensitivity, pooling and switching}
+The single-submission factorial crosses reservations \$6/\$12, budgets \$24/\$96, worker limits 1/4/16/64, all three queues, frozen/admitted-only feedback and reservation/expected-cost density. Reservations are externally fixed before trace inspection; any actual-cost exceedance would invalidate the cell rather than be clipped. Timing sensitivities use no deadline, API-call-proxy durations at eight seconds per call, and scaled arrivals. API call counters are checked against public SWE-agent version code, but exact code provenance is unavailable for one embedded commit; proxy time is not measured latency.
+
+Pooling combines the same forward issue block across five agents, with \$120 total budget and one common worker pool. We compare shared meters to equal private budgets and a static historical allocation proportional to warm-up successes per dollar, with ten percent reserved for an equal allocation floor. Private ledgers share exactly the same total worker limit. Independent successful runs are additive; unique solved issues are reported separately and must not be added across agents. This differs from the original paper's rotated, disjoint-team-block replay.
+
+Switching uses all 20 ordered model pairs and switch blocks 3, 5 and 7: 60 scenarios. It has a \$24 budget, \$6 reservation, one worker, the paper queue and a 600-second deadline. A known model-switch indicator is included in both predictors, with zero learned coefficient before the new model is observed. Full-archive feedback is explicitly privileged. We report all pairs, without selecting pairs by held-out cost-effectiveness.
+
+\subsection{Uncertainty and reproducibility}
+The four predeclared primary contrasts are structural lag-aware minus each of committed, settled and expected-in-flight ZCL, and committed ZCL minus the cap. Paired differences use eight chronological blocks. Circular moving-block bootstrap intervals use seed 20261014, 5000 resamples and block lengths 1, 2 and 4 for primary comparisons. They are conditional, descriptive intervals, not population confidence guarantees, multiplicity correction or evidence of independent replications. A mean across submissions is first computed within each common block; it does not turn eight blocks into forty independent samples.
+
+The actual-cost unit-success oracle preserves original decimal cost precision and ignores reservations, time and deadlines. It is a relaxed upper bound. Prediction-ranked greedy would not be an upper bound, and is not used to certify these results. All configurations and negative results remain available. The result tables are generated from the published measurements, which retain issue character counts rather than benchmark text. Feature-equivalence tests verify identical predictions from the two representations.
+
+\section{Results}
+The final single-submission run completes 107,160 episodes with zero recorded failures. It covers 13,395 scenario/policy cells, including 400 primary episodes. Validation checks 9,930,622 saved decision/settlement events with no budget, ledger or feedback-provenance violations. Structural design bounds are never exceeded. The nominal worker limits reach 64, but the largest observed occupancy is 16 in the single-submission grid and four in the primary setting. These counts cannot establish performance with 64 simultaneously running jobs.
+
+Table~\ref{tab:primary} retains the mixed results. Lag-aware pricing exceeds committed ZCL in each configuration in the primary condition, but falls below the cap on Claude 3.5 Sonnet, GPT-4 and Claude 3 Opus. The mean increment over expected-in-flight ZCL is only 0.125 resolutions per block; its descriptive interval includes zero. The very large increment over committed ZCL is therefore not evidence of a similarly large increment over an already strong alternative.
+
+\begin{table}[tbp]\centering\small
+\caption{Primary setting: mean resolutions completed by the 600-second deadline, eight blocks per configuration. Cap, settled ZCL, committed ZCL, expected-in-flight ZCL and structural lag-aware pricing use identical offered jobs.}\label{tab:primary}
+\begin{tabular}{lrrrrr}
+\toprule
+Configuration & Cap & Settled & Committed & Expected & Lag-aware \\ \midrule
+Claude 3.5 Sonnet & 3.500 & 2.750 & 1.500 & 2.500 & 2.750 \\
+GPT-4o & 1.375 & 1.750 & 2.000 & 1.750 & 2.375 \\
+GPT-4 & 1.250 & 1.000 & 0.625 & 1.000 & 1.125 \\
+Claude 3 Opus & 1.250 & 1.625 & 0.625 & 1.625 & 1.125 \\
+Claude 4 Sonnet & 9.500 & 9.875 & 2.625 & 10.125 & 10.250 \\
+Mean across configurations & 3.375 & 3.400 & 1.475 & 3.400 & 3.525 \\
+\bottomrule\end{tabular}\end{table}
+\begin{table}[tbp]\centering\small
+\caption{Predeclared primary contrasts. Descriptive 95\% moving-block intervals, block length 2. The resampling unit is the eight common blocks after averaging submissions within each block. Block lengths 1 and 4 are also published.}\label{tab:ci}
+\begin{tabular}{lrr}
+\toprule
+Contrast & Difference & Interval \\ \midrule
+Lag-aware minus committed ZCL & +2.050 & [+1.850, +2.250] \\
+Lag-aware minus settled ZCL & +0.125 & [-0.075, +0.325] \\
+Lag-aware minus expected-in-flight ZCL & +0.125 & [-0.025, +0.275] \\
+Committed ZCL minus cap & -1.900 & [-2.300, -1.600] \\
+\bottomrule\end{tabular}\end{table}
+At the same primary parameters, changing the queue from immediate price rejection to rechecking after refunds raises committed ZCL from 1.475 to 3.375 resolutions per block. The structural lag-aware mean remains 3.525. Thus most of its 2.050 increment over committed ZCL in the paper queue disappears when the queue rechecks prices. The strict room-first condition performs poorly for all policies because it irrevocably discards jobs while reservations occupy the budget. This is a measured interaction between policy and queue semantics.
+\begin{table}[tbp]\centering\small
+\caption{Queue sensitivity at the primary budget, reservation and worker limit. Means across five configurations and eight blocks.}\label{tab:queues}
+\begin{tabular}{lrrr}
+\toprule
+Policy & Strict & Paper & Defer \\ \midrule
+Hard cap & 1.275 & 3.375 & 3.375 \\
+Settled ZCL & 1.275 & 3.400 & 3.400 \\
+Committed ZCL & 1.225 & 1.475 & 3.375 \\
+Expected-in-flight ZCL & 1.275 & 3.400 & 3.375 \\
+Structural lag-aware & 1.375 & 3.525 & 3.525 \\
+\bottomrule\end{tabular}\end{table}
+The pooling sensitivity has 648 episodes. In the paper-queue, 16-worker cell, shared lag-aware pricing produces 33.250 successful runs and 28.375 unique resolved issues per block, compared with 16.125 runs and 7.500 unique issues for a shared cap. Shared committed ZCL produces 25.000 runs; expected-in-flight ZCL produces 27.875. This result supports value-aware allocation in this particular pooled workload, but it does not reproduce the original rotated protocol. Static private allocations interact with head-of-line waiting and are not guaranteed to spend their full allocation. All worker/queue cells, including the defer condition, are published.
+\begin{table}[tbp]\centering\small
+\caption{Modified pooling protocol, paper queue, 16 total workers and \$120 shared total budget. Independent successful runs and unique issues are distinct endpoints. Eight paired blocks.}\label{tab:pool}
+\begin{tabular}{lrrr}
+\toprule
+Policy & Successful runs & Unique issues & Spend (\$) \\ \midrule
+Equal private cap & 15.125 & 8.625 & 92.92 \\
+Equal private ZCL & 17.000 & 10.250 & 88.67 \\
+Historical static cap & 10.750 & 6.875 & 52.70 \\
+Historical static ZCL & 16.375 & 11.500 & 62.64 \\
+Shared cap & 16.125 & 7.500 & 115.37 \\
+Shared lag-aware & 33.250 & 28.375 & 96.23 \\
+Shared committed ZCL & 25.000 & 20.000 & 75.14 \\
+Shared expected-in-flight ZCL & 27.875 & 21.125 & 110.14 \\
+Shared settled ZCL & 27.875 & 20.500 & 110.13 \\
+\bottomrule\end{tabular}\end{table}
+The switch sensitivity contains 60 ordered-pair/switch-block scenarios and 1,920 recorded policy/block episodes. On the block after a switch, previous-day banding averages 2.117 resolutions versus 1.700 for the unbanded forecast and 2.050 for committed ZCL. This is a modest descriptive advantage in a privileged full-archive condition, not proof of a deployable learning guarantee or a reproduction of the original 120 scenarios.
+\begin{table}[tbp]\centering\small
+\caption{Model-switch sensitivity: mean resolutions by deadline over all 60 scenarios. Feedback includes all previous offered outcomes and is privileged. Scenarios reuse issues and are not independent samples.}\label{tab:switch}
+\begin{tabular}{lrrr}
+\toprule
+Policy & Before & Switch & After \\ \midrule
+Cap & 2.600 & 2.667 & 2.133 \\
+Committed ZCL & 2.933 & 2.817 & 2.050 \\
+Previous-day fixed & 3.067 & 2.233 & 1.700 \\
+Previous-day banded & 3.067 & 2.917 & 2.117 \\
+\bottomrule\end{tabular}\end{table}
+On the 409 common-complete issues, mean primary resolutions are 3.375 for structural lag-aware pricing, 3.450 for expected-in-flight ZCL, 3.400 for settled ZCL and 3.375 for the cap. The ordering of close baselines is therefore sensitive to which issues have complete records. This finding is retained rather than selecting a preferred denominator.
+
+Across the full grid, 102,139 of 107,160 episodes contain at least one predicted density outside the warm-up 5th--95th percentile range. The values are monitored rather than clipped to fabricate a theorem premise. Calibration, AUC, cost error, rejection counts, realized occupancy, utilization and late completions accompany every episode. Policy-specific learning, larger reservations and budgets, time proxies and deadlines are reported as sensitivities, with all predeclared comparisons available in CSV. No population-level significance claim is made.
+
+\section{What the evidence supports}
+The reservation ledger maintained the cap in all completed replays. This is evidence about the simulator and the supplied per-job cost bounds, not a distributed-systems fault-tolerance test. No empirical episode has a realized-value competitive certificate: failures have value zero, predictions are imperfect, density percentiles are not guaranteed bounds, and expected-cost density differs from reservation density.
+
+The numerical audit supports consistency of the stated formulas on the tested grid. It also identifies two presentation corrections: the coarse construction needs a filler, and the constant-factor wording must be bounded to a specified parameter range. The original universal optimality and blind-worker theorems remain mathematical claims rather than conclusions established by experimental counts.
+
+The empirical evidence supports measuring reservation tightness, observed occupancy, queue semantics and prediction quality together. It does not justify a universal instruction to avoid settled pricing, nor a uniform claim that lag-aware pricing dominates a cap or expected-in-flight ZCL. Effects depend on the workload and the decision protocol. The original pooled doubling and 64-worker numbers are not exact replications under this revised design. Changes to chronology, features, budgets and missingness are substantive, and are reported as such.
+
+The original LLM-triage experiment is not rerun. No cached triage features were supplied and no paid inference was performed. The ``15\% to 58\%'' improvement headline is therefore removed from the revised abstract and conclusions. The original Table 4's unchanged cost predictor also means that removing difficulty only from the success predictor would not establish a fully difficulty-free pipeline; this revision excludes difficulty from both models.
+
+\section{Limitations and conclusion}
+The experiments use one benchmark, one harness family, fixed recorded outcomes, modeled timing and free warm-up history. Chronological blocks are dependent, repeated policies reuse the same issues, and replay cannot measure the stochastic variation of fresh executions. Training examples have already been publicly available and may have been encountered by the original models. Complete-case exclusions and uncertain exact source provenance for one version limit external validity. Costs are the archive's reported per-instance costs, not independently reconciled billing invoices.
+
+An exact budget and a useful admission price are different properties. Unpriced commitment is a useful way to express the theoretical gap, but empirical benefit must be measured against strong baselines under a common queue and information model. This revision supplies reproducible numerical and recorded-trace evidence, narrows the claims to those experiments, and preserves failures and negative findings so readers can check the conclusions.
+
+\appendix
+\section{Reproduction and evidence map}
+Repository: \repo. The frozen protocol is in \texttt{docs/EXPERIMENT\_PROTOCOL.md}; deviations are in \texttt{docs/DEVIATIONS.md}. Source locks and numerical inputs are in \texttt{results/data-audit/}; primary and sensitivity tables are in \texttt{results/summary/}. The README gives exact commands for offline replay and optional re-ingestion from public sources. No downloaded patch or trajectory command is executed. The original manuscript and raw issue text are not redistributed in this repository.
+
+The source manuscript SHA256 is\par\noindent\texttt{\small d035220749caa192a16ccf7560abe772761935e851a61bc038f4e91efb32f6cd}.\par
+The supplied starter ZIP SHA256 is\par\noindent\texttt{\small 9980894f497a1a2a8a8e2530fe60508d43faae3129d65b4c707f10d763f7ab81}.\par
+The computational audit was implemented and executed using Codex with human-supplied research questions. Generated code, test reports, observed failures and source provenance are public. No statement here should be read as an attestation of subsequent author review or formal proof verification.
+
+\begin{thebibliography}{9}
+\bibitem{source} C. Meesala, A. Gautam and B. Panigrahi. \emph{Online Knapsack When the Price Lags: Metering Shared Budgets for Concurrent LLM Agents}. Supplied 21-page manuscript, audited version identified by SHA256 above, 2026.
+\bibitem{zcl} D. Chakrabarty, Y. Zhou and R. Lukose. \emph{Online Knapsack Problems}. Full version. \url{https://deeparnab.github.io/PUBS/CZL-full.pdf}.
+\bibitem{swebench} C. E. Jimenez et al. \emph{SWE-bench: Can Language Models Resolve Real-World GitHub Issues?} ICLR 2024. \url{https://arxiv.org/abs/2310.06770}.
+\bibitem{sweagent} J. Yang et al. \emph{SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering}. 2024. \url{https://arxiv.org/abs/2405.15793}.
+\bibitem{dataset} SWE-bench Verified dataset. \url{https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified}. Pinned revision and sanitized source records in the repository.
+\bibitem{archives} Official SWE-bench experiments repository. \url{https://github.com/SWE-bench/experiments}. Pinned revision and per-object hashes in the repository.
+\end{thebibliography}
+\end{document}

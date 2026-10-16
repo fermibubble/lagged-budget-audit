@@ -1,0 +1,11 @@
+{
+  "python": "3.11.6",
+  "platform": "macOS-15.7.3-arm64-arm-64bit",
+  "machine": "arm64",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "scikit_learn": "1.9.1",
+  "pandas": "3.0.6",
+  "tectonic": "0.17.0",
+  "dependency_lock_sha256": "d9f99cc14e77302e1c6c05f969f8f9de51be5edbff526298495792eecf3e71f4"
+}

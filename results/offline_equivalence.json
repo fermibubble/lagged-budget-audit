@@ -1,0 +1,17 @@
+[
+  {
+    "submission": "20240620_sweagent_claude3.5sonnet",
+    "episodes": 21432,
+    "all_public_and_raw_fields_exactly_equal": true
+  },
+  {
+    "submission": "20240728_sweagent_gpt4o",
+    "episodes": 21432,
+    "all_public_and_raw_fields_exactly_equal": true
+  },
+  {
+    "submission": "20240402_sweagent_gpt4",
+    "episodes": 21432,
+    "all_public_and_raw_fields_exactly_equal": true
+  }
+]

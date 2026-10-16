@@ -42,3 +42,7 @@
   Feature-equivalence tests confirm these produce exactly the same predictions
   as raw issue text. The final campaign runs from this text-free representation
   so it is reproducible offline without redistributing benchmark issue text.
+- The app's first PDF-preview compilation timed out while downloading TeX support
+  files. The same standalone source compiled successfully with Tectonic 0.17.0.
+  The exported 10-page PDF was rendered and visually checked; a long source hash
+  line was repaired before release. The original PDF is preserved unchanged.

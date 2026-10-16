@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-16T03:37:00.056700+00:00",
+  "finished_utc": "2026-10-16T03:37:00.960500+00:00",
+  "git_commit": "6a3dfd25029bbb5c4f0e3f6ab43cc12e06536dc8",
+  "python": "3.11.6",
+  "input_sha256": {
+    "20240620_sweagent_claude3.5sonnet": "698fd2182d8edf202bc87a517f20b124a99e92ec920482931ac21ebdbd366834",
+    "20240728_sweagent_gpt4o": "9c56845b7ae861e8e72cfb8af50534f64bcebb6cf8e84440480dda22aea70e65",
+    "20240402_sweagent_gpt4": "014dd66c51b0ce99825589cf7ef4e92a6bcb9d7ac2b5f4c6bf825c07e3f58e4a",
+    "20240402_sweagent_claude3opus": "e3fec28058cc9f05336689f19165ecbd3329c4a54752dfb5a78f1f8255de09d2",
+    "20250522_sweagent_claude-4-sonnet-20250514": "244212d8b6463a8e673812b5080e64e36051e76aa8f42c52c0e4070c8bf91d1d"
+  },
+  "split_map_sha256": "5387ca3e94afa6daf17b2800dcdc16e55089d1e09d0ae9e7c070a9c5fe1f8ca9",
+  "protocol_sha256": "32e9fb9070945a1f385aa7d26a118c7e9e8d65353637a64d0baff1c9683a84f6",
+  "episodes": {
+    "primary": 400
+  },
+  "failures": 0,
+  "episodes_sha256": "0b364b50b9615999aae6bc6bcee114abcd515606a8b7f248f533463db7f8a94f",
+  "incomplete_archive_acknowledged": true,
+  "paid_calls": 0,
+  "interpretation": "Modified-protocol recorded-trace replay; not live agent execution."
+}

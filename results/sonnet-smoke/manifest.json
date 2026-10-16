@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-16T03:17:15.036640+00:00",
+  "finished_utc": "2026-10-16T03:17:15.186468+00:00",
+  "git_commit": "792fcfd03aec5dbe9ad980c8e8e06cb1416854c3",
+  "python": "3.11.6",
+  "input_sha256": {
+    "20240620_sweagent_claude3.5sonnet": "de62f38384336b622441cdac3026a9f640a05fb89d2e9a8aaed43e84b943267b"
+  },
+  "split_map_sha256": "5387ca3e94afa6daf17b2800dcdc16e55089d1e09d0ae9e7c070a9c5fe1f8ca9",
+  "protocol_sha256": "32e9fb9070945a1f385aa7d26a118c7e9e8d65353637a64d0baff1c9683a84f6",
+  "episodes": {
+    "primary": 80
+  },
+  "failures": 0,
+  "episodes_sha256": "8f604f4854af32948e682ee9f033a3141fa9e4880d0e18b0e6aac52c03f9ff9b",
+  "incomplete_archive_acknowledged": true,
+  "paid_calls": 0,
+  "interpretation": "Modified-protocol recorded-trace replay; not live agent execution."
+}

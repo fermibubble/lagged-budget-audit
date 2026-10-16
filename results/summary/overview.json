@@ -1,0 +1,28 @@
+{
+  "episodes": 107160,
+  "primary_episodes": 400,
+  "scenario_cells": 13395,
+  "all_primary_blocks_per_submission": 8,
+  "number_of_independent_benchmarks": 1,
+  "budget_violations_in_recorded_summaries": 0,
+  "maximum_peak_running": 16,
+  "primary_peak_running": 4,
+  "density_excursion_episodes": 102139,
+  "structural_delta_exceedances": 0,
+  "empirical_certificates_applicable": 0,
+  "mean_primary_resolutions": {
+    "banded_history": 2.55,
+    "banded_warmup": 2.55,
+    "fixed_history": 2.375,
+    "fixed_warmup": 2.375,
+    "hard_cap": 3.375,
+    "lag_previous_day": 3.5250000000000004,
+    "lag_structural": 3.5250000000000004,
+    "zcl_committed": 1.475,
+    "zcl_expected_inflight": 3.4,
+    "zcl_settled": 3.4000000000000004
+  },
+  "pooled_episodes": 648,
+  "switch_episodes": 1920,
+  "switch_scenarios": 60
+}

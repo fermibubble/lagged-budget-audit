@@ -1,0 +1,5 @@
+# Preserve standard CSV CRLF bytes: source/result hashes refer to exact files.
+*.csv -text whitespace=cr-at-eol
+*.csv.gz binary
+*.pdf binary
+*.png binary

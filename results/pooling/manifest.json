@@ -1,0 +1,23 @@
+{
+  "git_commit": "6a3dfd25029bbb5c4f0e3f6ab43cc12e06536dc8",
+  "input_sha256": {
+    "20240620_sweagent_claude3.5sonnet": "58fdea96c3a75275b12cda456306150a4510668307f176856949d66f34aae091",
+    "20240728_sweagent_gpt4o": "206dfd3d8ef01ca56c5f5273cfbb1deb1660403f575295562b20d927f75032c0",
+    "20240402_sweagent_gpt4": "973ab5b50fde8e46be494f7705d60b61dc11b996eaab4c309a017ffe9afd54a5",
+    "20240402_sweagent_claude3opus": "3862594c8def2a5590b3642572be1539433a7f495c4cf8417df453642a2da867",
+    "20250522_sweagent_claude-4-sonnet-20250514": "6ffafaef1562f65bb67e37ce0f353b0eece133ddee14db47f809a2d3437ca76e"
+  },
+  "episodes": 648,
+  "learned_private_budgets": {
+    "20240620_sweagent_claude3.5sonnet": 27.274655217755686,
+    "20240728_sweagent_gpt4o": 12.615343248987132,
+    "20240402_sweagent_gpt4": 13.66588703592832,
+    "20240402_sweagent_claude3opus": 8.25239154374517,
+    "20250522_sweagent_claude-4-sonnet-20250514": 58.191722953583714
+  },
+  "pooled_L": 0.09466370296466692,
+  "pooled_U": 0.8860655809649685,
+  "unique_issue_value_additive": false,
+  "seed": 20261014,
+  "episodes_sha256": "af7d3535c1e7a1a4c1de80e974ab6ceac25b963f297a9b1715fdbb50c47ffe09"
+}
