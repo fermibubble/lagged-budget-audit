@@ -1,0 +1,54 @@
+[
+  {
+    "seed": 20261015,
+    "tested_instances": 3000,
+    "without_harmful_refusal": 674,
+    "configurations": {
+      "zcl/settled/refunds=False": 188,
+      "lag/settled/refunds=False": 188,
+      "band/settled/refunds=False": 188,
+      "step/settled/refunds=False": 188,
+      "zcl/committed/refunds=False": 188,
+      "lag/committed/refunds=False": 188,
+      "band/committed/refunds=False": 188,
+      "step/committed/refunds=False": 188,
+      "zcl/settled/refunds=True": 187,
+      "lag/settled/refunds=True": 187,
+      "band/settled/refunds=True": 187,
+      "step/settled/refunds=True": 187,
+      "zcl/committed/refunds=True": 187,
+      "lag/committed/refunds=True": 187,
+      "band/committed/refunds=True": 187,
+      "step/committed/refunds=True": 187
+    },
+    "violations": 0,
+    "counterexamples": [],
+    "interpretation": "Finite numerical tests; not a proof or universal verification."
+  },
+  {
+    "seed": 20261016,
+    "tested_instances": 3000,
+    "without_harmful_refusal": 645,
+    "configurations": {
+      "zcl/settled/refunds=False": 188,
+      "lag/settled/refunds=False": 188,
+      "band/settled/refunds=False": 188,
+      "step/settled/refunds=False": 188,
+      "zcl/committed/refunds=False": 188,
+      "lag/committed/refunds=False": 188,
+      "band/committed/refunds=False": 188,
+      "step/committed/refunds=False": 188,
+      "zcl/settled/refunds=True": 187,
+      "lag/settled/refunds=True": 187,
+      "band/settled/refunds=True": 187,
+      "step/settled/refunds=True": 187,
+      "zcl/committed/refunds=True": 187,
+      "lag/committed/refunds=True": 187,
+      "band/committed/refunds=True": 187,
+      "step/committed/refunds=True": 187
+    },
+    "violations": 0,
+    "counterexamples": [],
+    "interpretation": "Finite numerical tests; not a proof or universal verification."
+  }
+]

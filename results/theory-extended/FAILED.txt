@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/scripts/theory_extended.py", line 96, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/scripts/theory_extended.py", line 46, in main
+    numerical=brentq(lambda b:dde(b,1-1/b,delta)-ratio,1,max(2,ratio),xtol=1e-9)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/.venv/lib/python3.11/site-packages/scipy/optimize/_zeros_py.py", line 846, in brentq
+    r = _zeros._brentq(f, a, b, xtol, rtol, maxiter, args, full_output, disp)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/.venv/lib/python3.11/site-packages/scipy/optimize/_zeros_py.py", line 94, in f_raise
+    fx = f(x, *args)
+         ^^^^^^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/scripts/theory_extended.py", line 46, in <lambda>
+    numerical=brentq(lambda b:dde(b,1-1/b,delta)-ratio,1,max(2,ratio),xtol=1e-9)
+                              ^^^^^^^^^^^^^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/scripts/theory_extended.py", line 30, in dde
+    if not sol.success: raise ArithmeticError(sol.message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ArithmeticError: Required step size is less than spacing between numbers.

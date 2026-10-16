@@ -27,31 +27,30 @@ def audit_instance(jobs: list[Job], policy: Policy, workers: int, units: int) ->
     opta = integer_knapsack([round(w * units) for w in weights_a], values, units)
     fracr = fractional_optimum(weights_r, values, 1.0)
     fraca = fractional_optimum(weights_a, values, 1.0)
-    if any(a <= 0 for a in weights_a):
-        raise ValueError("Finite gamma requires strictly positive actual costs")
-    gamma = max((r / a for r, a in zip(weights_r, weights_a)), default=1.0)
+    gamma = None if any(a <= 0 for a in weights_a) else max((r / a for r, a in zip(weights_r, weights_a)), default=1.0)
     z = min(1.0, result.peak_commitment)
     J = coverage(phi, result.delta, z)
     lam = max(phi.L, phi(z), max(result.room_densities, default=0.0))
-    eps = 1e-7 * max(1.0, fracr, fraca, gamma * lam)
+    eps = 1e-7 * max(1.0, fracr, fraca, (gamma or 1.0) * lam)
     failures = []
     if result.value + eps < J:
         failures.append("coverage")
     if fracr > result.value + lam - J + eps:
         failures.append("reservation_dual_bound")
-    if fraca > result.value + gamma * lam - J + eps:
+    if gamma is not None and fraca > result.value + gamma * lam - J + eps:
         failures.append("actual_cost_dual_bound")
     harmful = bool(result.room_densities) and (phi(z) <= phi.L + 1e-10 or any(d > phi(z) + 1e-9 for d in result.room_densities))
-    if not harmful and phi.kind == "zcl" and opta > gamma * zcl_bound(phi.L, phi.U, result.delta) * result.value + eps:
+    if gamma is not None and not harmful and phi.kind == "zcl" and opta > gamma * zcl_bound(phi.L, phi.U, result.delta) * result.value + eps:
         failures.append("no_harmful_zcl")
-    if not harmful and phi.kind == "lag" and result.delta <= phi.delta + 1e-10 and opta > gamma * phi.beta * result.value + eps:
+    if gamma is not None and not harmful and phi.kind == "lag" and result.delta <= phi.delta + 1e-10 and opta > gamma * phi.beta * result.value + eps:
         failures.append("no_harmful_lag_optimal")
     return {"failures": failures, "alg": result.value, "opt_r": optr, "opt_a": opta,
             "fractional_opt_r": fracr, "fractional_opt_a": fraca,
             "J": J, "lambda": lam, "gamma": gamma, "delta": result.delta,
             "z_star": z, "harmful_refusal": harmful,
             "reservation_certificate": lam / J if J > 0 else None,
-            "actual_cost_certificate": gamma * lam / J if J > 0 else None}
+            "actual_cost_certificate": gamma * lam / J if J > 0 and gamma is not None else None,
+            "actual_cost_certificate_status": "finite" if gamma is not None and J > 0 else ("zero_actual_cost_unbounded_gamma" if gamma is None else "zero_coverage")}
 
 
 def random_audit(n: int = 1000, seed: int = 20261014) -> dict:

@@ -67,8 +67,9 @@ def tune_warmup(warmup: list[dict], budget: float, reservation: float, density_m
     scored = []
     for price in candidates:
         result = replay(jobs, budget, workers, Policy(Threshold(L, U, "fixed", forecast=float(price)),
-                                                     "committed", density_mode), queue_mode)
-        scored.append((result.value, -result.spend, -float(price), float(price)))
+                                                     "committed", density_mode), queue_mode,
+                        deadline=float(config.get("deadline", math.inf)))
+        scored.append((result.value_before_deadline, -result.spend, -float(price), float(price)))
     return L, U, max(scored)[3]
 
 

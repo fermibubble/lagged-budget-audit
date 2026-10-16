@@ -76,6 +76,9 @@ class ReplayResult:
     delta: float = 0.0
     makespan: float = 0.0
     total_wait: float = 0.0
+    peak_running: int = 0
+    completed_before_deadline: int = 0
+    completed_after_deadline: int = 0
 
     def summary(self) -> dict:
         return {k: v for k, v in asdict(self).items() if k not in {"events", "room_densities"}}
@@ -121,6 +124,9 @@ def replay(jobs: list[Job], budget: float, workers: int, policy: Policy,
             result.value += job.value
             if finish <= deadline + TOL:
                 result.value_before_deadline += job.value
+                result.completed_before_deadline += 1
+            else:
+                result.completed_after_deadline += 1
             result.makespan = max(result.makespan, finish)
             log("settle", job, actual_cost=job.actual_cost, outcome=job.value)
         while next_arrival < len(ordered) and ordered[next_arrival][1].arrival <= now + TOL:
@@ -172,6 +178,7 @@ def replay(jobs: list[Job], budget: float, workers: int, policy: Policy,
             result.total_wait += now - job.arrival
             serial += 1
             heapq.heappush(running, (now + job.duration, serial, job))
+            result.peak_running = max(result.peak_running, len(running))
             log("admit", job, signal=signal, price=price, density=density, delta=delta)
             if settled + reserved > budget + TOL:
                 raise AssertionError("Reservation cap violation")

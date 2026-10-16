@@ -1,0 +1,37 @@
+{
+  "literal_nine_low_then_high": {
+    "failures": [],
+    "alg": 17.646030645305906,
+    "opt_r": 100.0,
+    "opt_a": 100.0,
+    "fractional_opt_r": 100.0,
+    "fractional_opt_a": 100.0,
+    "J": 10.285485819814436,
+    "lambda": 100.0,
+    "gamma": 1.0,
+    "delta": 0.10000000000000003,
+    "z_star": 0.9999999999999999,
+    "harmful_refusal": false,
+    "reservation_certificate": 9.722438176654268,
+    "actual_cost_certificate": 9.722438176654268,
+    "ratio": 5.66699684535578
+  },
+  "with_explicit_0.001_filler": {
+    "failures": [],
+    "alg": 7.703122026752932,
+    "opt_r": 100.0,
+    "opt_a": 100.0,
+    "fractional_opt_r": 100.00000000000001,
+    "fractional_opt_a": 100.00000000000001,
+    "J": 5.947720339074594,
+    "lambda": 100.0,
+    "gamma": 1.0,
+    "delta": 0.10000000000000003,
+    "z_star": 0.9009999999999999,
+    "harmful_refusal": true,
+    "reservation_certificate": 16.813164422515367,
+    "actual_cost_certificate": 16.813164422515367,
+    "measured_ratio": 12.981749432593713,
+    "small_item_claim_comparator": 9.817892024891341
+  }
+}

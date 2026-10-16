@@ -1,0 +1,10 @@
+{
+  "dde_checks": 45,
+  "max_relative_dde_error": 8.563055632344696e-11,
+  "additional_random_instances": 6000,
+  "violations": 0,
+  "oracle_crosschecks": 500,
+  "table6_max_grid_difference": 3.366455239017796e-06,
+  "convergence_cases": 120,
+  "formal_proof_checked": false
+}
