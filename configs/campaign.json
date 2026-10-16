@@ -1,0 +1,3740 @@
+[
+  {
+    "track": "primary",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 4,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "reservation",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "factorial",
+    "scenario": {
+      "reservation": 12.0,
+      "budget": 96.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": Infinity,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "api_calls_proxy",
+      "deadline": 3600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "strict",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "frozen_warmup",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "timing",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "defer",
+      "feedback": "admitted_only",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 3600.0,
+      "arrival_mode": "scaled"
+    }
+  },
+  {
+    "track": "privileged",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 1,
+      "queue_mode": "paper",
+      "feedback": "full_archive",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "privileged",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 16,
+      "queue_mode": "paper",
+      "feedback": "full_archive",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  },
+  {
+    "track": "privileged",
+    "scenario": {
+      "reservation": 6.0,
+      "budget": 24.0,
+      "workers": 64,
+      "queue_mode": "paper",
+      "feedback": "full_archive",
+      "density_mode": "expected",
+      "duration_mode": "fixed",
+      "deadline": 600.0,
+      "arrival_mode": "batch"
+    }
+  }
+]

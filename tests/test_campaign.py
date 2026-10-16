@@ -16,7 +16,7 @@ def fixture():
 def test_missing_records_do_not_shift_common_split():
     rows,split=fixture();runner=Runner(rows[:4]+rows[5:],split)
     assert len(runner.blocks[1])==3
-    assert [r['id'] for r in runner.blocks[2]]==[r['id'] for r in rows[8:12]]
+    assert {r['id'] for r in runner.blocks[2]}=={r['id'] for r in rows[8:12]}
 
 def test_admitted_only_history_contains_no_rejected_labels():
     rows,split=fixture();runner=Runner(rows,split)

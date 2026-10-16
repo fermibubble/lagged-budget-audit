@@ -1,0 +1,27 @@
+{
+  "scenario": {
+    "reservation": 6.0,
+    "budget": 24.0,
+    "workers": 16,
+    "queue_mode": "paper",
+    "feedback": "frozen_warmup",
+    "density_mode": "expected",
+    "duration_mode": "fixed",
+    "deadline": 600.0,
+    "arrival_mode": "batch"
+  },
+  "policies": [
+    "hard_cap",
+    "zcl_settled",
+    "zcl_committed",
+    "zcl_expected_inflight",
+    "lag_structural",
+    "lag_previous_day",
+    "fixed_warmup",
+    "banded_warmup",
+    "fixed_history",
+    "banded_history"
+  ],
+  "seed": 20261014,
+  "endpoint": "resolved_before_deadline"
+}
