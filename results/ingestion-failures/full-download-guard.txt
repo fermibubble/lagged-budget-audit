@@ -1,0 +1,33 @@
+20240620_sweagent_claude3.5sonnet objects 500 bytes 169776934
+20240620_sweagent_claude3.5sonnet 100 downloaded
+20240620_sweagent_claude3.5sonnet 200 downloaded
+20240620_sweagent_claude3.5sonnet 300 downloaded
+20240620_sweagent_claude3.5sonnet 400 downloaded
+20240620_sweagent_claude3.5sonnet 500 downloaded
+20240620_sweagent_claude3.5sonnet retained 497 excluded 3
+20240728_sweagent_gpt4o objects 465 bytes 145156182
+20240728_sweagent_gpt4o 100 downloaded
+20240728_sweagent_gpt4o 200 downloaded
+20240728_sweagent_gpt4o 300 downloaded
+20240728_sweagent_gpt4o 400 downloaded
+20240728_sweagent_gpt4o retained 462 excluded 38
+20240402_sweagent_gpt4 objects 496 bytes 89978837
+20240402_sweagent_gpt4 100 downloaded
+20240402_sweagent_gpt4 200 downloaded
+20240402_sweagent_gpt4 300 downloaded
+20240402_sweagent_gpt4 400 downloaded
+20240402_sweagent_gpt4 retained 496 excluded 4
+20240402_sweagent_claude3opus objects 443 bytes 66555411
+20240402_sweagent_claude3opus 100 downloaded
+20240402_sweagent_claude3opus 200 downloaded
+20240402_sweagent_claude3opus 300 downloaded
+20240402_sweagent_claude3opus 400 downloaded
+20240402_sweagent_claude3opus retained 443 excluded 57
+Traceback (most recent call last):
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/scripts/fetch_archives.py", line 81, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/scripts/fetch_archives.py", line 59, in main
+    assert objects and total<=1_000_000_000,(sub,len(objects),total)
+                       ^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('20250522_sweagent_claude-4-sonnet-20250514', 500, 5288247907)

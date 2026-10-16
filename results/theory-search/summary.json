@@ -1,0 +1,8 @@
+{
+  "seed": 20261017,
+  "adaptive_instances": 2500,
+  "violations": 0,
+  "band_checks": 108,
+  "band_violations": 0,
+  "formal_proof_checked": false
+}

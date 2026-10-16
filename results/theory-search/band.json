@@ -1,0 +1,974 @@
+[
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 3.3025850929940472,
+    "bound": 3.302585092994046,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 3.3025850929940472,
+    "bound": 3.302585092994046,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0,
+    "forecast": 3.1622776601683795,
+    "grid_W": 3.3025850929940472,
+    "bound": 3.302585092994046,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0,
+    "forecast": 10,
+    "grid_W": 3.3025850929940472,
+    "bound": 3.302585092994046,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 4.393115589111903,
+    "bound": 4.393115589111904,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 4.393115589111903,
+    "bound": 4.393115589111904,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 3.1622776601683795,
+    "grid_W": 4.393115589111905,
+    "bound": 4.393115589111904,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 10,
+    "grid_W": 4.393115589111903,
+    "bound": 4.393115589111904,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 7.0213063379639,
+    "bound": 7.021306337963898,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 7.0213063379639,
+    "bound": 7.021306337963898,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 3.1622776601683795,
+    "grid_W": 7.021306337963897,
+    "bound": 7.021306337963898,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 10,
+    "grid_W": 7.0213063379639,
+    "bound": 7.021306337963898,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 3.6070952708253023,
+    "bound": 3.982781191632314,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 3.6070952708253023,
+    "bound": 3.982781191632314,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 3.1622776601683795,
+    "grid_W": 3.664540731166175,
+    "bound": 3.982781191632314,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 10,
+    "grid_W": 3.664540731166175,
+    "bound": 3.982781191632314,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 4.759627196578699,
+    "bound": 5.255351537576113,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 4.759627196578699,
+    "bound": 5.255351537576113,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 3.1622776601683795,
+    "grid_W": 4.482814253174333,
+    "bound": 5.255351537576113,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 10,
+    "grid_W": 4.451359929421645,
+    "bound": 5.255351537576113,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 7.417352446024489,
+    "bound": 8.189883991329996,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 7.417352446024489,
+    "bound": 8.189883991329996,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 3.1622776601683795,
+    "grid_W": 6.766235857900672,
+    "bound": 8.189883991329996,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 10,
+    "grid_W": 7.171811882233192,
+    "bound": 8.189883991329996,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 4.393115589111904,
+    "bound": 6.112263641889183,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 4.393115589111904,
+    "bound": 6.112263641889183,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 3.1622776601683795,
+    "grid_W": 4.931094788528571,
+    "bound": 6.112263641889183,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 10,
+    "grid_W": 4.931094788528571,
+    "bound": 6.112263641889183,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 5.668351685125445,
+    "bound": 7.886535014080416,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 5.668351685125445,
+    "bound": 7.886535014080416,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 3.1622776601683795,
+    "grid_W": 4.931094789490037,
+    "bound": 7.886535014080416,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 10,
+    "grid_W": 4.931094789490037,
+    "bound": 7.886535014080416,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 8.277931120277552,
+    "bound": 11.517315306234398,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 8.277931120277552,
+    "bound": 11.517315306234398,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 3.1622776601683795,
+    "grid_W": 6.1446151030355685,
+    "bound": 11.517315306234398,
+    "passes": true
+  },
+  {
+    "ratio": 10,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 10,
+    "grid_W": 7.549404770665399,
+    "bound": 11.517315306234398,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 5.605170185988096,
+    "bound": 5.605170185988092,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 5.605170185988096,
+    "bound": 5.605170185988092,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0,
+    "forecast": 10.0,
+    "grid_W": 5.605170185988096,
+    "bound": 5.605170185988092,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0,
+    "forecast": 100,
+    "grid_W": 5.605170185988096,
+    "bound": 5.605170185988092,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 9.722438176654268,
+    "bound": 9.722438176654268,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 9.722438176654268,
+    "bound": 9.722438176654268,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 10.0,
+    "grid_W": 9.722438176654268,
+    "bound": 9.722438176654268,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 100,
+    "grid_W": 9.722438176654268,
+    "bound": 9.722438176654268,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 27.625197955590924,
+    "bound": 27.625197955590927,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 27.625197955590924,
+    "bound": 27.625197955590927,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 10.0,
+    "grid_W": 27.62519795559093,
+    "bound": 27.625197955590927,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 100,
+    "grid_W": 27.625197955590924,
+    "bound": 27.625197955590927,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 6.618422340582926,
+    "bound": 7.830388534171477,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 6.618422340582926,
+    "bound": 7.830388534171477,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 10.0,
+    "grid_W": 6.734845818859932,
+    "bound": 7.830388534171477,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 100,
+    "grid_W": 6.734845818859932,
+    "bound": 7.830388534171477,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 11.442951507470687,
+    "bound": 13.53838598841773,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 11.442951507470687,
+    "bound": 13.53838598841773,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 10.0,
+    "grid_W": 10.777018638427657,
+    "bound": 13.53838598841773,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 100,
+    "grid_W": 9.750516410199124,
+    "bound": 13.53838598841773,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 31.887337860008746,
+    "bound": 37.72655051540167,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 31.887337860008746,
+    "bound": 37.72655051540167,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 10.0,
+    "grid_W": 27.20317838402269,
+    "bound": 37.72655051540167,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 100,
+    "grid_W": 27.85172515123091,
+    "bound": 37.72655051540167,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 9.722438176654263,
+    "bound": 17.029607499820496,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 9.722438176654263,
+    "bound": 17.029607499820496,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 10.0,
+    "grid_W": 12.707267555072947,
+    "bound": 17.029607499820496,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 100,
+    "grid_W": 12.707267555072947,
+    "bound": 17.029607499820496,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 16.62500838116772,
+    "bound": 29.11999667864593,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 16.62500838116772,
+    "bound": 29.11999667864593,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 10.0,
+    "grid_W": 12.79584872101054,
+    "bound": 29.11999667864593,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 100,
+    "grid_W": 12.707387484591024,
+    "bound": 29.11999667864593,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 43.56601061011462,
+    "bound": 76.3092598320412,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 43.56601061011462,
+    "bound": 76.3092598320412,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 10.0,
+    "grid_W": 24.41783374103309,
+    "bound": 76.3092598320412,
+    "passes": true
+  },
+  {
+    "ratio": 100,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 100,
+    "grid_W": 28.401878155928294,
+    "bound": 76.3092598320412,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 7.907755278982144,
+    "bound": 7.907755278982137,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 7.907755278982144,
+    "bound": 7.907755278982137,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0,
+    "forecast": 31.622776601683793,
+    "grid_W": 7.907755278982146,
+    "bound": 7.907755278982137,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0,
+    "forecast": 1000,
+    "grid_W": 7.907755278982144,
+    "bound": 7.907755278982137,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 17.407084203731277,
+    "bound": 17.40708420373128,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 17.407084203731277,
+    "bound": 17.40708420373128,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 31.622776601683793,
+    "grid_W": 17.407084203731287,
+    "bound": 17.40708420373128,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0.1,
+    "forecast": 1000,
+    "grid_W": 17.407084203731277,
+    "bound": 17.40708420373128,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 82.68612845683465,
+    "bound": 82.68612845683462,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 82.68612845683465,
+    "bound": 82.68612845683462,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 31.622776601683793,
+    "grid_W": 82.68612845683467,
+    "bound": 82.68612845683462,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0,
+    "delta": 0.3,
+    "forecast": 1000,
+    "grid_W": 82.68612845683465,
+    "bound": 82.68612845683462,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 10.021932226270788,
+    "bound": 12.705164602174811,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 10.021932226270788,
+    "bound": 12.705164602174811,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 31.622776601683793,
+    "grid_W": 10.355855789619696,
+    "bound": 12.705164602174811,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0,
+    "forecast": 1000,
+    "grid_W": 10.355855789619696,
+    "bound": 12.705164602174811,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 22.0427219624137,
+    "bound": 27.94435289417738,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 22.0427219624137,
+    "bound": 27.94435289417738,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 31.622776601683793,
+    "grid_W": 21.18472857024372,
+    "bound": 27.94435289417738,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0.1,
+    "forecast": 1000,
+    "grid_W": 17.416015829761182,
+    "bound": 27.94435289417738,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 103.80830164729036,
+    "bound": 131.60152450879306,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 103.80830164729036,
+    "bound": 131.60152450879306,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 31.622776601683793,
+    "grid_W": 87.18010055626027,
+    "bound": 131.60152450879306,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.03,
+    "delta": 0.3,
+    "forecast": 1000,
+    "grid_W": 82.87748070223797,
+    "bound": 131.60152450879306,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 0,
+    "grid_W": 17.407084203731287,
+    "bound": 38.38446380851903,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 1,
+    "grid_W": 17.407084203731287,
+    "bound": 38.38446380851903,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 31.622776601683793,
+    "grid_W": 37.22282316067668,
+    "bound": 38.38446380851903,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0,
+    "forecast": 1000,
+    "grid_W": 37.22282316067668,
+    "bound": 38.38446380851903,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 0,
+    "grid_W": 38.15795117624931,
+    "bound": 84.14232267676509,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 1,
+    "grid_W": 38.15795117624931,
+    "bound": 84.14232267676509,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 31.622776601683793,
+    "grid_W": 37.22427710164669,
+    "bound": 84.14232267676509,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0.1,
+    "forecast": 1000,
+    "grid_W": 37.22427710164669,
+    "bound": 84.14232267676509,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 0,
+    "grid_W": 173.95954707567176,
+    "bound": 383.59922091036736,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 1,
+    "grid_W": 173.95954707567176,
+    "bound": 383.59922091036736,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 31.622776601683793,
+    "grid_W": 84.22458237963035,
+    "bound": 383.59922091036736,
+    "passes": true
+  },
+  {
+    "ratio": 1000,
+    "s": 0.1,
+    "delta": 0.3,
+    "forecast": 1000,
+    "grid_W": 83.36561067406562,
+    "bound": 383.59922091036736,
+    "passes": true
+  }
+]

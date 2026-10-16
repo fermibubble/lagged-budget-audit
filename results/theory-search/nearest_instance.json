@@ -1,0 +1,229 @@
+{
+  "restart": 75,
+  "iteration": 16,
+  "units": 100,
+  "workers": 9,
+  "policy": {
+    "threshold": {
+      "L": 1,
+      "U": 1000000.0,
+      "kind": "step",
+      "delta": 0.2,
+      "forecast": 333333.3333333333,
+      "band": 0.05,
+      "step_edges": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "step_values": [
+        1,
+        100000.0,
+        500000.0,
+        1000000.0
+      ]
+    },
+    "signal": "settled",
+    "density_mode": "reservation"
+  },
+  "jobs": [
+    {
+      "proposal": {
+        "id": "0",
+        "reservation": 0.11,
+        "expected_value": 0.664712170227439,
+        "expected_cost": 0.11
+      },
+      "actual_cost": 0.09,
+      "value": 0.664712170227439,
+      "duration": 10.0,
+      "arrival": 0.0
+    },
+    {
+      "proposal": {
+        "id": "1",
+        "reservation": 0.29,
+        "expected_value": 0.29,
+        "expected_cost": 0.29
+      },
+      "actual_cost": 0.18,
+      "value": 0.29,
+      "duration": 18.0,
+      "arrival": 1.0
+    },
+    {
+      "proposal": {
+        "id": "2",
+        "reservation": 0.31,
+        "expected_value": 0.7988419443301872,
+        "expected_cost": 0.31
+      },
+      "actual_cost": 0.21,
+      "value": 0.7988419443301872,
+      "duration": 10.0,
+      "arrival": 2.0
+    },
+    {
+      "proposal": {
+        "id": "3",
+        "reservation": 0.35,
+        "expected_value": 793.2110744363632,
+        "expected_cost": 0.35
+      },
+      "actual_cost": 0.18,
+      "value": 793.2110744363632,
+      "duration": 7.0,
+      "arrival": 3.0
+    },
+    {
+      "proposal": {
+        "id": "4",
+        "reservation": 0.11,
+        "expected_value": 0.11,
+        "expected_cost": 0.11
+      },
+      "actual_cost": 0.09,
+      "value": 0.11,
+      "duration": 29.0,
+      "arrival": 4.0
+    },
+    {
+      "proposal": {
+        "id": "5",
+        "reservation": 0.11,
+        "expected_value": 509.7571930385645,
+        "expected_cost": 0.11
+      },
+      "actual_cost": 0.09,
+      "value": 509.7571930385645,
+      "duration": 19.0,
+      "arrival": 5.0
+    },
+    {
+      "proposal": {
+        "id": "6",
+        "reservation": 0.12,
+        "expected_value": 120000.0,
+        "expected_cost": 0.12
+      },
+      "actual_cost": 0.07,
+      "value": 120000.0,
+      "duration": 17.0,
+      "arrival": 6.0
+    },
+    {
+      "proposal": {
+        "id": "7",
+        "reservation": 0.28,
+        "expected_value": 52.459776374357624,
+        "expected_cost": 0.28
+      },
+      "actual_cost": 0.17,
+      "value": 52.459776374357624,
+      "duration": 11.0,
+      "arrival": 7.0
+    },
+    {
+      "proposal": {
+        "id": "8",
+        "reservation": 0.36,
+        "expected_value": 8.301202176538936,
+        "expected_cost": 0.36
+      },
+      "actual_cost": 0.22,
+      "value": 8.301202176538936,
+      "duration": 12.0,
+      "arrival": 8.0
+    },
+    {
+      "proposal": {
+        "id": "9",
+        "reservation": 0.2,
+        "expected_value": 200000.0,
+        "expected_cost": 0.2
+      },
+      "actual_cost": 0.16,
+      "value": 200000.0,
+      "duration": 12.0,
+      "arrival": 9.0
+    },
+    {
+      "proposal": {
+        "id": "10",
+        "reservation": 0.35,
+        "expected_value": 350000.0,
+        "expected_cost": 0.35
+      },
+      "actual_cost": 0.21,
+      "value": 350000.0,
+      "duration": 22.0,
+      "arrival": 10.0
+    },
+    {
+      "proposal": {
+        "id": "11",
+        "reservation": 0.07,
+        "expected_value": 2.2251270994031422,
+        "expected_cost": 0.07
+      },
+      "actual_cost": 0.05,
+      "value": 2.2251270994031422,
+      "duration": 16.0,
+      "arrival": 11.0
+    },
+    {
+      "proposal": {
+        "id": "12",
+        "reservation": 0.2,
+        "expected_value": 200000.0,
+        "expected_cost": 0.2
+      },
+      "actual_cost": 0.05,
+      "value": 200000.0,
+      "duration": 23.0,
+      "arrival": 12.0
+    },
+    {
+      "proposal": {
+        "id": "13",
+        "reservation": 0.32,
+        "expected_value": 213626.0543510613,
+        "expected_cost": 0.32
+      },
+      "actual_cost": 0.01,
+      "value": 213626.0543510613,
+      "duration": 6.0,
+      "arrival": 13.0
+    },
+    {
+      "proposal": {
+        "id": "14",
+        "reservation": 0.15,
+        "expected_value": 150000.0,
+        "expected_cost": 0.15
+      },
+      "actual_cost": 0.03,
+      "value": 150000.0,
+      "duration": 16.0,
+      "arrival": 14.0
+    }
+  ],
+  "audit": {
+    "failures": [],
+    "alg": 513.8458742525253,
+    "opt_r": 900002.2251270994,
+    "opt_a": 1234981.4823949107,
+    "fractional_opt_r": 1000000.0,
+    "fractional_opt_a": 1234982.81747117,
+    "J": 0.9799999999999999,
+    "lambda": 1000000.0000000001,
+    "gamma": 32.0,
+    "delta": 0.9299999999999999,
+    "z_star": 0.9799999999999999,
+    "harmful_refusal": false,
+    "reservation_certificate": 1020408.1632653064,
+    "actual_cost_certificate": 32653061.224489804,
+    "actual_cost_certificate_status": "finite"
+  },
+  "normalized_reservation_dual_slack": 0.0005128658742526314
+}

@@ -111,10 +111,10 @@ def scenarios():
 
 def main():
     import argparse
-    parser=argparse.ArgumentParser();parser.add_argument('--output',default='results/replay');parser.add_argument('--submission');parser.add_argument('--primary-only',action='store_true');parser.add_argument('--allow-incomplete',action='store_true')
+    parser=argparse.ArgumentParser();parser.add_argument('--output',default='results/replay');parser.add_argument('--submission');parser.add_argument('--primary-only',action='store_true');parser.add_argument('--allow-incomplete',action='store_true');parser.add_argument('--data-root',default='data/archives')
     args=parser.parse_args();out=Path(args.output);out.mkdir(parents=True,exist_ok=False)
     start=datetime.now(timezone.utc).isoformat();split_map=json.loads(Path('configs/split_map.json').read_text());failures=[];counts=Counter();inputs={}
-    archive=Path('data/archives');local=Path('data/ledger')/out.name;local.mkdir(parents=True,exist_ok=True)
+    archive=Path(args.data_root);local=Path('data/ledger')/out.name;local.mkdir(parents=True,exist_ok=True)
     with gzip.open(out/'episodes.csv.gz','wt',newline='') as stream:
         writer=None
         for submission in ([args.submission] if args.submission else SUBMISSIONS):

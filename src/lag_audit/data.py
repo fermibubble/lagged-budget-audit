@@ -18,6 +18,23 @@ DATASET = "princeton-nlp/SWE-bench_Verified"
 DEFAULT_SUBMISSION = "20240620_sweagent_claude3.5sonnet"
 
 
+def parse_suffix_info(payload: bytes) -> dict:
+    """Parse a complete root-level info object from a pretty-printed JSON suffix.
+
+    Structural boundary plus JSON decoding avoids searching arbitrary strings for
+    numeric costs. Only the newer archive's verified root suffix layout is accepted.
+    """
+    matches = list(re.finditer(rb'(?m)^  "info": ', payload))
+    if len(matches) != 1:
+        raise ValueError('Suffix lacks a unique complete root info boundary')
+    suffix = json.loads(b'{' + payload[matches[0].start():])
+    if set(suffix) != {'info', 'replay_config', 'environment'}:
+        raise ValueError('Unknown root suffix schema')
+    info = suffix['info']
+    parse_trajectory({'info': info})
+    return {key: info[key] for key in ('model_stats', 'exit_status', 'swe_agent_hash', 'swe_agent_version') if key in info}
+
+
 def sha256(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as f:
