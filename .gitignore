@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.cache/
+data/
+references/
+work/
+*.log
+.DS_Store
+.env*
+results/**/ledger.jsonl
+results/**/training_provenance.json
+results/**/local-environment.json

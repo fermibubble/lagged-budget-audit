@@ -1,0 +1,19 @@
+{
+  "data_kind": "real_swebench_trace",
+  "seed": 20261014,
+  "n_blocks": 10,
+  "warmup_blocks": 2,
+  "reservation": 6.0,
+  "budgets": [20.0],
+  "workers": [1, 4, 16, 64],
+  "queue_modes": ["strict", "paper", "defer"],
+  "feedback_modes": ["admitted_only", "full_archive"],
+  "density_modes": ["reservation", "expected"],
+  "policies": ["hard_cap", "zcl_settled", "zcl_committed", "zcl_expected_inflight", "lag_structural", "lag_previous_day", "fixed_warmup", "banded_warmup"],
+  "duration_mode": "fixed",
+  "fixed_duration": 60.0,
+  "seconds_per_call": 8.0,
+  "band_width": 0.1,
+  "bootstrap_block_length": 2,
+  "bootstrap_resamples": 5000
+}

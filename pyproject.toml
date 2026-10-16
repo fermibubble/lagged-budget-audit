@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lagged-budget-audit"
+version = "0.1.0"
+description = "Independent numerical audit and leakage-controlled trace replay for lagged online knapsack"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2", "scikit-learn>=1.4,<2", "requests>=2.31,<3", "PyYAML>=6,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+data = ["boto3>=1.34,<2", "datasets>=3,<5"]
+
+[project.scripts]
+lag-audit = "lag_audit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
