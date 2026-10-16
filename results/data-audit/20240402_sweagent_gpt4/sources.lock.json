@@ -1,0 +1,3516 @@
+{
+  "github_revision": "40f164d5b8f1d249bf95a6df8b74b577fd8e519d",
+  "dataset_revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a",
+  "dataset": "princeton-nlp/SWE-bench_Verified",
+  "dataset_url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/data/test-00000-of-00001.parquet",
+  "dataset_sha256": "a45b1fe4e2f0c8390b2b2938ac83e92ed5979000856808f3679c07812e9e6dcd",
+  "submission": "20240402_sweagent_gpt4",
+  "retrieved_utc": "2026-10-16T03:21:25.462560+00:00",
+  "files": [
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-12907.traj",
+      "bytes": 249705,
+      "etag": "\"47ee2496437813d763a8e2518664e1ca\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-12907.traj",
+      "sha256": "a5e793f1ae461352e2b85fcbf144fc8faecdc44a7be5c27e6ebc29a6b3237975"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13033.traj",
+      "bytes": 114729,
+      "etag": "\"00032d6d22a26678b1e84ce7e72e2b8d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13033.traj",
+      "sha256": "24d7a220656509f64d18658ec659120144137ab13679e3a33766828544ff4abf"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13236.traj",
+      "bytes": 90410,
+      "etag": "\"56760e127d47c145b29cdeb98f742e38\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13236.traj",
+      "sha256": "269bc7f4c1b6e209b5ae7103b21107c95887fc2ad0d3791305d20f819665f41f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13398.traj",
+      "bytes": 298631,
+      "etag": "\"a9ff749d0894c798560efab7d80463cc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13398.traj",
+      "sha256": "f6dda70239aa73409c2a3229f038f5297bac036d57728dca44e48738d003a28a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13453.traj",
+      "bytes": 231113,
+      "etag": "\"7025efa61d04cb69799dda6b31561185\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13453.traj",
+      "sha256": "5f1117dc5f19cb447f947b428d7a544823eb603affa7760aea525de7228a182f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13579.traj",
+      "bytes": 190997,
+      "etag": "\"10848e2bc6a78eddee3265f8785410d6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13579.traj",
+      "sha256": "1baf94e96ca35ca67e6f86ae2f59bd508d7891c1b18ae5a3267003240ad8a5fe"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13977.traj",
+      "bytes": 207206,
+      "etag": "\"443b26a8b2d36dbc48a88d8c8e145b1c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-13977.traj",
+      "sha256": "58abb3d119e86f4a6759d8ec53dce7776a52861f121bdbf467a6c4f0aafb7cfb"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14096.traj",
+      "bytes": 264348,
+      "etag": "\"2e94953d67238fd41039014f4deeba80\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14096.traj",
+      "sha256": "81b18d7218c97c9792d9987c40052db4f76f17daf468dde6ff6950dae8d50d76"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14182.traj",
+      "bytes": 252495,
+      "etag": "\"9255be9439d91ed36a7133dc39094369\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14182.traj",
+      "sha256": "abad451493e83bf25e9c5c9faeacbce8e3d8682f7902257e68431128060aac4e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14309.traj",
+      "bytes": 67884,
+      "etag": "\"683c6b5c3cdaa382d8de323646555ce2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14309.traj",
+      "sha256": "2ff8e07c57fdf37aae2f79a24fa4ff4dbbcbbf1502d61bb7ad06647348f03eda"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14365.traj",
+      "bytes": 69331,
+      "etag": "\"a5435ed603d2e97bf0addc2523961980\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14365.traj",
+      "sha256": "423a1ff8704de67821827fa79da0e25c483a4c1b87bb9badeb46dfdf18dd0944"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14369.traj",
+      "bytes": 235447,
+      "etag": "\"4d9819cda20ab8741a5b57a4c9dad82f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14369.traj",
+      "sha256": "c2fe79db7a14bd9708ad5216d5b8d5c1e3dfb953c8bd23e30531e6ff63e35967"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14508.traj",
+      "bytes": 87610,
+      "etag": "\"5d5b560cd1bbdc31ad160047c9cd225c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14508.traj",
+      "sha256": "f7fb50f2ff7c2165f51ffb2e33b567ebffde13103c83d48c36f0c30229c4b690"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14539.traj",
+      "bytes": 302204,
+      "etag": "\"b17cdf5c140ca85576feb3e92e1fae50\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14539.traj",
+      "sha256": "02aa265ae1e582a586c4e9affd7cfebb29c394e7eb5e51bb71790a11ee0e5aa5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14598.traj",
+      "bytes": 107190,
+      "etag": "\"0fb8dc3a7213f5cf5f2ecf9276ae470f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14598.traj",
+      "sha256": "ae29c663aaafa41ce4ceb04ec72b99fb238a91d6da6fa1006d21107ee9922d9f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14995.traj",
+      "bytes": 139754,
+      "etag": "\"edfbdb4624fb62a6bb0815c586bd92e9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-14995.traj",
+      "sha256": "2bb11a019c8dbc8499270489c9705bc532a6954427e3e0a86af741c7aed48285"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-7166.traj",
+      "bytes": 88556,
+      "etag": "\"f6674b1af901931b7002459faec1ec26\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-7166.traj",
+      "sha256": "179cef746a148611f92e9ebf26efba61daef1eaaf3b7c64a399658c04d61f863"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-7336.traj",
+      "bytes": 80781,
+      "etag": "\"994dd82c8ef61006251c32f90bbf621a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-7336.traj",
+      "sha256": "598e06214b7e5ee3c32fbcf40c9850eced96f3ae94bb69c5a7b2ec83a923a9ac"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-7606.traj",
+      "bytes": 74320,
+      "etag": "\"b224641bef41d635c0a91b3a7684665b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-7606.traj",
+      "sha256": "dd90dad882dacb10daf7c8ce68eaec80f85b1c530a0d40db6c3da73f5e6d7e02"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-7671.traj",
+      "bytes": 82446,
+      "etag": "\"07c73956d7a0177e39dba680e06bf782\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-7671.traj",
+      "sha256": "32d7b25f15326a95b298d7c82174a9797523976b1b345c0a3649ef1cec17ab7c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-8707.traj",
+      "bytes": 273791,
+      "etag": "\"b8195c2676db735ad3837f7d5c2c36a7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-8707.traj",
+      "sha256": "93612efc6ab08013f6369d7449663aae03bc066f8885a4e6e17e1f323c0e4ada"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/astropy__astropy-8872.traj",
+      "bytes": 123297,
+      "etag": "\"c082928eb9b96ce5054559681a48ae3f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/astropy__astropy-8872.traj",
+      "sha256": "cd703d02e165f2b837742ca2be4afe896b98f7448cf6714e9e617518db338d9e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-10554.traj",
+      "bytes": 305946,
+      "etag": "\"5059c1d8f346d47165e9f7a27477a670\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-10554.traj",
+      "sha256": "508f4d428394367407c660f6241d58e9d5aea5d324e42f92ef0e84d71bdbc776"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-10880.traj",
+      "bytes": 321648,
+      "etag": "\"dff8efb9aaa8c8dcd28f6df23163aa98\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-10880.traj",
+      "sha256": "c2da36bcee469e53bee72aa8583442ebb4cb9c3385eaa19d7797cc425a372827"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-10914.traj",
+      "bytes": 89799,
+      "etag": "\"aef4bb9bc090180f0d5b7f5f67c57314\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-10914.traj",
+      "sha256": "63fe2bb66de1cae87d02d5bd088a8d25e0787334f3c47d98ee0d6e22b9fcfb57"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-10973.traj",
+      "bytes": 401903,
+      "etag": "\"f05f09536a0404b2459c903e2b9d45ca\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-10973.traj",
+      "sha256": "1ad523ff6e45a7a4da06695106a4a5aa9f4d7eccc2c431c150ce9f53b9e37c5f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-10999.traj",
+      "bytes": 95663,
+      "etag": "\"05dabc96fa33cdd3b799a09b1bb9f0cc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-10999.traj",
+      "sha256": "42e87548aa62010fa4200b942fca299111df6acdea5d0e03576da7cbaabab708"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11066.traj",
+      "bytes": 58639,
+      "etag": "\"8ff3b2b02a4186b95a2b2481e11624c1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11066.traj",
+      "sha256": "5f9d9109a5341236e014e9ab17b9e15ea43339d009c1c08a4ded944d2cd1062b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11087.traj",
+      "bytes": 308006,
+      "etag": "\"3cbf06d3c3739067f17395fe9c6761a2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11087.traj",
+      "sha256": "63db55fac0f09c2b4a6baefa3be5feb52fbcde707b55f3b0039449524205fbca"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11095.traj",
+      "bytes": 99997,
+      "etag": "\"8dc4244a92cc67ab07cc1c45905175fd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11095.traj",
+      "sha256": "0e74283a04e7b126e5daf3bbbfe4d6400e81e3f5f67bc0eac5db118adc6de397"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11099.traj",
+      "bytes": 110666,
+      "etag": "\"a597495433331103f9758973ae516fbf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11099.traj",
+      "sha256": "fe2ac3f6073ddbb96870d3f481b13a51d97d08e7872215c26a89ad385fa2c40a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11119.traj",
+      "bytes": 120086,
+      "etag": "\"ff60d0d94ebc1f7b5c3b848c080f10fe\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11119.traj",
+      "sha256": "4ca8b3e7c397cd8599f03886cebfd6a4cf2f21cc76c63e84e0014b6b900af649"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11133.traj",
+      "bytes": 97356,
+      "etag": "\"67644eff7c2b4df0206c990f40575ef8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11133.traj",
+      "sha256": "e74e5e2a7d181e3553adb65dc990c792744a4b8b4374256e8b78f435e10274aa"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11138.traj",
+      "bytes": 235557,
+      "etag": "\"39fcdb93d1c7c6417ae200a770b8017e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11138.traj",
+      "sha256": "326b5fa59bf6347c1f031d2195795ed5fb966f23f6f3638ab1c6ba00ee9dbff8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11141.traj",
+      "bytes": 159033,
+      "etag": "\"006e0a1c9d460fa48327cfb687ede1ed\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11141.traj",
+      "sha256": "957f3f08fadb4c7745bc9e5316213210e8e9f1c72ee3c313c56a667eaaf58981"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11149.traj",
+      "bytes": 341205,
+      "etag": "\"f29501c6cc1f885e76f8a14058e5323d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11149.traj",
+      "sha256": "ae083cb48dbe797ea2870a0e0fef803eccc671994c56b0c3df6a89fe2f382836"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11163.traj",
+      "bytes": 85311,
+      "etag": "\"2bb7e95bb50853566e233caad88f56da\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11163.traj",
+      "sha256": "0fda2f9b77679cc042be9be688ae48e091769c0033aebaad60a2e494fb19f1da"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11179.traj",
+      "bytes": 144218,
+      "etag": "\"23f3d4da2466e30a1962a062a36b1de8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11179.traj",
+      "sha256": "e501207e96510c86ee732f9cfc2cedb0e8e6726afcf0f7162a67aabf916a221c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11206.traj",
+      "bytes": 331241,
+      "etag": "\"a63cb9896e6e38fd5b41d8722c220ab0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11206.traj",
+      "sha256": "44e8514fab923cff2cdb08c0f5ef790d711e5adfd128d41d1ae778fcef46c871"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11211.traj",
+      "bytes": 161857,
+      "etag": "\"4623583ea4fd0ad8da7f216773dc76df\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11211.traj",
+      "sha256": "26f110e3d83e809e5350d31793eccb8f3dab52b8c5f60f532442916b07bedb89"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11239.traj",
+      "bytes": 94355,
+      "etag": "\"d972d5580afa107744ce9106c786ed64\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11239.traj",
+      "sha256": "70cdb23bbc29ab45532ae53a25f06145d7554cd21c14ccfa66cc2a1dbdbcc4d7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11265.traj",
+      "bytes": 104842,
+      "etag": "\"1a9f43353ca5b7ae052b46fbacff92c8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11265.traj",
+      "sha256": "47ad1ad8266c2c6eabb55288023b2f40fc6be244f9a0577cd636e178c7b94962"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11276.traj",
+      "bytes": 75507,
+      "etag": "\"22ba7fea3b6bff40ef7ef38905b3059b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11276.traj",
+      "sha256": "f687490f81ba132608cf1758eeeb9a92e27cf51a9d87cf120188e583abe900bf"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11292.traj",
+      "bytes": 112220,
+      "etag": "\"807fb258281985461cd584ef6bb62070\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11292.traj",
+      "sha256": "4ea7928731ac269046d29b41252721f72fd91a3273c4e41aea28f77982332e90"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11299.traj",
+      "bytes": 293327,
+      "etag": "\"27f87a03e37438231f85906a08623425\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11299.traj",
+      "sha256": "b4668bf104a737ee3f124158098eddb013e2e7d00fa5fc7f9b252ef91a16b720"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11333.traj",
+      "bytes": 107849,
+      "etag": "\"00ce50a529049843e64ba4b40788ca3b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11333.traj",
+      "sha256": "37f68568c25d1178ea19fdf837ab66d1c2ac11824ea57782126b0865239fd3e0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11400.traj",
+      "bytes": 129576,
+      "etag": "\"e6d8d71652e0b9e9e6bf2d2c170ff393\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11400.traj",
+      "sha256": "3df9ff1d6c511f287d2384d5e3232f408aeed88f9fd9cc5577a09aaed6970054"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11433.traj",
+      "bytes": 238523,
+      "etag": "\"6213299a267a7d7ebad9635c5c5c2421\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11433.traj",
+      "sha256": "b3e8a73d7cd38485743f2469060e313ec22bb3cd05814d4121f52df2b09b5472"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11451.traj",
+      "bytes": 153231,
+      "etag": "\"7599a76027de76416c434de4e8ca7eeb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11451.traj",
+      "sha256": "c2fefb7380defbd8ba0ed737a31b6a8a0b5a3d9bfc7955cb75e838ad86c663b5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11477.traj",
+      "bytes": 253508,
+      "etag": "\"c59ff26a66893e724d463428b3ba8aac\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11477.traj",
+      "sha256": "3f9afa1a0222c7cf4022971d74848c8aa766cda8901ebb4a7cd8e959216cd400"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11490.traj",
+      "bytes": 114556,
+      "etag": "\"91d4bbfbaab19423bdeb69ecb7dd8f0a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11490.traj",
+      "sha256": "77022ec9f5995d461297731ef1a89ff8ba7f8ec62c9192e4f1248f3206b81a73"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11532.traj",
+      "bytes": 90355,
+      "etag": "\"db6298e1b4cbd97d6a412320ea546afe\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11532.traj",
+      "sha256": "2f006d51b6f8378d6a6ed79b8d0951aef06241d2a78b2fc69e295dba088c1294"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11551.traj",
+      "bytes": 134589,
+      "etag": "\"c71388a80af52128c2f421c127b80c54\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11551.traj",
+      "sha256": "165e4e70cf0c535ada4fdbb6e87fd5653028675953447a66db50710bdb415cac"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11555.traj",
+      "bytes": 342153,
+      "etag": "\"43a33c9fe1a122c92c077a702284d4d8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11555.traj",
+      "sha256": "381f1d9060b6931f5d6fdc5705a6e2fc31ce41b3cc1d47524cc959a18fcb0697"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11603.traj",
+      "bytes": 89387,
+      "etag": "\"7720318783d7ce859ed166d591bc94e9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11603.traj",
+      "sha256": "bf28dddd9501a7f4d900109b79f7249556e5fcea94bd5c3741b2d83df5df593a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11728.traj",
+      "bytes": 280000,
+      "etag": "\"a3165a4f1753089b24d2625b31afbf35\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11728.traj",
+      "sha256": "3ded50627420c2c088de6b7410900a628f3c62f42282eba4f2888e5d3bbd9404"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11734.traj",
+      "bytes": 272667,
+      "etag": "\"731ba92cbbb64a4d8c3aa210ea93a6ee\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11734.traj",
+      "sha256": "e3ba152348252857752b87f04ee55a668e8c83042f02cd5e1e210c80a083f9d3"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11740.traj",
+      "bytes": 305021,
+      "etag": "\"a3150a0b210f4d8a15fc84cb084f337a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11740.traj",
+      "sha256": "4c9bee5565415645cc6fd8c587e5071f0fb841f1fcaf71019ec1cb151167fe39"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11749.traj",
+      "bytes": 217181,
+      "etag": "\"78a4020b353ca172d21231842564701e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11749.traj",
+      "sha256": "60489b12a7fe2c2dc7a26cd4f4d19927f3706a75d243c52b32acd0b97461c782"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11790.traj",
+      "bytes": 75776,
+      "etag": "\"061879cd76e76759b7d24d35ed6902c5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11790.traj",
+      "sha256": "11077ec6fcb1aef7ab0f9e921ce3e384af7691384360347b6387ee574565ea95"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11815.traj",
+      "bytes": 169773,
+      "etag": "\"b8f72b34ee05166feab861981f6eb097\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11815.traj",
+      "sha256": "9f722ae36eb707ca7ea1fff74baa85d78e58bea18b81eb5d80dafa0ab2245306"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11820.traj",
+      "bytes": 293361,
+      "etag": "\"0d2fff921644ef9759e5bdc61bc38bb5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11820.traj",
+      "sha256": "ce06a86a40ed068fabab788b8dfbf8bfdc89ed6038221e6104f32f0b2fc27281"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11848.traj",
+      "bytes": 224208,
+      "etag": "\"07f24fed71646df4d2a4c100ae01c6c2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11848.traj",
+      "sha256": "c56c272010828e0c72cbb4c8b1075840f5bd6b870cb17749a9075761ab7c365a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11880.traj",
+      "bytes": 268125,
+      "etag": "\"84c6fd25abe7601515b707cb4e727909\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11880.traj",
+      "sha256": "8d47712fab27468b01330421333b2b66c82d775f75a76f4d1c05f51463d009b0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11885.traj",
+      "bytes": 197763,
+      "etag": "\"68b06565daacd097ac6a20fd14eaafda\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11885.traj",
+      "sha256": "4991a1eae5a76601df57927ead6825d8db87063eece70a90d9b9204e68156bf9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11951.traj",
+      "bytes": 70499,
+      "etag": "\"840fcbe1759543064f6328c06854a62a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11951.traj",
+      "sha256": "9623b0c6a228642c90976270d6eb4b01effe173c5ac04e558df3f94b731cf93f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11964.traj",
+      "bytes": 163105,
+      "etag": "\"9694c3d35fc1b85e0ebbb6172ad27be5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11964.traj",
+      "sha256": "219b0324e7af78f4f2cc58e24f68676715fb77a56c4f3270c048f9c666798254"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-11999.traj",
+      "bytes": 257850,
+      "etag": "\"1d2d60b66611ddcf317ff1c994122076\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-11999.traj",
+      "sha256": "0f061c9314d9b8c98aa3b85c5ebd5d2ada27667a791314660c263941c0a1f666"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12039.traj",
+      "bytes": 153178,
+      "etag": "\"9f7729ef972ceaaf7e61d3382ba3501f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12039.traj",
+      "sha256": "4158a7ef74e60fc32bf836700615cbc924bebec8f4a36fd4bf338ed4730a03db"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12050.traj",
+      "bytes": 338804,
+      "etag": "\"8abd183647a3c0d63a67b58f4109c9e2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12050.traj",
+      "sha256": "df2d7cc42facbca180391bce3693904e3e9ac88b14e6896c19d28dcbaf504e03"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12125.traj",
+      "bytes": 133208,
+      "etag": "\"abebef6a5e6676d120ff443fd2ba48c9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12125.traj",
+      "sha256": "93a0d1b529a7edf46810be8f0a5f6b421a09433f0dd62479233148757e31ed28"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12143.traj",
+      "bytes": 114475,
+      "etag": "\"70427e74dd6ad90c6d8031121ffb8892\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12143.traj",
+      "sha256": "cfad054253f891fcda8dad8332eb66a80cd48fb3e6ad3ba0732b990dcbacc852"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12155.traj",
+      "bytes": 74074,
+      "etag": "\"1ae4f17e2c4cc89a8c29672a6da0c1fc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12155.traj",
+      "sha256": "835d81f0664e2bb965dd55fa29db44b6cecaa10675b3b45ee9f8eb2273240fdc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12193.traj",
+      "bytes": 112178,
+      "etag": "\"bd7621b5b5a65c1530d0510323955453\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12193.traj",
+      "sha256": "9d3cb655c86ce76fc045e3bee81dd42d497d96bc71e35ac5594ca3373bd7ff8c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12209.traj",
+      "bytes": 245698,
+      "etag": "\"4895d930f76936cd5ab24baa682d1b6b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12209.traj",
+      "sha256": "935f5bd60722c611b576e5d4e35622765375702d7ded0edf4fd5ab14da9e432c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12262.traj",
+      "bytes": 174320,
+      "etag": "\"23f7199036085f2c3b3ec64673719e48\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12262.traj",
+      "sha256": "e76c22230608cb818dc28d21d84f95b73378f1ccea4358e317e2657d940b03dd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12273.traj",
+      "bytes": 240668,
+      "etag": "\"c8e25b1201e1013adbe8b2a171be6416\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12273.traj",
+      "sha256": "4f8da2f8eaf77af5cf1d3d9961f7be50e354a6ffe0cc40de169311a714c070e2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12276.traj",
+      "bytes": 261873,
+      "etag": "\"188ba0046eb094748c19909d4afcb8cc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12276.traj",
+      "sha256": "b4e6b9ec9580a5196e649d878790f49e48078445b2414c28c5d249ed36580535"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12304.traj",
+      "bytes": 268427,
+      "etag": "\"2bc81ddd11006a6353da1507be4b0172\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12304.traj",
+      "sha256": "2e6571631cdf627a241491b8155b5c20cd04c4fec94edcd4766b220aac8bfd40"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12308.traj",
+      "bytes": 267611,
+      "etag": "\"df1101a54ffeec932b418189523aaf3f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12308.traj",
+      "sha256": "9bdf381c8b8687fac8a32033641f50d5e099b9905b94505a7543262408734e88"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12325.traj",
+      "bytes": 296806,
+      "etag": "\"83ab1043cd4937ed938b5be94b6683d2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12325.traj",
+      "sha256": "2faf2d61c0c12140e7613830d519473841f3e268066f126ce87252850e55f679"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12406.traj",
+      "bytes": 276523,
+      "etag": "\"426dd10f8b902e859b40c7556be13ce5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12406.traj",
+      "sha256": "5466f506f07b973ef4c9d73487fccd2cffb33706c872e7ca4e125fb5e535ba3c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12419.traj",
+      "bytes": 58203,
+      "etag": "\"81a7fe74771310096e2d44fb2ba30cee\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12419.traj",
+      "sha256": "3d45331ec2a0ead8a0d0beb9fce20d1405d4e20aea4a72ea1c52edbf28459146"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12663.traj",
+      "bytes": 152245,
+      "etag": "\"eeb0603b98095fe756de75271889b1ef\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12663.traj",
+      "sha256": "4158bb6bb44004fefa51e0685716e45f236967206d59dd528046125ee95a4f13"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12708.traj",
+      "bytes": 274203,
+      "etag": "\"92e3ba4fde821582bcc0d35296481774\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12708.traj",
+      "sha256": "980f72b4aad35912c395252c894287f5b7274e7a857c408503f073bbc073a3a0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12713.traj",
+      "bytes": 265997,
+      "etag": "\"1f64a1bac4636896553783b5f832e224\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12713.traj",
+      "sha256": "171be6ca29a9e0265873e8f95f272703b1df497b71d8b1625c5ff912807175e2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12741.traj",
+      "bytes": 132196,
+      "etag": "\"188ba7d8bfd1ed5d1b3dccf2d7393e35\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12741.traj",
+      "sha256": "a63ad86a9ca9c714f82711c88592e67ac32d32d31816d2be611a33c16f455666"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12754.traj",
+      "bytes": 274227,
+      "etag": "\"06a9d54f27942052ada28cfe09292db2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12754.traj",
+      "sha256": "d930f2cdae3a04fe7f24ce0267564465789a39bcdae51a0386a64893a2a0922d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12774.traj",
+      "bytes": 288364,
+      "etag": "\"46e27231792a93314e0d9606d5d643cb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12774.traj",
+      "sha256": "b53a333fa68bf2d04b17249ea45bb363f88dbee6693e007253edf045e20d2f1c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12858.traj",
+      "bytes": 154497,
+      "etag": "\"568fcf6ceb7ac38ce17702bd47eea573\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12858.traj",
+      "sha256": "95b40892f8e7101df5f6ef4ce02a8b5f7abcdbbcfa720bfff4bf08bc3042bf44"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-12965.traj",
+      "bytes": 111757,
+      "etag": "\"d1f4d55c89e252ad82448391b8b4f963\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-12965.traj",
+      "sha256": "03d667064c09c63e058f98e9748717dfb5a730fdf91408528a4ca9c800b29182"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13012.traj",
+      "bytes": 176147,
+      "etag": "\"33b0201584b9220215df49dbd11cbdd7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13012.traj",
+      "sha256": "289e115a70c76b5317c75f48f707e643ec9dd6dbccc9271052657775d36a409c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13023.traj",
+      "bytes": 197959,
+      "etag": "\"6c21efb55dd20edced0b21bf982ed65f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13023.traj",
+      "sha256": "e0c66ddbbd98dc6dc742d5154967fa3ce7d670a541e3dee2030dd9094b46becf"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13028.traj",
+      "bytes": 269546,
+      "etag": "\"0ad29a8590d4cb649d2affd4c7b232d0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13028.traj",
+      "sha256": "abf1890297485462dd9e0bb6c41dac9cfc7979a49d3beb42bc003b806f5dedb5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13033.traj",
+      "bytes": 294846,
+      "etag": "\"15006dae9fbdeaefd64279081ba91619\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13033.traj",
+      "sha256": "b27d1f3a7a5511523d55605153f2a8c3a9f76bd96e2246655531bbfb0844467d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13089.traj",
+      "bytes": 61449,
+      "etag": "\"204a37c84aa4728a1c08f9d8ce102138\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13089.traj",
+      "sha256": "97514dbc58734181774065da7bda64ad2b3100930b9111db96325c9e2d2d8ead"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13109.traj",
+      "bytes": 79860,
+      "etag": "\"6585dd72febb3d0ba51d730b1f0cc207\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13109.traj",
+      "sha256": "57e2ec2ff12b4b65ff667d7be23186fc38152558987713bb8c6f62201b21d9c7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13112.traj",
+      "bytes": 59450,
+      "etag": "\"455bba025646c81f8b2b0a3ec88c747f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13112.traj",
+      "sha256": "3d2dfdfa6a7d01073ad538208c45494f3b9906234736653a4923f9e28efc7453"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13121.traj",
+      "bytes": 117574,
+      "etag": "\"50f86ca2c8d6b1a4cfdaca2ce891ad88\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13121.traj",
+      "sha256": "5f2799c9370ebdeccba1ef86232a16e96be8f16991dd54069536c8a7788818e0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13128.traj",
+      "bytes": 130682,
+      "etag": "\"aea82b44c7a46b9f5b0d107b180edb42\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13128.traj",
+      "sha256": "0c9058449401a21416ac3a66ff3f3298d42eef8bff0acc43a9500140326405b8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13158.traj",
+      "bytes": 284576,
+      "etag": "\"adeeff355741bbfdb45ab642fc9ca3ea\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13158.traj",
+      "sha256": "46e0c8a597a16bbe6631964268f4e76004532efd113b4931d328712a6432c5fe"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13195.traj",
+      "bytes": 80469,
+      "etag": "\"2c18c6c97230014d7e785c2826728c7c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13195.traj",
+      "sha256": "4694536b2e230627a892fc82bc085664223c64ee4149891b94fbcc81e9bfd7a5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13212.traj",
+      "bytes": 113892,
+      "etag": "\"2605f78ce95aebb0b6383fa8fa982889\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13212.traj",
+      "sha256": "9464c6a3d3900d9a8a87702f6574f0e212b067ff2e5f0eb006a2b012f682b518"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13279.traj",
+      "bytes": 245458,
+      "etag": "\"c3f6f08e55f57e524d740bb4ea3cc266\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13279.traj",
+      "sha256": "05238d6768b4ee3758cc1489a385406f41d8f9c86ac6223e9e54fce7526963d7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13297.traj",
+      "bytes": 119756,
+      "etag": "\"85bf04ed735e1bdf699f840943c543a2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13297.traj",
+      "sha256": "20f3b715dff81be1701a2c64e47af8815f49cd600ce25ce999691c9ec3838e32"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13315.traj",
+      "bytes": 224460,
+      "etag": "\"010fd4767fe7fe06a831cfa0002d8825\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13315.traj",
+      "sha256": "58fce6343cf0fe48e6564ce31e9cf12e409a1c3e796d38b1ccfc819e2087225b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13343.traj",
+      "bytes": 322684,
+      "etag": "\"f98ad75e454437b201356cbd251dd1a5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13343.traj",
+      "sha256": "a9a395deb2c2dfa42ef8de52ba9e52caf49afdda4714ced934c84572039c2cf1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13344.traj",
+      "bytes": 159919,
+      "etag": "\"d9a8fbf102921ca2e7321da6e8a6067a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13344.traj",
+      "sha256": "85d2f2f8f8434f7b56dce8b7df61c7a1ee7a270def2748399ca36e63962b0e19"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13346.traj",
+      "bytes": 256126,
+      "etag": "\"ff691e5d91efbce5f99848c9b9d2a172\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13346.traj",
+      "sha256": "305621b446fe6c7fdaed1036e2c8c6745768e502cb1017c04203915f5b8c7dda"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13363.traj",
+      "bytes": 84843,
+      "etag": "\"f693f5cc9c4ae04c0604de9b813db2a9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13363.traj",
+      "sha256": "123075b7be5ed2bb40162c034159c98cffe8d1677c5358fb346dd1158ed04fa6"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13401.traj",
+      "bytes": 195041,
+      "etag": "\"ea3f45970805821ee5e1586ea579422c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13401.traj",
+      "sha256": "ebe3262806622a89001cbb3c1d8d53a3b7f731b8bc5b319cd6a7cd789a3be52b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13406.traj",
+      "bytes": 254065,
+      "etag": "\"68224083202707d68084a4d641785664\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13406.traj",
+      "sha256": "97cbece557c96879203efd3a077a6a3ce4b726654a48c231dbb1b3952487f837"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13410.traj",
+      "bytes": 72230,
+      "etag": "\"5ba2993234db38e823cf7e6c5652b3f1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13410.traj",
+      "sha256": "886baf4c273a4892fb83031ab819ac8d8a9ec1bcd3c68a31e342a415c8649a45"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13417.traj",
+      "bytes": 268642,
+      "etag": "\"3d8d6874e88aac23532d32cb3e133120\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13417.traj",
+      "sha256": "de5db0a953cb6f46560ce6e7b23a2e32b07c0231f878682ea9ba7ca05e994c3c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13449.traj",
+      "bytes": 162221,
+      "etag": "\"1b2118a6a50260e5410c4ceb22778bdf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13449.traj",
+      "sha256": "22e6da117dc46c003ca42205ed626681a637b8553449390783859bbeababaf0e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13512.traj",
+      "bytes": 233332,
+      "etag": "\"fa82d1b14c7b34894523a6fc7a43c176\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13512.traj",
+      "sha256": "b1fc9f89c8b3579f35df2524b95fc0b97a176de8f1ea798b3aeebe8187cd1701"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13513.traj",
+      "bytes": 83731,
+      "etag": "\"3e98a2937e16ca9cb6dbdb7e9819a4c2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13513.traj",
+      "sha256": "92a5b0ece1f5ded3e8a2751e82089a84108d99ce0e514f48697e488ae51a40c3"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13516.traj",
+      "bytes": 261371,
+      "etag": "\"5a414a939498492a600b764368c523b4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13516.traj",
+      "sha256": "f64a2f083bc913653b95fae6e9aabbe8b1bef79bde276f52210f78a124a6aedf"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13551.traj",
+      "bytes": 131686,
+      "etag": "\"f80d8010aeb061f54ab0b6ba9b58f528\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13551.traj",
+      "sha256": "21a4987dd8c1e1a63edc93e77e839f4bf4780260789b82dff0572df89d58b0a5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13568.traj",
+      "bytes": 235313,
+      "etag": "\"3723369375546e9121edfe32e980d79f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13568.traj",
+      "sha256": "7cfea1b4bf05b0131b5f11288ff3642469de47000c8055fe1ddcde970ab2f109"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13569.traj",
+      "bytes": 108590,
+      "etag": "\"033147e7f22a0a0736fe4d4fd59576c8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13569.traj",
+      "sha256": "f7fce2eecbfa038741900d59dda982231e2233370230f6b3f5dbe6a27f04a00b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13590.traj",
+      "bytes": 251119,
+      "etag": "\"be76ea906b172f6c1e07e356c25cf45c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13590.traj",
+      "sha256": "2cf92f5de06a715d3ef10a48e1b4690c67a360ffced6f299e9dbfc074a270f6b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13658.traj",
+      "bytes": 93531,
+      "etag": "\"fe40b2e0279d727eac06ce687fae074e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13658.traj",
+      "sha256": "74f6d56a72f49084baf38401865b9118aa4b84db7e786641bf51909869db09a7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13670.traj",
+      "bytes": 84160,
+      "etag": "\"678a70bf949b75c59162adc436ce9e21\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13670.traj",
+      "sha256": "1a98064b44269802af8707489c79ac6e4d3d7028e28f734835adfef204509ddc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13741.traj",
+      "bytes": 55996,
+      "etag": "\"c3c04553d56fb14149a5410693b1efa7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13741.traj",
+      "sha256": "1d6d54c6ba82b9ad923de9c0d011dcef93078f724279f127485283d4207bd268"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13786.traj",
+      "bytes": 77202,
+      "etag": "\"3ceb471c44c342bbe4971f722e6deba6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13786.traj",
+      "sha256": "9b0a12b443a250b64e028edb8714fb21f6d02df98b4a9d7049b51ba150dac030"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13794.traj",
+      "bytes": 141522,
+      "etag": "\"fb2db9efbccc8e086b601f9da4e1df23\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13794.traj",
+      "sha256": "0d751da97c3ce3418d6eb0c5cdd1d11e1cfa7a9ec1523c121de6520076a5317c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13807.traj",
+      "bytes": 82434,
+      "etag": "\"cb54f51bf5a1652fb3c2c419dd1be195\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13807.traj",
+      "sha256": "9049735089394086e19f848751cd419ad91c4db7ee31331fea59e1549eaf3f06"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13809.traj",
+      "bytes": 144352,
+      "etag": "\"e82b2b225714c8f7695273111311acbe\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13809.traj",
+      "sha256": "bb4d5fd66d349c4ce17a7512990358cf9971e782beea8e8ec49b208c5a1ed729"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13810.traj",
+      "bytes": 246089,
+      "etag": "\"c5aaae2f2d04ef3a9c10b20feac71332\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13810.traj",
+      "sha256": "48da7b92fa0aa1604d2d7bb0ac108f596dc63d4c2b62040d36a72c45f10e61dc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13820.traj",
+      "bytes": 62529,
+      "etag": "\"dc038150f7842ac67e24feab119a0658\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13820.traj",
+      "sha256": "ddd74cb7404be4cec9d026302e55179ae92184e7ea300b373efab29a4c859c87"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13821.traj",
+      "bytes": 246452,
+      "etag": "\"7880811c4fc05ea09cf98db1dad8c173\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13821.traj",
+      "sha256": "9386daa8cdfe92fa553f7a9e5ad59593d018cf1df4840de7ce9bf33cca8c89cb"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13837.traj",
+      "bytes": 111864,
+      "etag": "\"e6eb6623cb41b4fdec3db8741918d58d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13837.traj",
+      "sha256": "6d727c996ad8a3f7be88f2283d972b1106374d35a6d102ff0a78ca78117640df"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13925.traj",
+      "bytes": 65084,
+      "etag": "\"73162a4751ccc316481b6eb040d96edc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13925.traj",
+      "sha256": "800a2e31ecf151bad96e5a669b85008ff56e34164d0bfac3ee8bd7104822949d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13933.traj",
+      "bytes": 91124,
+      "etag": "\"3260c79d54b23bf1cd7335bca2fd9638\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13933.traj",
+      "sha256": "dbb45e30d8456e6e78336c1eccd777217272b9fb697c702bcb2814595f3d66d1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-13964.traj",
+      "bytes": 191207,
+      "etag": "\"c5d84eb6b8cec6dd13269384055ba253\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-13964.traj",
+      "sha256": "5b9f2df4162bc216ff697dc5da1589540eeb6d4a4770f4d23dbee1347b6645dd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14007.traj",
+      "bytes": 203345,
+      "etag": "\"36c490dc108e9bc5a38a987f90076130\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14007.traj",
+      "sha256": "6611483507e2fdd9cdce1b9640886bde13c8fa7c3bf4e29d6d8a74a7b8908152"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14011.traj",
+      "bytes": 100387,
+      "etag": "\"a4f72d7fa850dbb65d90df403d49f856\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14011.traj",
+      "sha256": "2652e3b574cd6ae4a364d632ac16ba23dd14cd38ce19efa40844459277b68bd7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14017.traj",
+      "bytes": 285726,
+      "etag": "\"762b6ae6f880c4768e4dcb555eea2a29\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14017.traj",
+      "sha256": "58da4bb144f0920e44384742b1fd91dd282bb269d933202db9ad37da986b9f9b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14034.traj",
+      "bytes": 409258,
+      "etag": "\"b74c87a8143c16876928602c227ed438\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14034.traj",
+      "sha256": "c75d994a98adb6fefa89fc7cdf864770eefe7bd87cbb477f4b7dd608712e6ab0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14053.traj",
+      "bytes": 154712,
+      "etag": "\"5fa16d441c33b3f83eec018dfbd07797\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14053.traj",
+      "sha256": "608028ba540ee689c207e15189f2839b3d783a485d8925a82915534f5c3d7ee2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14089.traj",
+      "bytes": 65646,
+      "etag": "\"a4584aef559324dc1220bd22e3c8b481\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14089.traj",
+      "sha256": "308b79e356ff71d8646752e3a10261f23113551a26262cf1979bb1362a37bb43"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14122.traj",
+      "bytes": 247001,
+      "etag": "\"a3b94f11c6c3ed4f75300d044db39d23\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14122.traj",
+      "sha256": "e219e696088010c8b6c172c46ca94842307fe0beea56013f8cac3f7c79d4ebd7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14140.traj",
+      "bytes": 117111,
+      "etag": "\"521e9d07b9ca107f03c6afca3617b7c7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14140.traj",
+      "sha256": "5f9f181c8900f246406b51c7924ba7a5b577cef75f326ddeae99550a537778b2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14155.traj",
+      "bytes": 78357,
+      "etag": "\"3fae1f5fcba00353bf04658acb00f28a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14155.traj",
+      "sha256": "e6447b3eec80eb2eda2bff101212cc6794b682afa2625959f825b01adcd2457e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14170.traj",
+      "bytes": 275545,
+      "etag": "\"a9daa8bb1411974d493069241482a800\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14170.traj",
+      "sha256": "15aa6c08f4261fdbc604e422afef8a0ddc2af09bf2800284e69dc5c85ee8e261"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14238.traj",
+      "bytes": 194128,
+      "etag": "\"7e74448a15137c8547a81eefa15f7dce\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14238.traj",
+      "sha256": "c80549b154c62b6e44f54b9b876e6941988d03b2505d7b2972c266e83498c6f2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14311.traj",
+      "bytes": 119586,
+      "etag": "\"fc7e6d22cc3510c6dda8f35a52085ba5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14311.traj",
+      "sha256": "b3a4ce4b45f4510973f63cb720368255e51618d5034081f973dcb8215c6c615f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14315.traj",
+      "bytes": 101767,
+      "etag": "\"4624ada230ac6d29c0c3e3a34f892abb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14315.traj",
+      "sha256": "edf0bda9b1d4668c458bc0763b92721ade0d655059a925ce734742b81ef10224"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14349.traj",
+      "bytes": 155233,
+      "etag": "\"29d5685175b9df7357b2acaf67c19e4a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14349.traj",
+      "sha256": "b98b951fa0ced4f7ad4d7e9f6d88dcba7cd83e21751121dc9d7db5407e4d781a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14351.traj",
+      "bytes": 120313,
+      "etag": "\"d36ad522336a9b75f22faef35bb0d963\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14351.traj",
+      "sha256": "26dc54865bbef4fe1a7712c74c01933782682a88e2959e4ed06a09472a7acece"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14373.traj",
+      "bytes": 84248,
+      "etag": "\"01ac60d0f1790d5dc102759505078237\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14373.traj",
+      "sha256": "4eafd9c70984bd990c8dfd846050d4143bc29ea899205f72686ce00195bd1de1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14376.traj",
+      "bytes": 57616,
+      "etag": "\"8c693e38da761c65717443ad7cbad10f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14376.traj",
+      "sha256": "09032971017d9f097847037fafa542379c5a8d024d5019dd654ffb8ffc8d515b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14404.traj",
+      "bytes": 90084,
+      "etag": "\"6cbfeb9fd2628e4d0a2e151a1c5e045f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14404.traj",
+      "sha256": "c773efc037d1544a19d5ef7775eb19af810f8cb4374d4ae2b5d9383788d34ab0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14434.traj",
+      "bytes": 184136,
+      "etag": "\"56d48870cf7425680c56cd22943f7aeb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14434.traj",
+      "sha256": "84886867c39602184fe6525a6957674da254c36a06c6eabec83d375c587d766d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14493.traj",
+      "bytes": 147704,
+      "etag": "\"f2c2c33bc2ce25677de9204f924b9451\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14493.traj",
+      "sha256": "5d5c517ad8363474580e83c89158bb0b8d10b6b084d68717c0e0f622f4491879"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14500.traj",
+      "bytes": 247312,
+      "etag": "\"a16fe94c7c2714ead907637544371660\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14500.traj",
+      "sha256": "bbfea0ff0571c8828e933c4cc2c3322c5c9cbd3b3f1e67ca5c34f88439cb4c8f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14534.traj",
+      "bytes": 111684,
+      "etag": "\"b6b21c63a982b6e2b126d935f126b52a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14534.traj",
+      "sha256": "5143fd177d73a81f6d57b88fc619ce0c4ffde78618edf3095a9bd3829bceda40"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14539.traj",
+      "bytes": 340904,
+      "etag": "\"d065f65d9af114332a1330a4b86586f0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14539.traj",
+      "sha256": "4d3274b90a88064a032eb9b42e13aebd65f995a27356e1d4269e0962c2955d07"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14559.traj",
+      "bytes": 127015,
+      "etag": "\"bf506e7802c61a4666cac9ebddb0b8bd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14559.traj",
+      "sha256": "6d71d0c20981956b0de5f297d57a334471f3155a5f2bdf6b54ff96523143efa7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14580.traj",
+      "bytes": 85386,
+      "etag": "\"411c7451fcda0b863e465860a842116d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14580.traj",
+      "sha256": "69c085878b898605e72250cdbcffc55ecf66015316a8310557873fe9f95ac3bc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14608.traj",
+      "bytes": 143881,
+      "etag": "\"e1c9a45ef4c189378e645fcb5b958047\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14608.traj",
+      "sha256": "6ccf003b010a2c57535da1f678991144a3fa1f7ae7a1286881e1261a0d538ca5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14631.traj",
+      "bytes": 272891,
+      "etag": "\"2c6acbd90d121a6e740b43ba46b3e7c6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14631.traj",
+      "sha256": "9e7cc3e2b10d655f88ebc71ef9518dd9ced3147603150660863bbf72a47703ff"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14672.traj",
+      "bytes": 119958,
+      "etag": "\"e7b5ab1d65bafe4a18b118578b222b79\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14672.traj",
+      "sha256": "475b88f9815ec587ed80411d096d70503d9593f0b2529ffc52e6b5581167f603"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14725.traj",
+      "bytes": 135416,
+      "etag": "\"500d1fb73f730170fead72eb12a3ec68\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14725.traj",
+      "sha256": "5e687ca3e820ec4382165dcc64dd835e05e941ce64087a899effbef8e28fd7a3"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14752.traj",
+      "bytes": 76228,
+      "etag": "\"553a02b4b444fe30f57a6d6d665d49e6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14752.traj",
+      "sha256": "4e24a69527c302c2a6de0c0d4287cb3bd3c5387d7ccf0cd5f5e27a5da5166ccb"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14765.traj",
+      "bytes": 97002,
+      "etag": "\"b07090ca3e3d06ca3d95332047a90225\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14765.traj",
+      "sha256": "4e318d717e082eb0e1ca869fdc3d650200a75e275831772311c5ffc43555146c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14771.traj",
+      "bytes": 143210,
+      "etag": "\"7ab464a2f00038db9c744acbee9eb432\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14771.traj",
+      "sha256": "fc25d127635f50c5d8b35a4115dbe6457dc145e4a9172de921e187082ed5c38c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14787.traj",
+      "bytes": 141944,
+      "etag": "\"d534c2a4b1f2fa3751ec84f4a5f936d2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14787.traj",
+      "sha256": "0d9350002250b9216ab2c87051ab193b4e6f768f6a0507e600b1760e95505c68"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14792.traj",
+      "bytes": 105803,
+      "etag": "\"d32cc7cf8f98c297b8c10dbecfc46762\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14792.traj",
+      "sha256": "e20169ce844868dc118516e18542b7fbc095c40e4c4ea84fbf080ad1c8688379"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14855.traj",
+      "bytes": 256752,
+      "etag": "\"c820144b941af53ccc55e08fc2c9bd01\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14855.traj",
+      "sha256": "cb8028311e507cbb27cf577c3a29df3c96068b0ebe1da058fceac8de6d8ed879"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14915.traj",
+      "bytes": 139855,
+      "etag": "\"2312fe7b10b316458c20b8d415d06cd7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14915.traj",
+      "sha256": "4e213f862cbe7b4afd0e7bd72e1eb55e47816bc3d6db12d5414513e3b58f3577"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-14999.traj",
+      "bytes": 89402,
+      "etag": "\"63c2c0a4ff3e028f495df7293fdf62dd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-14999.traj",
+      "sha256": "c0730a772938116cd6fa2e51f57817e2b3b38602f0ed8017de5ede957bb031a5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15022.traj",
+      "bytes": 169869,
+      "etag": "\"585a322c74cd1dfdca3be30e4b3c3f7c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15022.traj",
+      "sha256": "47dd629119f0f69c6e3f24acea5952fa5c5c96d56204bc2140e6c4e54166bd2f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15037.traj",
+      "bytes": 222457,
+      "etag": "\"7bb4ba2cff88620e11320c26e56e3f56\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15037.traj",
+      "sha256": "2c3836e63ba5a38e59c3f612032388d6b8c47b0281caa84fd517820b10fd91aa"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15098.traj",
+      "bytes": 231060,
+      "etag": "\"0bfcc88c95d0e869787d28238df9ffee\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15098.traj",
+      "sha256": "1274c8024e0b15acda9973b5609d52b8bbb53a45cb41802f7e03faac46299e00"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15103.traj",
+      "bytes": 68036,
+      "etag": "\"0446b07e47c79d33cdc798eaf67bc208\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15103.traj",
+      "sha256": "47c4ba7bba2f5ac3c4d6b6c81467c342ddb36736a92a40b0ff9bace1eb0866c9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15104.traj",
+      "bytes": 78444,
+      "etag": "\"25d0504479fc38c42ac5463619e221c4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15104.traj",
+      "sha256": "dde070dd467bf6a0ac7c533c8922de7f19e0e0a6af113ff630005b3675651f70"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15127.traj",
+      "bytes": 283555,
+      "etag": "\"c2530602f8be2ba38c3ae04257e80de6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15127.traj",
+      "sha256": "068c3f10d0a2558eb96b94ae89a4f511ff0df4cd602e97b57c48e0fc827e0848"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15128.traj",
+      "bytes": 115953,
+      "etag": "\"eaf801d37543dcbff6caa4b25fa173db\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15128.traj",
+      "sha256": "1c5d89553601fc526040dc73c591240fee51bf6aa2c1cedbccb07a70d43b08c9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15161.traj",
+      "bytes": 315492,
+      "etag": "\"8ce4745efd99260412f2c536afb36e49\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15161.traj",
+      "sha256": "6d9543c0013125ab6086df69006f092bbb138c9eba7dd1b7f751caf63f17a75c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15252.traj",
+      "bytes": 238367,
+      "etag": "\"810c5c69606d382c00a4b188170db972\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15252.traj",
+      "sha256": "e2518545050aaaeb508de87db626e10151b81f632d502c53114db3f4b69f26eb"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15268.traj",
+      "bytes": 120049,
+      "etag": "\"26557dff4468bb3c2a08dede1b9f85c7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15268.traj",
+      "sha256": "34dcbf676f0c3c184495dc6ea95509380ffc0becac64d94c9f9a813420c3f763"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15277.traj",
+      "bytes": 113743,
+      "etag": "\"8122d1f90dc300ac4d2d555f858b5fb2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15277.traj",
+      "sha256": "6b8670871d77cdf451265e73a9b754b633df266ff372e7b37e9557f06f1d8aef"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15278.traj",
+      "bytes": 224785,
+      "etag": "\"143c4c43852d5fd971be17f665a8385c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15278.traj",
+      "sha256": "f7b97ddace53c6023d836306354c99b6f8cfb4ed6ba6a75079a3b47d0e92bcb9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15280.traj",
+      "bytes": 304547,
+      "etag": "\"6697a5c745504696c9ab1677a28fe63e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15280.traj",
+      "sha256": "e9e5dc99293d4917eea8dd14119a957012829c2ec236bcded245edaf4c34a8e9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15315.traj",
+      "bytes": 193298,
+      "etag": "\"7eb7e3595473dd34c1af48bf91193b24\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15315.traj",
+      "sha256": "188561406abe841e967cf4e25c88ffb54a7ec05bca52fe7342273cf53055f8a5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15368.traj",
+      "bytes": 175495,
+      "etag": "\"ec8573531c525ce8d58d6c6d3edd543a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15368.traj",
+      "sha256": "8ac3770d1ae6abf22ee23c63c5215bfc3d495e4c79297ec4e07420a930a2c5d4"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15375.traj",
+      "bytes": 294673,
+      "etag": "\"69246bced890001c61ebe6fa69f57b86\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15375.traj",
+      "sha256": "4b964beb35f19d6889fcf62fdd9b55fe8a8f5d6910bb49ddc38e853ca1dde087"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15380.traj",
+      "bytes": 281267,
+      "etag": "\"9aa71395230cab060d9288791f976e70\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15380.traj",
+      "sha256": "60fcc8f563ae828982849757506eb17a82b3b5de3be0b28f01156ea10e422b11"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15382.traj",
+      "bytes": 288708,
+      "etag": "\"8d7468c0182f1b9240e8c3a164a200a4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15382.traj",
+      "sha256": "083bbc5ea3f763f12da2f6b1d927d44351276267281f852210876941259af70e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15467.traj",
+      "bytes": 82581,
+      "etag": "\"d0b983bc8a4e1e6b62ce0f9adc6f4486\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15467.traj",
+      "sha256": "77aa0e454bb107d6372a3788d486ad93eefe27bb424cb3ee407dd8deb0619f9a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15499.traj",
+      "bytes": 253119,
+      "etag": "\"90bcea7a31f23442d6c152f9ec65a46f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15499.traj",
+      "sha256": "c222fa953716be238d226fbbafc10830f9d14a2b5ffac83d797782a61249909c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15503.traj",
+      "bytes": 296174,
+      "etag": "\"9afe3f518faffb066eb649ea0c3998b3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15503.traj",
+      "sha256": "d2c5e0f09eb93de252f89364eadd63a1464e77946a8214c1cd4114617586dae3"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15525.traj",
+      "bytes": 296655,
+      "etag": "\"245c7d681a76906931fba1fbcd01a75a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15525.traj",
+      "sha256": "33234e6d5a75f4f3024ef68d2857ff1ff0472a90a157f6bb7a3b3c5e26fe46f5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15554.traj",
+      "bytes": 327980,
+      "etag": "\"ced9b9c046d4f90e70b8393a2dc4e74a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15554.traj",
+      "sha256": "2e7f374129678edfee63f0d53d54f49de6b03e929c28cdadf02f835289b34f97"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15561.traj",
+      "bytes": 250851,
+      "etag": "\"54b2a796a25d69dee28e0a90eea132df\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15561.traj",
+      "sha256": "829487f112b788a911ea2030a41ecaabd121152d9d266ddf1a9d344bf68675c4"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15563.traj",
+      "bytes": 229596,
+      "etag": "\"093d3523b86ce302995dcc51bbcf0992\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15563.traj",
+      "sha256": "88163910be4a391986de3ba72ace3d054e42fbbad89d0cded43083138e119c07"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15569.traj",
+      "bytes": 117042,
+      "etag": "\"49f6ce1fdcbbc7d45c81b65b47d09c7a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15569.traj",
+      "sha256": "70ef455b58871828d1392d53ad09f9750f1275c206603310d4830ba442f8f299"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15572.traj",
+      "bytes": 99422,
+      "etag": "\"35653589abbfa15e2cecdeb3553b5348\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15572.traj",
+      "sha256": "d5ebb135dcfe59a2210781f3c04002a4e6b7578c5b13491120cca06ad5338a2a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15629.traj",
+      "bytes": 283251,
+      "etag": "\"de53b858f64b5bc31dc549c0661023c0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15629.traj",
+      "sha256": "8dfa62b886598fa5c3df06832257b749414550ef3df43e3ab36b0779fb59d75b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15695.traj",
+      "bytes": 258227,
+      "etag": "\"d5cbf4871f3915f8a66ca72e6d4a7496\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15695.traj",
+      "sha256": "6cac6e4c3f2b6223beb483cc4525570f6686887bf18fccd1d141ad5b501eafd9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15731.traj",
+      "bytes": 153325,
+      "etag": "\"e7b8bb52ca2d6800945c73b65dffc28d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15731.traj",
+      "sha256": "8dc206cfe630ceb8bb6f52941f84c716b9a8ee30421658b353e6e38fab36e2de"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15732.traj",
+      "bytes": 245607,
+      "etag": "\"8575966107bf7fd51e041d4466b4d1a3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15732.traj",
+      "sha256": "4bc918c4c2e91ddc59f46120b83c2e7cd35ebef3885b3e73b6b1a67ed0d7da8c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15741.traj",
+      "bytes": 232360,
+      "etag": "\"2dc2e87c13355a7e499bff5bd234654b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15741.traj",
+      "sha256": "04c8abf612c935c8097dca20c50bc9b79c5eb736988b17f78a2f234451681416"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15814.traj",
+      "bytes": 115437,
+      "etag": "\"34594d4e06fc576d34f1bdb6bf81c156\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15814.traj",
+      "sha256": "98bd2af0960c2561368519cfdd6f1bad909a8d9ff00f5609379808bed0341d30"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15851.traj",
+      "bytes": 217333,
+      "etag": "\"ff42ccd7a09bfe98707bf98c6100e6b8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15851.traj",
+      "sha256": "b0622cf5a57c97338bacaea87c11e3652969bcd16e19cfe4f6c30352f7766d52"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15863.traj",
+      "bytes": 272423,
+      "etag": "\"b7f0c0db6d3c15795d90953155721d76\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15863.traj",
+      "sha256": "bf7b630b7a3f4d45a701e1223b2911fddf6f5298f2d869ac85af232cca6bdf5b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15916.traj",
+      "bytes": 302073,
+      "etag": "\"92353f08eae6bde49709b3167ccbec33\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15916.traj",
+      "sha256": "72958a8b8d0c47ca1f2c1acc6cb085efe58f75b90a7ee7baff448a05a3293dee"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15930.traj",
+      "bytes": 198506,
+      "etag": "\"489efe3d58b40f0be6499e02367608c1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15930.traj",
+      "sha256": "d192702aef16a33c195b51d9b6a0d2cc3b9d1422a790dc067a6fdcc8edb330dc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15957.traj",
+      "bytes": 244724,
+      "etag": "\"08bc9e6b488331d9810fd6378b59cbd7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15957.traj",
+      "sha256": "f7e5ed1e6cc4dff0242277075406cb17c661b513c0e7f447257e3d65183f2b85"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15973.traj",
+      "bytes": 234094,
+      "etag": "\"320f68875f8b7b91dbf3b56128a10486\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15973.traj",
+      "sha256": "90c4ba7bf35a3b6060b93c9ea3266c5e1a2d1ee33e0e8fc14cb4db7186ec7d0a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-15987.traj",
+      "bytes": 144451,
+      "etag": "\"2d7255c55ce3652260d82c6e5951eb43\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-15987.traj",
+      "sha256": "b7622ab09cd282dae27ec96bb51a85f407da369304a0f23d7b06ea8384e3ccbe"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16032.traj",
+      "bytes": 310922,
+      "etag": "\"d344d75c11049efdbcff6da2ce9b16f4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16032.traj",
+      "sha256": "3b6dabfefcc762f730bd7a90e8c82a2d3b4b60a2fa9f292608951b34ceed4b90"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16082.traj",
+      "bytes": 238457,
+      "etag": "\"f43ad0c02abcb1648878867f5fbf24bc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16082.traj",
+      "sha256": "f50f5b1019e63e7650ea1128ebee8586ae6119fdcf8d4b166c37d0ffa775594e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16100.traj",
+      "bytes": 91273,
+      "etag": "\"7a134cc0a6a3a017392a91d1a09dc632\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16100.traj",
+      "sha256": "309c8fe41ce468bb7a65565461359cda9ab9dcc0228ad491c74989196167d8f8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16116.traj",
+      "bytes": 105671,
+      "etag": "\"5d32bbb3b5c2db1bc7b8867bc31a485a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16116.traj",
+      "sha256": "06988d1415bcd0ce4933168b2d5042a3fbaff8404fdeb4e320de4620310f154f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16136.traj",
+      "bytes": 134294,
+      "etag": "\"91b987b5dacb257e1831c4f5f105d030\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16136.traj",
+      "sha256": "1e9671f76e476fd9692c38fab7d4b0aedfbe9be53cc38b4bd778d66187d94c19"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16139.traj",
+      "bytes": 76558,
+      "etag": "\"befe71f966741fd3a162262f744c6b26\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16139.traj",
+      "sha256": "d9d61f53036a684cefaf2603ba06adc5d526f60ae3adb26fd3d1584525aea145"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16145.traj",
+      "bytes": 185257,
+      "etag": "\"23ba55e49283df8f47684c64647cec1f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16145.traj",
+      "sha256": "dc6495c3382709814ee4e327c8b8bfadb82c2468a10439f3cdd7b7a63ad52e6e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16255.traj",
+      "bytes": 70215,
+      "etag": "\"759792108651dde3b907938f126e7095\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16255.traj",
+      "sha256": "61daa7363f50e91fa62328ed9433cb5c1b0086c7fd6382a7f768f31a2d826f4a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16256.traj",
+      "bytes": 210609,
+      "etag": "\"4ebfb11b9c46a4896bd211efcea69550\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16256.traj",
+      "sha256": "8fc88d802dc1cf497e46213a6bc69eb139ff536019dfe05e4fc5b19dae454132"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16263.traj",
+      "bytes": 85890,
+      "etag": "\"b2e61272fe020111b925e1782bee5a66\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16263.traj",
+      "sha256": "3b368bd7d2515177bec4c00b258c30222f511deee4b4be6138b6637d8707f010"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16315.traj",
+      "bytes": 238166,
+      "etag": "\"d59edded3c863d1ae3692c22051ab950\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16315.traj",
+      "sha256": "0f20d7219c4ac5bbeca47ea4bb4155769edd92ed1a94cd189cff2b5e97c7ab50"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16333.traj",
+      "bytes": 273550,
+      "etag": "\"e9c3dc27ebe13d7afb64d41407c999c1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16333.traj",
+      "sha256": "f9f6ee8700cbf67461cadf1f523d1ca1a2c34aa341942ac012886e7999586b89"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16429.traj",
+      "bytes": 87396,
+      "etag": "\"6b86dcbdb3903d25983207671ceb9a53\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16429.traj",
+      "sha256": "524f9f4fd18bbee6bfbba2ca955c27f294924b79e7fe6b9181de7c487cdbb0f8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16454.traj",
+      "bytes": 271521,
+      "etag": "\"a9326479618e3dd9a8e0eacbc07ef153\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16454.traj",
+      "sha256": "a43dc5d90b8f4f347401143486e59df7c8ceb13b9d903a580f64c41410b208b2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16485.traj",
+      "bytes": 93490,
+      "etag": "\"add4b3156dacc87aaa60f18e73b72b95\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16485.traj",
+      "sha256": "7a110682ce761e0c6f3b41756b0bea887b5168ae1198cf2261e316b634ab766d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16493.traj",
+      "bytes": 123764,
+      "etag": "\"99ae3a2f38d62c2984dae520babab49e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16493.traj",
+      "sha256": "2113aae6e037ab3c11692ab61372e9bdde3abf19ada006b72cf6bd119b7b9fe6"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16502.traj",
+      "bytes": 298500,
+      "etag": "\"376c6c156000b991cf2dd72392c257a3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16502.traj",
+      "sha256": "1e7568c788dc1502f4fdb763d442fc1038f708e9aa184bd8772590ff3a7824ed"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16527.traj",
+      "bytes": 65570,
+      "etag": "\"a459c69a778a812eb6884c5e3e4d8819\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16527.traj",
+      "sha256": "30d653c23a12a86af55958fc20e1abbf53d878fa026abb99c1ac05d5bd2c052e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16560.traj",
+      "bytes": 176594,
+      "etag": "\"c8c920c7782a5ebaeabb5e27ff16c794\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16560.traj",
+      "sha256": "f91b69128c46f0838d5e3f8f25682579e59ccd75d29795940079c7b6af9d0ded"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16569.traj",
+      "bytes": 66380,
+      "etag": "\"3ecffb106ab09f3ba2f1d5f769d67bf6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16569.traj",
+      "sha256": "7775a9dffe8611d5f4dfade07084c8fc137c114bc5bcd43934c720dfbca99fc4"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16595.traj",
+      "bytes": 156124,
+      "etag": "\"ab07da4f28a306be7b131e7633b3243e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16595.traj",
+      "sha256": "42c37e6dd8bf70c617cc29d1ad432bd6499415d3de549d6431232f90f8087460"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16612.traj",
+      "bytes": 90561,
+      "etag": "\"2c526611f470053e4120498873328ea3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16612.traj",
+      "sha256": "62a60a5d01041c11153691ece8f230e862dc4ff1a591e2ae6e6918d3100cc4bd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16631.traj",
+      "bytes": 120210,
+      "etag": "\"5231958340e58f0ae71964f52976570d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16631.traj",
+      "sha256": "2c7f94f745dc702e298d9f8407e103b0ebf4be6835acbb9ecce090ee522461e1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16642.traj",
+      "bytes": 260510,
+      "etag": "\"b3f68926834353a51199c371fac7e2f5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16642.traj",
+      "sha256": "53510e78fa67538714b50ada52cdfdb0ca5dcb2629ab2767e386d908b36c58a5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16661.traj",
+      "bytes": 258239,
+      "etag": "\"b2b998c239bff6b4b9f47e4fe7dc6fe9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16661.traj",
+      "sha256": "1362212a9ce46920a40da22b4f8790795a07ee242b75cc12f71e2b8c850de4e2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16662.traj",
+      "bytes": 120933,
+      "etag": "\"b69132eb5976cb7804f491d36f46ef6b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16662.traj",
+      "sha256": "00fbcb14c8e7bf9778c90b008a1ae0dd1bfc04f1bfe838ed7e07df54d2c62424"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16667.traj",
+      "bytes": 220165,
+      "etag": "\"4a349133a75c61d724c2e5d4978e6f45\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16667.traj",
+      "sha256": "6e3f5c9796ee490a8ee434b42128cce9f32da3e2f342e8da5635f99efe76e33b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16801.traj",
+      "bytes": 98528,
+      "etag": "\"acc5702a99bde8c19fe16e711c7a3dde\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16801.traj",
+      "sha256": "7d9d56f3d2109f6d958c30244c66742d6d2981ea8c9f443538e21734f193d26f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16819.traj",
+      "bytes": 135294,
+      "etag": "\"1d814dd441e235d9a1c913bdca38cb76\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16819.traj",
+      "sha256": "903c14c38f7dc2bbceab4e4959273ffa127bcf65f3e94dbc39acc8a1cf0a69d6"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16877.traj",
+      "bytes": 111657,
+      "etag": "\"908c6d244f980e7192d03fe6164e8d93\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16877.traj",
+      "sha256": "751b90e7bb47597ead53f6ff443e66f4f3c70b9873905c502b44330452dcec1e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16899.traj",
+      "bytes": 237450,
+      "etag": "\"9e11c606e1ad7a2fdb2003b5fb2a54b4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16899.traj",
+      "sha256": "fbbf48a0f79dcb06b21f0e86126463e66817b2914632d0f9a7eab512dd1846ac"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16901.traj",
+      "bytes": 655989,
+      "etag": "\"13953df2cc37dc0984085dc15b756ad7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16901.traj",
+      "sha256": "de9b03ea78b32d903f9094cb36ec683a6b51dee6c2f01f3a2385f5d9eb8418fa"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16938.traj",
+      "bytes": 283418,
+      "etag": "\"716f93539da741d73f51578d44269dad\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16938.traj",
+      "sha256": "3b29c482977057ac4e4942f6e90e8845fae03d6f573e19afec64c3c5c5fc5549"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-16950.traj",
+      "bytes": 195757,
+      "etag": "\"d32502b62da00108517216555a164a9f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-16950.traj",
+      "sha256": "acbe7f24087a79da15f2ef82278d6e4236b49fcaa520956f88c43699190636ba"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-17029.traj",
+      "bytes": 95658,
+      "etag": "\"eb39e195d21f0e712e8539f438fdb5bc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-17029.traj",
+      "sha256": "1572357592116e8ae0f4a059745ddb1555ddf8b865be0f0963576e4e606477aa"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-17084.traj",
+      "bytes": 291149,
+      "etag": "\"1719feb2f06897759f5eed43dfbc6362\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-17084.traj",
+      "sha256": "db905ec88c5ac0d468cd4a80173fc2030c1897a398f80b87868393b8aef3f4fa"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-17087.traj",
+      "bytes": 132563,
+      "etag": "\"77cc66c99bc47279054fda2de3d90283\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-17087.traj",
+      "sha256": "6c8433f9a3861aa1e58e050aafb75fe4e98ada044a5812832f28100642b1c23a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/django__django-9296.traj",
+      "bytes": 74491,
+      "etag": "\"138934d047c6dae82a73c45ad1c3ff89\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/django__django-9296.traj",
+      "sha256": "14cb371616316189b7a118fc30b315903007907732c396718db39816bf71930e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-20488.traj",
+      "bytes": 299986,
+      "etag": "\"826fba5072321e4065481db84ce8de50\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-20488.traj",
+      "sha256": "490f767cac45be10f34d28543bd81c8e8cd857cc3160f21401b82f93819ad0e3"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-20676.traj",
+      "bytes": 332322,
+      "etag": "\"5a8a442c88c45b328ffe99061cd82bd6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-20676.traj",
+      "sha256": "52893cd1d42a5a1d118d8099d09f589c10f6a6c50fadcea1aa628c16d77decfd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-20826.traj",
+      "bytes": 278640,
+      "etag": "\"279814fc73595d4392ff827f906e8ee0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-20826.traj",
+      "sha256": "5a3cbf120b4ba901f16301807c437278bf0e02a802d16f309e4676e60d79d209"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-20859.traj",
+      "bytes": 447904,
+      "etag": "\"96602f1bae0b1bfbc8277fc025ce71f0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-20859.traj",
+      "sha256": "710906d6c7b8cef1eb4d1840cba131c614cfda832379c8e582ae2f8184b631a4"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-21568.traj",
+      "bytes": 150644,
+      "etag": "\"82b98d45f4f1f112d5af0a1d48218fc5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-21568.traj",
+      "sha256": "7368443b90eadc28a0983f933d53eb84242790a9843841ec78571f9b05638538"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-22719.traj",
+      "bytes": 107461,
+      "etag": "\"d6c69ec0d132ec1eff91cb8599ab0318\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-22719.traj",
+      "sha256": "1c99abb8362fc46dddf475a2047c680a38b915bf540eb4098c5bced7ac9654fb"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-22865.traj",
+      "bytes": 173480,
+      "etag": "\"8e69d313ca0af82ddc4cd02060c1dedc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-22865.traj",
+      "sha256": "fd6df79f433532a8f1b9568f9271178b37930423655c7e3ff20edb7155886bce"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-22871.traj",
+      "bytes": 126930,
+      "etag": "\"523bb9a7a10b74cfe54c2acdc5edfbf1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-22871.traj",
+      "sha256": "822c7d8a4fcae16a5202ee5f3ced5c4ad2f23e200f7db6f44f48c01de560fe42"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-23299.traj",
+      "bytes": 276161,
+      "etag": "\"c1952ace1f42d73b07cc28a4286c6411\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-23299.traj",
+      "sha256": "c7dceef3d0e8fc04956ac7c23d0eec7131480166a78ea127acc87cfcc657c1e1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-23314.traj",
+      "bytes": 182312,
+      "etag": "\"2fbda4c5dcf6904cb7f54d30dfed2a05\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-23314.traj",
+      "sha256": "676cc82c98c2b49d3727e18ba5b254ca3c21bc47b6130992d92df6af0c39bcdc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-23412.traj",
+      "bytes": 191974,
+      "etag": "\"3450277f42ec7262664e01b1ec34dd66\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-23412.traj",
+      "sha256": "fe19ac7662f16758edbbf3833a30fbd09930a8861d35e3b1dbac529e869767c0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-23476.traj",
+      "bytes": 95885,
+      "etag": "\"4017dcb0e5153f231b03781ff57620ea\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-23476.traj",
+      "sha256": "629d65912811c2e38e18e2805e66a00fa940a05d56610573357aa7ca21bada66"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24026.traj",
+      "bytes": 143569,
+      "etag": "\"9c6fa0dbe3978cf6efc4aa2a406b07cc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24026.traj",
+      "sha256": "7e037a05b80e1c61e38c75b3cb705f3b6138907c2c3ee2c00a5c7d1b47fd0987"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24149.traj",
+      "bytes": 88228,
+      "etag": "\"c38b43bf963d99f16e6a45042f8affd2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24149.traj",
+      "sha256": "92e215e7fb50c1f702c08bd754f3d11ac2033f8e3eeee2c9d5e10adbed99ab4a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24177.traj",
+      "bytes": 150200,
+      "etag": "\"0215c7fae98cfffa1c9faa0e62088b7e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24177.traj",
+      "sha256": "4bade52b5b34cbe8d00952cbf46d617183aad7465bee52eb0d7cb2c71b30cee3"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24570.traj",
+      "bytes": 115495,
+      "etag": "\"e5e8003252a6b269c6b1805b0d87dc74\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24570.traj",
+      "sha256": "3da4a29e37e3ef014bdb104273cc5c60590e742a3dce487777e020cf2cdd79d4"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24627.traj",
+      "bytes": 312194,
+      "etag": "\"583a19df08f660806393491847e3e9d2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24627.traj",
+      "sha256": "3010331d7be45abf77aa56c9449639481504efc79feb5cfd526b3c1f514b0e47"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24637.traj",
+      "bytes": 126582,
+      "etag": "\"89fdce86405f00614b5b3ef3a4312f66\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24637.traj",
+      "sha256": "70290afb29e78d4fc863ae80ab50295a63c70a00409afccaf2deded667984291"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24870.traj",
+      "bytes": 85536,
+      "etag": "\"0ff850df12e1563960c3f0072b68db10\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24870.traj",
+      "sha256": "c2125c86d3afb674569aaa7d80e9d42e4be2df724f9d4cf067dc411e789815e8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24970.traj",
+      "bytes": 84058,
+      "etag": "\"343a5f6f4fbb3e211bea4265dba8de45\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-24970.traj",
+      "sha256": "91101b04c164da930a4915ab5147ff35c19b42f71b81856a557f39d1124d3b77"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25122.traj",
+      "bytes": 66657,
+      "etag": "\"8dcf26eb541704cac41ff4fe5f3fbd81\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25122.traj",
+      "sha256": "8dbb6f8507158d52ee9e092bb09b49295e4707960c467e6223d64dd6849e456d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25287.traj",
+      "bytes": 83598,
+      "etag": "\"97e699e656133e645d5f3487c4ae8618\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25287.traj",
+      "sha256": "0fe9b2075a265791b41572addc49ffb491a9e27f9353781d8951afd42533f3cd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25311.traj",
+      "bytes": 123976,
+      "etag": "\"a12d8accda2e3b79fc6d7168fdb54268\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25311.traj",
+      "sha256": "a25e17c5a1b0bf89858c4cb596b2995d77979a7e2799138bd578f609f7a1a2c8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25332.traj",
+      "bytes": 279661,
+      "etag": "\"4dfbc26fbd7429b49996d084ddbd9a63\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25332.traj",
+      "sha256": "f24be3c77dcf725977633fac80b82ecd1ba82d02bfa035e3d7fcd2826967406e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25479.traj",
+      "bytes": 301518,
+      "etag": "\"bb73bc6234e02264f1bcf443cf372e88\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25479.traj",
+      "sha256": "4766663d812536877b5677c39f52260e7c4a6df42224c6857d1f035d7e390736"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25775.traj",
+      "bytes": 271075,
+      "etag": "\"a178b71f5d6db06eb956347a106a58e1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25775.traj",
+      "sha256": "86036d4fb2b9551640201ed2fa88a0d1c39c07575cb118c8b8eb7977aa6816d2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25960.traj",
+      "bytes": 307357,
+      "etag": "\"826efae60a1e4925d09dc8a3910af5ea\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-25960.traj",
+      "sha256": "cf14144981ef03c8b7752787acae3b05b8d2256cf2707894dcc8e54fcf0f23d7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26113.traj",
+      "bytes": 159137,
+      "etag": "\"b9a8e5c5d84bc4d5e155114281d3fb0d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26113.traj",
+      "sha256": "a26a6df8f64d1341f790c5fcb3d7e0969aaffcf76d677e60ee41e4381a93a9aa"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26208.traj",
+      "bytes": 322080,
+      "etag": "\"28e789255b08e0ee7fa815dbfe543265\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26208.traj",
+      "sha256": "afd38f7192e7ab2c6bd7730ecdc7c8bc93212d5805cdfe6dafe5db5f50b47a85"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26291.traj",
+      "bytes": 117143,
+      "etag": "\"5bcd80c8b91ec2750095ad270494e032\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26291.traj",
+      "sha256": "9f97f886ba0d266e8ba188acd2dc005ff58fae9c2ba949a2becddb258fe7085e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26342.traj",
+      "bytes": 129664,
+      "etag": "\"778eaf9e054bb2ba1dfed5fff2e41c7d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26342.traj",
+      "sha256": "2da0f2971d803ee021bd9b6c3245c5db039bc55e3d0097bfb771bd288ae0c940"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26466.traj",
+      "bytes": 280242,
+      "etag": "\"b8c45cccaf04bd2db78ebb06f5a13d98\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/matplotlib__matplotlib-26466.traj",
+      "sha256": "d8f597858fb67a32dbc4f9f241ea1c37e2fccd3f2c4284acec42456ab11dde27"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/mwaskom__seaborn-3069.traj",
+      "bytes": 247802,
+      "etag": "\"e668d17f3973966eb6490631625bbcf3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/mwaskom__seaborn-3069.traj",
+      "sha256": "b96830bfb4b86c8722bf54c9c9253410ac00446315f168558970891a265d1621"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/mwaskom__seaborn-3187.traj",
+      "bytes": 203486,
+      "etag": "\"17ce13faf4eae2b525d9eab91041c696\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/mwaskom__seaborn-3187.traj",
+      "sha256": "904cef4f12b6361090bc82a1274597c1697778e7a0ce912ecb98b48c7108c1cd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pallets__flask-5014.traj",
+      "bytes": 117410,
+      "etag": "\"50a9238ed1aa6b3f7d455154266d7be5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pallets__flask-5014.traj",
+      "sha256": "dc2fd7f1f40a98d99830887ef071f87ee6928e006b7f6388309a64d2161d7805"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/psf__requests-1142.traj",
+      "bytes": 261586,
+      "etag": "\"bcca4429bb6c0003ac0a2e62ca1c171e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/psf__requests-1142.traj",
+      "sha256": "1d0b1deacd1a623601495e8d0e4e986365fb132fb09ca1692022836ec61346e7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/psf__requests-1724.traj",
+      "bytes": 75679,
+      "etag": "\"7c9f3d1efa7da04193540f6a8fd13dfe\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/psf__requests-1724.traj",
+      "sha256": "442767fa8e01f8defedc2533a4a5a6f4dfaa23af7944934a822af465caad539f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/psf__requests-1766.traj",
+      "bytes": 67193,
+      "etag": "\"ef8532c514136a25f95d49178622502e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/psf__requests-1766.traj",
+      "sha256": "16d1b44f81e55cc61a73d44edca480f84a027287942c8d0963c930351493ce9b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/psf__requests-1921.traj",
+      "bytes": 286279,
+      "etag": "\"3e2ffe07bb8e940bccadd22f597a2cc9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/psf__requests-1921.traj",
+      "sha256": "b6ae3cbba134b3cdb9bcb48cdce44fc66810ba1c07ae6c11ce05049e4f522441"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/psf__requests-2317.traj",
+      "bytes": 82648,
+      "etag": "\"5e979effe1a5b490a5fc523e88416fdc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/psf__requests-2317.traj",
+      "sha256": "ffcfa31ef3d5cdd91cfffdb8542cf74d3bd323ac5dcc41a83c7131e863225c13"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/psf__requests-2931.traj",
+      "bytes": 74969,
+      "etag": "\"295ca770201c3a5a2c1061ba1dd092ba\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/psf__requests-2931.traj",
+      "sha256": "d73603512446087315f5da10b2b35f56272be616aeb164851884a4dd403c4f7e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/psf__requests-5414.traj",
+      "bytes": 161095,
+      "etag": "\"ec1a2bd982301f8fde9ded6ca0c61c2c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/psf__requests-5414.traj",
+      "sha256": "340e2ad384aa6d0e97543375818c323661ec031f48cb9ede874ea331a296528d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/psf__requests-6028.traj",
+      "bytes": 123281,
+      "etag": "\"ce62092bf72bae7bd7121ad051f032c5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/psf__requests-6028.traj",
+      "sha256": "1312c615182e97b0bdc9efb804c72ebc00e44aa36e308b6b9798a0abb23e2ae6"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-2905.traj",
+      "bytes": 112656,
+      "etag": "\"9f84890c29df50909bd967b525e2fae9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-2905.traj",
+      "sha256": "98005e13152fb96f647b0b48be298aea4c9fdf66ed6dfacbbd2467bbb927b6a2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3095.traj",
+      "bytes": 276127,
+      "etag": "\"012da557a1391362239b434e08334add\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3095.traj",
+      "sha256": "f028cac65d9fddde2350a5319e039d356c42773ab523080f6ea36a393739c9b9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3151.traj",
+      "bytes": 339693,
+      "etag": "\"81e528b6ff5db93bd63b8ab68ff2ebfb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3151.traj",
+      "sha256": "986c2a7477d2c42a6de082747d9b26c9065466552291743c4e8823840d0eadaf"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3305.traj",
+      "bytes": 267338,
+      "etag": "\"aee759c5d5bc65d57fed4943bb5d534c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3305.traj",
+      "sha256": "c2f19f67827e3571b6f0a8474ad1b4dda5cdf4a0e11c71b6e83c475f1413cee8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3677.traj",
+      "bytes": 243239,
+      "etag": "\"8199644543b79fcdf70835af9c9a1dee\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3677.traj",
+      "sha256": "ebe9d5a965a8fe9d83aecd4fce124ffe30f5ed4237e96b859ddc4c25c325c557"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3993.traj",
+      "bytes": 163649,
+      "etag": "\"2c939da961ccff0183fa22ba7bcd5fd0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-3993.traj",
+      "sha256": "592f3ece4c51cb926af42b960f1a46c7198d6a40f7582d8a06fab1d80975de14"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4075.traj",
+      "bytes": 178889,
+      "etag": "\"111b16db2ac8f47cf38651665bb275a1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4075.traj",
+      "sha256": "dc4d63df0761734c738512920b5cba14dfe4c876e769c78363bced969e9178ce"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4094.traj",
+      "bytes": 230028,
+      "etag": "\"cf23c011c32b2c61ca0946927932c1b3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4094.traj",
+      "sha256": "eed08296e0ed91551ae5b05bfc3afcbf59f85182b06bc14e441b9ed705059550"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4356.traj",
+      "bytes": 235267,
+      "etag": "\"ccd1597ba69ef6eac486697b2d58f5ec\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4356.traj",
+      "sha256": "503558840a9f8f82ed88df6d5ad006e838534af43b20ae2ef6ed6fd63dc14d9d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4629.traj",
+      "bytes": 115003,
+      "etag": "\"fd53061150b51e22d7a8575ba5fef7b8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4629.traj",
+      "sha256": "545ee856a17adaf48e44d423b680e2ae8ca3fb86c3279dfa2d97f437c58bbb54"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4687.traj",
+      "bytes": 176033,
+      "etag": "\"e22f86f7b334b665faa004c322fd5ec7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4687.traj",
+      "sha256": "d405629f1edeeae852795fd1c929008499d1ddb51a68c95f93bae297d4898296"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4695.traj",
+      "bytes": 186996,
+      "etag": "\"a4d46508bd0350c7469b86d842e4c945\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4695.traj",
+      "sha256": "352df65395b601fbce6a2d336621e5f20c6364251a9b04a153e40c0d1b547067"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4966.traj",
+      "bytes": 111732,
+      "etag": "\"6058f4cad0c09f024fd1b7d4f0c95734\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-4966.traj",
+      "sha256": "6db56d44eeb4eb15b7b200515c18f8589f5a6cc68d9a1ec0660c8ab70fc17a8c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6461.traj",
+      "bytes": 282038,
+      "etag": "\"39a29f59c485b6757bb1924ddc3ac466\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6461.traj",
+      "sha256": "57a9fc21657abf9eb0955f153d0e39b0504662ec0112978e9dce3ec3065059a9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6599.traj",
+      "bytes": 247936,
+      "etag": "\"1894c88a49ec7b1e318997e5eacb77fb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6599.traj",
+      "sha256": "e10fc45b63433fdf364d3db102c50309ff296ab4437b50562542b01d3e2d14ed"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6721.traj",
+      "bytes": 178282,
+      "etag": "\"2a071f83c0deed5c90041d15e1d0a8df\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6721.traj",
+      "sha256": "40582d4fc3720bdeeb0c4892b1c4b82739cd9c5ccab3a88587951477af691784"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6744.traj",
+      "bytes": 185217,
+      "etag": "\"2ecebd461280a731fee65ce1941d2e40\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6744.traj",
+      "sha256": "a323611d97120234a16e9a02f4044c335b6753a80484236ee2eea958d37ea469"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6938.traj",
+      "bytes": 201643,
+      "etag": "\"0f117a5e5a6295b27d82cd4b3a1d83ea\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6938.traj",
+      "sha256": "e6c8a0dec6066ed6d0c9bdf42ac8dc6338fc440bb48d3b79eace831c865d7c07"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6992.traj",
+      "bytes": 280267,
+      "etag": "\"6e9b42d4b92b38847fd66fba528f4079\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-6992.traj",
+      "sha256": "9218f9e32b4c112ad8132bdbdefa08d12fff933c569c20d746e3b05e770fae3e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-7229.traj",
+      "bytes": 269154,
+      "etag": "\"ec1ea6494f0842f7ee02b2025f5e5d14\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-7229.traj",
+      "sha256": "3f4680e9c2336038908a00c505be269bd0a1c8521321a58f793a369eead1111d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-7233.traj",
+      "bytes": 218541,
+      "etag": "\"1b3f11757bacb2cae07c02fe3a1d99a5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-7233.traj",
+      "sha256": "20237da32601e61ab95706bf77305a6ed5d04d1fe5e6f58366e0f25edb3426d4"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pydata__xarray-7393.traj",
+      "bytes": 192078,
+      "etag": "\"63df5d2c566fe186a97ba27270129d5c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pydata__xarray-7393.traj",
+      "sha256": "f612b3abd9e83bc9b44330a054ed032c125dc722483f41fe1920e4e477c83d2f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-4551.traj",
+      "bytes": 208199,
+      "etag": "\"af130c50b0539e70c038c658474db1c6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-4551.traj",
+      "sha256": "f51a62df3a69db2144d9a0173b99527ad4b8a357f1edd1d1a0552f86e42dd2e7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-4604.traj",
+      "bytes": 300305,
+      "etag": "\"f64ef1bf496473deffd014f24980b5b1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-4604.traj",
+      "sha256": "40ac92c7cfd1172120f3eebca6e498ff49757940d58da80c6cbe795f62c6cb32"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-4661.traj",
+      "bytes": 229717,
+      "etag": "\"8b5cf35d3185aeb9594d322efebc417b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-4661.traj",
+      "sha256": "e71f5aebc732f4f4a5214ed8834451f84f71271ff6f6c41e5ff40ee8e9817069"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-4970.traj",
+      "bytes": 126961,
+      "etag": "\"3a06204e80bb393cbd61cb6413efe56b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-4970.traj",
+      "sha256": "cc8d6df87933b78975a6d35163d34f8769c9ba5199e8b3f5ff05ef2a7a146be5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-6386.traj",
+      "bytes": 108250,
+      "etag": "\"0ea89fb32cf34dd238ad20bfdc8b4e95\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-6386.traj",
+      "sha256": "cf0897236766be03534aa85e36918847c62009c2f1e88ce9c831be4a6c5a9a8b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-6528.traj",
+      "bytes": 253018,
+      "etag": "\"c502f90a3ed0c1a5a9cb7b4bf5637693\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-6528.traj",
+      "sha256": "8f84be52af20f8ee4c9a47302f2ebd41fc7f7632b7119f740b55259bc7b2d7ff"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-6903.traj",
+      "bytes": 102672,
+      "etag": "\"dd6522530284f1260546d7f45cfd48aa\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-6903.traj",
+      "sha256": "cf8cf648614ec5923506be93f2e8742bd33904a94f0605f708d5d6f25c3a9100"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-7080.traj",
+      "bytes": 128061,
+      "etag": "\"cbaa9294d96c71749f4a4e8c632f7e45\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-7080.traj",
+      "sha256": "51c981ebb5e0c423374c1403fa2b91d869b1631664f6e114d2af2bb3906b9f13"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-7277.traj",
+      "bytes": 223740,
+      "etag": "\"7c0c14e9d02b8c75605b0affe0ac79e1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-7277.traj",
+      "sha256": "25d6df19c371b6e660f07d075f3780abf7a36b35a6f8437ac5b5377f992598bd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-8898.traj",
+      "bytes": 168759,
+      "etag": "\"57d8734f66ffdcaa98675e6b7161da23\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pylint-dev__pylint-8898.traj",
+      "sha256": "c4c020c37568ffb59a14ca0324d2edad003dded1abdba368652e6d16bde5a0da"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-10051.traj",
+      "bytes": 85869,
+      "etag": "\"951a925038f3972cdb9d1d6eb628844e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-10051.traj",
+      "sha256": "457dc59c2d6b1a292c74017384c417655241d16592c40c374c07d55bb6cc1c12"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-10081.traj",
+      "bytes": 137460,
+      "etag": "\"8088154275afb2fe3f28c3fad38f0e10\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-10081.traj",
+      "sha256": "bb1a04ae15fc0e29d5a1e77493b0f1aa35b3ab9edd6ff45e10c1debb8a510043"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-10356.traj",
+      "bytes": 208630,
+      "etag": "\"5d0da2b1c4a0b7e42d8242508b9f6910\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-10356.traj",
+      "sha256": "d79ea64f6c7ac6034d5ea0257a0072c4f42eb27bb84dcb8f879398d9ee73606c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5262.traj",
+      "bytes": 78851,
+      "etag": "\"8b465441343a65a05648a6f09d036236\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5262.traj",
+      "sha256": "a2867a436f87891a034fbce5d368e6e40f65e5951bbcd90766de35cfdda7db2d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5631.traj",
+      "bytes": 215334,
+      "etag": "\"b44499a394f5ba196595c31724c88fb8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5631.traj",
+      "sha256": "4c7edcfd1f2727c0ada01c362faef4f8d33ce28a2563367037bdc8558bf27d66"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5787.traj",
+      "bytes": 98279,
+      "etag": "\"c560768ad27ef99896f2aa8df20c5f2d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5787.traj",
+      "sha256": "a172428c1332115a3663ac915113d79aec9fdf8111f217b36f5dfd744abcb23c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5809.traj",
+      "bytes": 71412,
+      "etag": "\"382e309223048093a402a06113325a9f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5809.traj",
+      "sha256": "89569051100e012b0fff93b442fd2cc10d464a2cfe7febd64f21ed19078aff15"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5840.traj",
+      "bytes": 148859,
+      "etag": "\"251c14671a14a76abd5681f7f880b28b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-5840.traj",
+      "sha256": "d151b4e14779203f411055f61e795d77296bcaee87fe6a2c642b08bfbd3636d0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-6197.traj",
+      "bytes": 262303,
+      "etag": "\"69da6ebaa5933dfce842eb4e5e83888d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-6197.traj",
+      "sha256": "e16ff2ea619a22c73a19b01cd36bdd70490040de1ff7736424c30e5e804710c7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-6202.traj",
+      "bytes": 81463,
+      "etag": "\"e11ebb2b8fe68553541c9882993046b1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-6202.traj",
+      "sha256": "7ed8eb8fa57914e5b32bb9e8141d24c8bddf29d32b33581862d8c7fde3e1c1af"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7205.traj",
+      "bytes": 82066,
+      "etag": "\"f4b16bf5ed95b0af382e8a4581e18b0c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7205.traj",
+      "sha256": "b6bf75bb806a999d00afe9b6d27f42d9014884d6b12db4df8a9db03a8ae52744"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7236.traj",
+      "bytes": 160395,
+      "etag": "\"80ba3d44fd6900838f6b8d23d72c7b86\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7236.traj",
+      "sha256": "a18f4acc5ede9f3e1ae6dca74ecddabab0202a725585689f8c2a416947183eec"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7324.traj",
+      "bytes": 46381,
+      "etag": "\"9afde2741d0c83dd4d1be57b83a04feb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7324.traj",
+      "sha256": "d41bbf17f14eab7b08e71fc7227b22c9c03769ac060dae271a5c43901a5d5166"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7432.traj",
+      "bytes": 99186,
+      "etag": "\"e7bed7e3254a27c2b27a0ccdc47fc25f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7432.traj",
+      "sha256": "0268e4aa87d637e2fa9a1be6b63ca57b623617ab94d1ccdea5f93f645521b123"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7490.traj",
+      "bytes": 172139,
+      "etag": "\"dc17cffac05b1d87a8c7da7759d05879\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7490.traj",
+      "sha256": "9a213992aa722397a9f9b0d0ff310fcdaa59609efda397ee9096241582fa9c1c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7521.traj",
+      "bytes": 284473,
+      "etag": "\"a21c719184c9a3bb08a4b3c7197bb027\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7521.traj",
+      "sha256": "1eebf515f748f1e2f1bd9add1b80c9d401a888d72ca3f51bbb971279053166b3"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7571.traj",
+      "bytes": 288493,
+      "etag": "\"93f05bb255e9f2f076857d96663e92b1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7571.traj",
+      "sha256": "b488bf687c9ca8ecc9b129f739a2d8fa957078407f7498886d7a853115400771"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7982.traj",
+      "bytes": 231956,
+      "etag": "\"38d584ae5910d50236df4e2c2058b893\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-7982.traj",
+      "sha256": "6617a320de3539c12a9298f015e7ef783ab0852559f4e8feacebab109fb3a62e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-8399.traj",
+      "bytes": 97131,
+      "etag": "\"e823e70859313b50e531f71385f45585\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/pytest-dev__pytest-8399.traj",
+      "sha256": "a833cca4116ebdd16fb37c50852d378578764424c271dde4e39915b15536f730"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-10297.traj",
+      "bytes": 158791,
+      "etag": "\"c4dc4646de60091aeffeba00217ca1b9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-10297.traj",
+      "sha256": "4c18c349e1b3c565935d9929901055cbdb9e508354e759fd829713ea34201286"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-10844.traj",
+      "bytes": 114987,
+      "etag": "\"a2e72c62f0dce4bacf800ca778184e85\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-10844.traj",
+      "sha256": "b490e5dbfc90bdf8e498ae0c377abd138ee2fe0b4a1540c715cc3d83e0c4d977"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-10908.traj",
+      "bytes": 111994,
+      "etag": "\"c4da039d42157b4cd3fe211e8862f079\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-10908.traj",
+      "sha256": "09593bcc4755a6d900af79f588ce9a2bb6dff7fb75a8f191e6a5bea555ddde4a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-11310.traj",
+      "bytes": 155731,
+      "etag": "\"1de6b64f3de529c4573028e1e0ae5632\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-11310.traj",
+      "sha256": "210fc432244d6ee61cef6be11b948a5ab1d4ee61104dd8cc422f9db7221b9253"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-11578.traj",
+      "bytes": 131379,
+      "etag": "\"88c5a4f1987d9eec4c48bfbbf65030d4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-11578.traj",
+      "sha256": "f7e9ec1e81aedc1bf0f123f35ab69a140a89f7f79c73af321df2c3a43cd5a79c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-12585.traj",
+      "bytes": 75821,
+      "etag": "\"c0e5278a3ed6693058d973d5ffdc2336\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-12585.traj",
+      "sha256": "0d7cddb9aef7ea0338fb9fa24135538002358b090ab0bf8868f60abd7d9a6885"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-12682.traj",
+      "bytes": 298747,
+      "etag": "\"5bf48a90d40ecd5a6aeec488946a2ddf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-12682.traj",
+      "sha256": "7e106e44890de7fe8c0b428f0c978fa10ff29bfdea0f8763b1dadeae6e95abdd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-12973.traj",
+      "bytes": 239289,
+      "etag": "\"c2eb8c5b7a8c294b0fabf1915407d6dd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-12973.traj",
+      "sha256": "f66d0a7c6e65cbd5a3e4023141dfa5a9fcd51dcec79161b0dbc1ceb86c07e2f1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13124.traj",
+      "bytes": 309276,
+      "etag": "\"52966632529ccc4a5bee501b0c67be6f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13124.traj",
+      "sha256": "b37777009d070ead586ac120a73c73e3426ba4f4bdb693a6f0f117431f091e04"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13135.traj",
+      "bytes": 106939,
+      "etag": "\"6025435c2510cb70452cb7a1d02065b8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13135.traj",
+      "sha256": "2d3f52e0d290d42fee48bfcf9f2f490a0c91d2721d99b0751beb2482cdab352a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13142.traj",
+      "bytes": 287372,
+      "etag": "\"6ed8c80861799dc8523e9ff413e26eee\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13142.traj",
+      "sha256": "3acfa0824c549fc0d536666714fa1fdd3866a9f3cab27abc4a0591f65d831071"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13328.traj",
+      "bytes": 125167,
+      "etag": "\"995b17da81a54f95ff82e7a74635a710\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13328.traj",
+      "sha256": "9c1a3d09a8d7b7cb995855eb54630fe215ac51240c5e2bc37532ab8b94553a6e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13439.traj",
+      "bytes": 257069,
+      "etag": "\"4be23e99b1072a3caf3a924ca306d302\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13439.traj",
+      "sha256": "9e770bafbd4b303838c609fbf3be2a37a3da0743eb4c141ee487f18bb21633f5"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13496.traj",
+      "bytes": 173381,
+      "etag": "\"79529e90c3f8118aa7704d955a40c5e7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13496.traj",
+      "sha256": "e53afec0ed20fc24e10ab11e160daf7893677fa2fbb13f81e5a6d38071048438"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13779.traj",
+      "bytes": 99934,
+      "etag": "\"347d1bd9ddcb25571e34773da266dc33\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-13779.traj",
+      "sha256": "15633d14c881771ae0089b5b69b86f25ec5355e514abff76874027900faa1030"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14053.traj",
+      "bytes": 76509,
+      "etag": "\"0d31320f85d8e7eef0c1885a392d1612\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14053.traj",
+      "sha256": "0ad6da240f9c3f74c6b224dd55fd58b8b166e48c71ba138475d223ea6c9a6f89"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14087.traj",
+      "bytes": 194763,
+      "etag": "\"21568f9557b78d547121a14560d0b71e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14087.traj",
+      "sha256": "aa00c26449b7ff2650471207736eaf1432ba27b6b61143d44a4242addfd59899"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14141.traj",
+      "bytes": 125237,
+      "etag": "\"d38cc27e9ef126ec2ba60d2c9273d576\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14141.traj",
+      "sha256": "1b778c76e7eb7a29842cf93db1d36c7403a3ae7ca119ff8540fad5ec6c192030"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14496.traj",
+      "bytes": 72460,
+      "etag": "\"0cf7148c376606e50ed1eb03f3d2277a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14496.traj",
+      "sha256": "6b123ad1cf7afa34fd842a419f73387c8bba96d52f13b8ab0813a2b39e5b65a7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14629.traj",
+      "bytes": 82228,
+      "etag": "\"eaeb9022a291f1e5fac221f5877ebd0a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14629.traj",
+      "sha256": "c1ca55c013c1a3de3b424038e5f207d30d4adc4d6ea473bf45a44ec039ae1c4a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14710.traj",
+      "bytes": 271223,
+      "etag": "\"4fae00bd5910c7bf7709833308e28030\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14710.traj",
+      "sha256": "972bc6ed209b246130fcad795d6fcc8416918808119bd83ff3db7f569955363e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14894.traj",
+      "bytes": 189870,
+      "etag": "\"accd31d132927984cf2ba309efb3fd5b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14894.traj",
+      "sha256": "3ae1e5df198920f747a85f519fa6b1d0fa6d29149f2cb5784d20d10a458e3e46"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14983.traj",
+      "bytes": 277147,
+      "etag": "\"e70200a7838f5a1f48b0ad565abec8f1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-14983.traj",
+      "sha256": "4bff186654f011ccde677aa1b27960935ad2d0e217cb618a2cc268ac374d4013"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-15100.traj",
+      "bytes": 233302,
+      "etag": "\"b6d891429526d9ca92d746c9bc6434d1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-15100.traj",
+      "sha256": "3922f438e65da82120ccb25459ce1f3ebe47a61f41c92d4c73acae93a443dd95"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25102.traj",
+      "bytes": 341622,
+      "etag": "\"86b48ae280ead131e9c5d9561a8da95e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25102.traj",
+      "sha256": "96e7020258fa972389982f9168f855333c8b755150b8d855a26f568f93913388"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25232.traj",
+      "bytes": 168682,
+      "etag": "\"db948379b9754aa9a4439b26db9a2652\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25232.traj",
+      "sha256": "57c8017e0bb0b5b0dfa4f5a118b7c2b59d14bae1ed979c48d0520a30e84d331a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25747.traj",
+      "bytes": 130728,
+      "etag": "\"eedee999d22221ef03ffa1d30b5d8336\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25747.traj",
+      "sha256": "4a7225f05e126fea72b9b0b594f9195d1c483785490624a61b8d601b1cfc295d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25931.traj",
+      "bytes": 187237,
+      "etag": "\"61986a230ebdf4f420662155b1f863a5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25931.traj",
+      "sha256": "11af993dd5df5776dc38649f852af026dd892e23b0ce49eba76a510a7252e1e1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25973.traj",
+      "bytes": 314748,
+      "etag": "\"ce5b4c3a18bbb4f7875c576296b0b71d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-25973.traj",
+      "sha256": "2454b2138b83aa2ed8c19f48c19e339730cd03172dac59f6824a1806dacf0165"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-26194.traj",
+      "bytes": 92552,
+      "etag": "\"38956aa79b3f90b53012c366e6367e8d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-26194.traj",
+      "sha256": "6cfdf6a4d7b0e1d06074468942c482d66b184bbf76eeb8f14c8ee21c8d3a4ba0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-26323.traj",
+      "bytes": 341248,
+      "etag": "\"c9832c50cbddf90c40dc488856757d8b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-26323.traj",
+      "sha256": "88f0228ad59617c08c517eaee1e342454e15d707b203c757b1c91a9e28cddbeb"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-9288.traj",
+      "bytes": 174703,
+      "etag": "\"bb66a76417fdc613493573685a5df717\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/scikit-learn__scikit-learn-9288.traj",
+      "sha256": "68635c22a97910f355d6e09063a3cad247679b2120fd618879b8b13516c42b39"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10323.traj",
+      "bytes": 249143,
+      "etag": "\"3f425a1cd1949707b5344b7e3e2c4afa\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10323.traj",
+      "sha256": "247b7b8c820407a6db6895552b072722be1dcc75848d85bbef24850ea398c605"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10435.traj",
+      "bytes": 154482,
+      "etag": "\"441be4b971149d3e6b3840c89c72d560\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10435.traj",
+      "sha256": "c863aa140eaaf56a232f2b5bffced13c7cd37238c6e8e38533d0c7e0cd66db18"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10449.traj",
+      "bytes": 87100,
+      "etag": "\"d9c7add11b94f8cdeb16e9900c446eef\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10449.traj",
+      "sha256": "bdb016947330f2e572aa562b4cec56932fed9ce8f4f532588b36473c0f0ccd9d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10466.traj",
+      "bytes": 87820,
+      "etag": "\"e4c2a4ba3ba1e2f8248a4e01b10fff85\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10466.traj",
+      "sha256": "3e6ec894b516aca5ac4b26f06818ab2e66ffbb08e6b8a310c063d2cd03c57fb0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10614.traj",
+      "bytes": 175397,
+      "etag": "\"bbb75094b06ee704ab44822d9b74c60d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10614.traj",
+      "sha256": "2be274b2ecc07af99dbee7bc1abc38bf478e07d7aff7535bb4d37e95007411f8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10673.traj",
+      "bytes": 155335,
+      "etag": "\"65d43153093fe219893dc46d99092ffd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-10673.traj",
+      "sha256": "1ede06a65c44170de0d78f2002d42b3dc60bece70a90e2ed78fd3ea2ce23426c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-11445.traj",
+      "bytes": 376170,
+      "etag": "\"107237776bdcc9af19036e4fec3a3ace\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-11445.traj",
+      "sha256": "953c92ae9ba32cc010ae6ead0cfeeb48eaedebdc8ab062732cdb34dad7f17b57"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-11510.traj",
+      "bytes": 461574,
+      "etag": "\"f7dfc113ef273c06b02b41ad3848687f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-11510.traj",
+      "sha256": "3367018b264b69be62e51532a2a562dd58c83b36f2e0e09ca61f4daaf6f4e607"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7440.traj",
+      "bytes": 72130,
+      "etag": "\"05d96c46b49dc7b503d70a31a9627100\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7440.traj",
+      "sha256": "3221d71bb705de3ab71cb607a8f3a141527fc4a572dbc3707bbb975cdbcc581d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7454.traj",
+      "bytes": 165392,
+      "etag": "\"9cdf20c646676081c050e7fa4982a7ae\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7454.traj",
+      "sha256": "ff0ca9506d4c9c6933a74f47e042589d249d850023c7cba44ecd92f1ac53799f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7462.traj",
+      "bytes": 140817,
+      "etag": "\"72066a3fe0186f3fd24be71d1ad3adf4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7462.traj",
+      "sha256": "9d30c2ab34e7e5f59cee7217c6822e4878fdcdf425570aa5520fbc3b28f1f7bf"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7590.traj",
+      "bytes": 102080,
+      "etag": "\"bbc0a2c130b240da6c5f91f0cfcc8d9e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7590.traj",
+      "sha256": "ade9aac3196f28796f5505a471b0d8473c2f99ecf82bf8c75f7cdcc724f0838f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7748.traj",
+      "bytes": 399661,
+      "etag": "\"bd6e50b905fae38ec214bf1998b59de3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7748.traj",
+      "sha256": "88f4a860a1ec9db799f122c5b1d1dd47fb78cacaf3733d94a299f7175c11174d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7757.traj",
+      "bytes": 262810,
+      "etag": "\"c029ecf8ed93dbcdd7cccba818ef037c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7757.traj",
+      "sha256": "0a92d96c82204231b3f24858e43663aaaf953df46cc025a54591ee4042d4c1d8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7889.traj",
+      "bytes": 104345,
+      "etag": "\"8634c2a82b340ff05687cd63702e78b1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7889.traj",
+      "sha256": "f9d916c619f7fdd377d1f8de1e421f94f54eb2f0d93b50c8a6cd566487a903a2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7910.traj",
+      "bytes": 267379,
+      "etag": "\"34a5e437750f4f8ff453fdff85005397\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7910.traj",
+      "sha256": "b103154af6cac2c110cc1a5e15f1572d45091bba9b8b216b9e40120e601d590f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7985.traj",
+      "bytes": 324267,
+      "etag": "\"b265a50f73c527fc4cb0175e39ce1459\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-7985.traj",
+      "sha256": "014969522a0ccd99d50d0789d0b48fd57ae9364bdc34a2e4b8809f9e83ba5572"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8035.traj",
+      "bytes": 184225,
+      "etag": "\"80f564450368b48fee849dac01ac61ca\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8035.traj",
+      "sha256": "ebaec843219cd13669347e8344503d69a652ca3e1894d0a1602bb93ea631f48c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8056.traj",
+      "bytes": 164487,
+      "etag": "\"90302d70f8c48de0bdbec04ef2861664\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8056.traj",
+      "sha256": "989aa6d5235d536228adb2e75fabd3271c0513cbc9fe3371b08333a7e38857d7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8120.traj",
+      "bytes": 101475,
+      "etag": "\"b555ebea0abb184dc6918c85b8c56a11\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8120.traj",
+      "sha256": "4ac28332f559815b8b88332a256619e89362dfa240f7c3e35b2ec59021ff6d75"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8265.traj",
+      "bytes": 116909,
+      "etag": "\"03daa1c31de9f4ef4db03a743a2753a5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8265.traj",
+      "sha256": "81676e0c50a2eec5cfc7181d3701c5950ae4e61974b453e378bbace0044e735a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8269.traj",
+      "bytes": 134386,
+      "etag": "\"253a7b2463d8ffb57faa513ec98bf940\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8269.traj",
+      "sha256": "48783ab44e7f08152192b79337c01f36403babc65ddcc40db3feb040277af00b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8459.traj",
+      "bytes": 224083,
+      "etag": "\"d253165d793cf936c150448cb351d5dc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8459.traj",
+      "sha256": "db040e88c33e7b643d264245dd597aee05250f8b5ff96957e5b50a0896fd5188"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8475.traj",
+      "bytes": 133902,
+      "etag": "\"44fdd3ec77d1b698eb2e3efda5505eed\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8475.traj",
+      "sha256": "c6744b0bebc890e5bb81f6e84df7de639c9d4edaddcb767a0904e4ce649a6ee9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8548.traj",
+      "bytes": 270670,
+      "etag": "\"b06e2cb997a43540bc8caef9f5a364b2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8548.traj",
+      "sha256": "0076c6ba9dd8c3aa590e690107e0ce7552597d52c277ff07e2cbbff38557d7d2"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8551.traj",
+      "bytes": 215928,
+      "etag": "\"f5d933e8e9e72d1a4b0949c5f5c1de0c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8551.traj",
+      "sha256": "2ed53969b29361f4d1a6c9a3d1f0ddb5834e4e4440de4ad43bdc88299e587c0b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8593.traj",
+      "bytes": 278761,
+      "etag": "\"1d4921ba856103cbf4b20a154b6a66ed\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8593.traj",
+      "sha256": "a3e843a1754926e5b1acabe9426a061c5455201f542ab246e58a889761fc2afe"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8595.traj",
+      "bytes": 132932,
+      "etag": "\"a5d4826d2af640e8444b1de148f0a2b6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8595.traj",
+      "sha256": "4dddf44841e77ee49173e228407d401767bd9b4e37c4f9cc29cbdda4190dbc0f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8621.traj",
+      "bytes": 147502,
+      "etag": "\"e2d33da5eee94594661916ec05f9413e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8621.traj",
+      "sha256": "d82e2712f3d06d49b86db2cd6bf0e76b6e7fcc0b90a532e7489e4d2957c1ea3c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8638.traj",
+      "bytes": 170224,
+      "etag": "\"e76b335dd0510d20b258f7c7b63bb785\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8638.traj",
+      "sha256": "a95c41635d759e80cb9bfb1f905f17fdd3eda63017b32037854b6427e0d812e0"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8721.traj",
+      "bytes": 255861,
+      "etag": "\"88ecfb58d6447b21c495033c4a8ab402\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-8721.traj",
+      "sha256": "6612e38b8a79e27e4deacad0bf5852167830c8f321f169e41aa05dc023325bd8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9229.traj",
+      "bytes": 95642,
+      "etag": "\"ca900d0f1f9dbc403d6e063d2d2d3db7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9229.traj",
+      "sha256": "19ee66b7992f16631dc3534d7e513156f501c943e0bf9cddad5d14e88c4c100b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9230.traj",
+      "bytes": 101352,
+      "etag": "\"79cb341b6e0de42a51190685c504fbbb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9230.traj",
+      "sha256": "42389efa6eaab471b49639b2e1e595a254a3838e647aee92fa7e5b425e609c42"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9258.traj",
+      "bytes": 249041,
+      "etag": "\"41829bc444d6985f424e180c51d0fcf4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9258.traj",
+      "sha256": "8091818a28ebb0d37a134561ba8d9869f4c5f9c7a5f63186e3d04c577f08a300"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9281.traj",
+      "bytes": 123056,
+      "etag": "\"57608299cc9ae4c0825c5bb0e2816962\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9281.traj",
+      "sha256": "d4c93c63e736ac7caed09052f757ee18fa0f4545df0b4d2f165a25e438251dbd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9320.traj",
+      "bytes": 133017,
+      "etag": "\"136711ca07a4eca6bfffbb29d2ab935a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9320.traj",
+      "sha256": "46b6296bd811c2bc3cbfb542e715f7614d652c98321fbd8de5e46e5a8a911276"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9367.traj",
+      "bytes": 117369,
+      "etag": "\"af771d00021ad36fa3420e8e34469eef\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9367.traj",
+      "sha256": "87b319fe3f08e68fd3c22460a132f0e0b3ab4d3d7c5bf6460fabd2df759dab7f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9461.traj",
+      "bytes": 83377,
+      "etag": "\"5241dd8c5031c129293e2a0898e4b644\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9461.traj",
+      "sha256": "97d08e72c2e366a0589b01664532acd3bbcbe99c4bc210b80db59207c9232b24"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9591.traj",
+      "bytes": 102405,
+      "etag": "\"151affdaf9093d6ed9993e169096e403\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9591.traj",
+      "sha256": "2b7772e5a8082c85306508cb8b4a27d1c775824bae1c5f419fab120f5481729f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9602.traj",
+      "bytes": 104442,
+      "etag": "\"bfbbc82e56992eaa6d0f53c17aeed8f8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9602.traj",
+      "sha256": "d953181dc816093ea1ffa2c1193bbc9406a3b65109e568090c2ee46e6934c86b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9658.traj",
+      "bytes": 234307,
+      "etag": "\"d0d23311ffe7eb046e61762581effd9e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9658.traj",
+      "sha256": "4a423f11019d99e617e4c95207bd1662289bb1e70490313f6eb457b167cd98fc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9673.traj",
+      "bytes": 127050,
+      "etag": "\"1d4944755054c1f909c5662335a2d593\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9673.traj",
+      "sha256": "0f31990fbf2ded771b12e9c8771767e97f940d2e95a5152e46b8a3f849bacd22"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9698.traj",
+      "bytes": 269409,
+      "etag": "\"1333fb9e40ab8e7edd93ed27ecd4b714\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9698.traj",
+      "sha256": "6762b1eea206c8dcbeb33cde32f1416a629ffa6c1f0c102031ba84c0ec821e2a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9711.traj",
+      "bytes": 80704,
+      "etag": "\"a86fc21b1ef0db75716c21ffefe3f0a1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sphinx-doc__sphinx-9711.traj",
+      "sha256": "8d4f69db09b93640f3e07b3eb87aeb5a1679fc8e2c7141aec3b1edc4eb4b989e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-11618.traj",
+      "bytes": 75053,
+      "etag": "\"9e7876b8f05477a75223c3aecc48db44\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-11618.traj",
+      "sha256": "8f04983c895082ae22f7aa413b0ab57d1e8f5727fddbc644bf57b20ea0ea908c"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-12096.traj",
+      "bytes": 252266,
+      "etag": "\"74b2b7d3234c1a65b9cd83b185b9eb91\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-12096.traj",
+      "sha256": "23b74afbbb6ee8b70a739d75b7cfd8d4548365f5aee9067b16d882aff8639fb6"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-12419.traj",
+      "bytes": 257481,
+      "etag": "\"eea4fd58b7f5ef92e054d1cb5d25fe60\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-12419.traj",
+      "sha256": "e9375a7a010ff6f076f9b879a514e257e7c739bc9fd995c1b5974cd0bcad8dc4"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-12481.traj",
+      "bytes": 212758,
+      "etag": "\"9ebeacd4f3aa9ed2ede37ddc27c8f29c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-12481.traj",
+      "sha256": "6cd185417c82a088588687e497981c2a1c031f3429986add9f94f8f24280a0f1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-12489.traj",
+      "bytes": 167985,
+      "etag": "\"b6f3139966fc1391e2580a6c162b6f3b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-12489.traj",
+      "sha256": "ac373db566ed290247e29282955e058a0797f56ad52782108051e6b49f55fc05"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13031.traj",
+      "bytes": 254001,
+      "etag": "\"04b88e2d3dfba2fa494d1ec8fb9888cb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13031.traj",
+      "sha256": "75053c7e6ec40b8265780133cacf17c8a92d358ea532455f5603131ada0b72a7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13091.traj",
+      "bytes": 52802,
+      "etag": "\"e5878959c918d7ebfdf4832fd7755c2e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13091.traj",
+      "sha256": "9e51d530db172a34f5688868fe588fa9f3df061191ea5a68ff272d281d57de38"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13372.traj",
+      "bytes": 290710,
+      "etag": "\"71830340edf79ab833e63870ba640d79\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13372.traj",
+      "sha256": "33eecc0174abcc8f2d5cc35eebf5b4e3221e6dc0415ba772d21788d49942b4cd"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13480.traj",
+      "bytes": 63444,
+      "etag": "\"892da5d9f4ef62e6d52602055a94bb43\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13480.traj",
+      "sha256": "d50c842ae0c1346ebad7c35c4b426d115940fe249c475d09db829d2b2f4f146f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13551.traj",
+      "bytes": 117207,
+      "etag": "\"da2075a989a2430287c6dba9f15ff50a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13551.traj",
+      "sha256": "2021c0b87abc2b6301211fb51d231b4f6b80bfb8e5d874ba986e31b0a267ba68"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13615.traj",
+      "bytes": 207093,
+      "etag": "\"3e78995e11bb8c6b05d75e37fb5de03e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13615.traj",
+      "sha256": "4ee4fb234ba62962b471a508e9ea9035053dcce6d82dbdcd873d8f58988e5d59"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13647.traj",
+      "bytes": 84887,
+      "etag": "\"d6995fb92bbfb5985b1ac0260040c534\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13647.traj",
+      "sha256": "3e28bcef2794a42058e046c39e10957dbb87fc431ca02cdb4d3e0845209d6311"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13757.traj",
+      "bytes": 234130,
+      "etag": "\"ad7539e7c0691d32b5e6cde0b7e2e8d4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13757.traj",
+      "sha256": "c87a11372af79ddcd5c9dea11339c4649ad90c4025b8b350579606501d03f564"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13798.traj",
+      "bytes": 85763,
+      "etag": "\"a8b49d0a185c5d76bcf704fedf0e74c1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13798.traj",
+      "sha256": "cd5efeece6a7a2175bdaa8ea50176b3523062fc67a67ba521130808215e2f9a1"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13852.traj",
+      "bytes": 114230,
+      "etag": "\"edeee389ef3f63bfcead1bf3be25f017\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13852.traj",
+      "sha256": "4f2acfa27475adf668ef8bc16cc85dad2b8f506192184834be662a266d6ac3ec"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13877.traj",
+      "bytes": 221060,
+      "etag": "\"1cc629256bea1647466f913a6b7628ff\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13877.traj",
+      "sha256": "63d8ddf7efadf1a97c48fae87cd99995ddcba653938be30e2136f3ba28e7d000"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13878.traj",
+      "bytes": 217616,
+      "etag": "\"f5599b6fba2749ac4fc03c87a535f36e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13878.traj",
+      "sha256": "5e5009a4b9fe3e102b66a12b1b08b941d85af6df3035b179248afbecca47447f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13974.traj",
+      "bytes": 338355,
+      "etag": "\"047e41c2f9f2ad9040b3e4f0748ec9a2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-13974.traj",
+      "sha256": "2c2ca1695cf2904b23bac710f3a2b1ba6578853ad2eb8b287f2b31c959e93f67"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-14248.traj",
+      "bytes": 260158,
+      "etag": "\"71e96b11392688fda045a9c190957ea9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-14248.traj",
+      "sha256": "01b344c7c33b0cb4ce1511236579725bce07ba4ca9b574736c24aa1e1c45688e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-14531.traj",
+      "bytes": 234720,
+      "etag": "\"a42c5d63f408d44ec4b6b3a2eb3f7780\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-14531.traj",
+      "sha256": "6865f686a91eec8b9c36a310f00ceeb2edb27e30562f781f8fe600c61354a110"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-14711.traj",
+      "bytes": 67993,
+      "etag": "\"e7678b13b9cb4ee013d99e8748c51353\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-14711.traj",
+      "sha256": "d8ef7c62b945493bdf5678a6658e8c5f7b48c63b5f82103fff789861b97dcd0a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-14976.traj",
+      "bytes": 267109,
+      "etag": "\"bf4f1fc45bcfb9a4ca7e857f64c5c544\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-14976.traj",
+      "sha256": "d95f6df59d656cb9a1cc8c0dffe661564519ba43630a82f2459d8e422ad95251"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15017.traj",
+      "bytes": 74466,
+      "etag": "\"2c984f5d2e45316fad439946f45d0c32\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15017.traj",
+      "sha256": "37733c702a1bca894f4a0b08964e799cabd099ec499f5cdc71155f37e1847ffa"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15345.traj",
+      "bytes": 83520,
+      "etag": "\"448ef09a5f361b9e74389e4e1de011c8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15345.traj",
+      "sha256": "68eac52cbaaf110f5d269a133623395fec9bdddc654263b9af2d02a04a2a0a9a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15349.traj",
+      "bytes": 73654,
+      "etag": "\"cac7b3be3e81c02234c6bdb222fe1024\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15349.traj",
+      "sha256": "cedd366ed927db83a042b620975b2697cc9c8bc1b8f357fe1dca276f4cae824d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15599.traj",
+      "bytes": 116752,
+      "etag": "\"98ad505598900862837d2adfc757dd46\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15599.traj",
+      "sha256": "84acae70f723e1fd7e8b52c09a2e1aef533e50c48ac7edc9379301e1e2d5fc5f"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15809.traj",
+      "bytes": 246118,
+      "etag": "\"e29d4ddb542e505fd068bed013a8fa8b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15809.traj",
+      "sha256": "0e1bd5f55795dfdd88f913f438ddc1ca1644584dcbbbda840b368f9a38f77557"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15875.traj",
+      "bytes": 73234,
+      "etag": "\"4212bc3771158566f0dca366c1f24403\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15875.traj",
+      "sha256": "faee8ccc85880b60b2e147c6829ce618ef9dc31cb54b962bee3e79bc876e3c41"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15976.traj",
+      "bytes": 188036,
+      "etag": "\"5b40df327d968a343561af50910ea890\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-15976.traj",
+      "sha256": "41100647dd2269612ba574eba137dfd8c0f2d4ebd193d80e2fe5cb0d61d50e76"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16450.traj",
+      "bytes": 84853,
+      "etag": "\"b5f1556e12fa5164a4d001dcc2a8711a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16450.traj",
+      "sha256": "61d06232aa7c3c6f0bd388dfcc7045ce9437fa9271162b2826c2d1d76f28bda8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16597.traj",
+      "bytes": 239264,
+      "etag": "\"fe6cf7c37635ffedb0e4481fa1be81b1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16597.traj",
+      "sha256": "0f5ad96fa1fbb75ac37c9ba73ec97f42537a1597629eabcf37a494f0e748ef49"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16766.traj",
+      "bytes": 218156,
+      "etag": "\"d2ddd2e162159c72f3b669b60ba32953\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16766.traj",
+      "sha256": "a6a20ce32d6ed1c703bc2541b1153e47064942256167192d706b22c479dff6eb"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16792.traj",
+      "bytes": 174520,
+      "etag": "\"c85f3b7c2012b1190243314136b389e5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16792.traj",
+      "sha256": "b73adb17895650a26f45eef750c2736a19af12e98efd05f672d0506b17033d00"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16886.traj",
+      "bytes": 258530,
+      "etag": "\"a7fb2e3d8611ca521716e99a22ad54f1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-16886.traj",
+      "sha256": "fb303dfaa1c0043d380051ccf682d34889312ad330ee6c6cb200436f270e94eb"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-17139.traj",
+      "bytes": 95675,
+      "etag": "\"2570165393c5a7491744d5004677c307\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-17139.traj",
+      "sha256": "fa76cd26e81e36ec5ba9b8a97d99d1fe39cb5f90bc5b0646b5ebb5681a2f8cc7"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-17318.traj",
+      "bytes": 107312,
+      "etag": "\"73a61496da038547726c51fe7451e9cb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-17318.traj",
+      "sha256": "3ef9c5507422a80b04856baa980db14de12663ce044f15c5fcfdc30e3d333066"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-17630.traj",
+      "bytes": 234622,
+      "etag": "\"f0b2b1503bbc0a29c16e3ac2ef682a90\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-17630.traj",
+      "sha256": "e964599b8a2938013f38026a10635c9677206c7011e56ed5c8fdfde1d3855c8a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-17655.traj",
+      "bytes": 96168,
+      "etag": "\"3a2359a1c7cf8c6c333aed63f9fa62d6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-17655.traj",
+      "sha256": "c3b3292e09ed107c67f58b541abf56afcf7dac71d62b243bbfd611fa7b227f32"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18189.traj",
+      "bytes": 131199,
+      "etag": "\"277fad753b323d3521a8833d143b5c99\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18189.traj",
+      "sha256": "5a22aef6267ee198083ad9c31793226479ba7e9848bc8f1e6cdeba9f335a1b27"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18199.traj",
+      "bytes": 293228,
+      "etag": "\"9c69e214d5ad0325ff54dd12f0965fef\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18199.traj",
+      "sha256": "1260ba461552ce2c4dcb721be4e35e40ef382fdcb2d7ba019737173bf3a57d7d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18211.traj",
+      "bytes": 284249,
+      "etag": "\"a92c49242ffafd2bd463ba3b9cb48634\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18211.traj",
+      "sha256": "df6bfb83a85c3326baf4ee5e83203d2a8031ee5d5c8704187b7e93e27b57c482"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18698.traj",
+      "bytes": 182451,
+      "etag": "\"0c0b183350f9dd2d4791018b2b038af9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18698.traj",
+      "sha256": "d9c40a3e59198fe9444e433217eaf91814c2160bb579490a4b05e9945010f1e9"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18763.traj",
+      "bytes": 81194,
+      "etag": "\"c3b5564fcfd2368a64c0d4a607f25dc6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-18763.traj",
+      "sha256": "ce02ccbf1ff992843a65ccf3ffdc5deb48f83e394443dd78e64f787509f1442b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19040.traj",
+      "bytes": 268187,
+      "etag": "\"be3de59861d7950324410a519a61bd62\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19040.traj",
+      "sha256": "05eefbc807a13893a1efe337e6c0de8a7df089e78d71766d75009eb1c75a9476"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19346.traj",
+      "bytes": 274010,
+      "etag": "\"cc555df1a38f5e90f9a96b700cb8569e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19346.traj",
+      "sha256": "1766b41d413db3ccf78ace8bf54d00e9c1210d4496b42b2505f57d25c0ca202d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19495.traj",
+      "bytes": 361698,
+      "etag": "\"341239dd61b8e9dd713e1d6644633300\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19495.traj",
+      "sha256": "960589bde75d94160e775d8dbc397a66414d0ad4bfc8cc13d4a9e7cc4e6f3059"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19637.traj",
+      "bytes": 248259,
+      "etag": "\"606b0f7b5beb23e95f70b55f4d70a9bb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19637.traj",
+      "sha256": "87331ec27a0b66a0c88ff48a46d3f84d5d7ce2d07ea77b0ff231ecbfdbb6045b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19783.traj",
+      "bytes": 100105,
+      "etag": "\"536cba62a4b99fe1cb580ec9ae4adc16\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19783.traj",
+      "sha256": "79e81dd9870f744c67af220810e48e3308238227261e6a4941feff74bcab920b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19954.traj",
+      "bytes": 250805,
+      "etag": "\"708907a84637f05041041f5fee2e8183\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-19954.traj",
+      "sha256": "69a3d7b4354c03a2104239a40afabc8b0d89bef73a2e9b1b38d1e5cc5b1f1f61"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20154.traj",
+      "bytes": 232788,
+      "etag": "\"bbfb4000a2257dc96ffad1c797058de8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20154.traj",
+      "sha256": "686a6a5fb2be68eeb37cbfd600df12acc0933c4407a3c23bd2ae1d42445b0fae"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20428.traj",
+      "bytes": 220353,
+      "etag": "\"0540c2157b122a6f8356e956adcc786f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20428.traj",
+      "sha256": "674732fac44d0729e6c373db37e51863b1a1992df4fbd67de022dbc29b0f0522"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20438.traj",
+      "bytes": 250525,
+      "etag": "\"1b22ae91156a2778dac068782d7f7bf9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20438.traj",
+      "sha256": "62d6416b14a5927a9aec12539b68e619e95afe17ba6c8261a807930d99b1b0db"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20590.traj",
+      "bytes": 104315,
+      "etag": "\"17852c43b4c28eb9aee864875d73ddd5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20590.traj",
+      "sha256": "09b2b726a89d4baf9b21f2dea8de99e995c7aa8e63ea65b580aa51bed45f0bbc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20801.traj",
+      "bytes": 286208,
+      "etag": "\"f0215dcb0a2690181789d29158eece8d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20801.traj",
+      "sha256": "594064800bb538157e40857fba88352f4b128d0424f9d558adc317bed4090c86"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20916.traj",
+      "bytes": 197552,
+      "etag": "\"f543beb13a8b71a6fd61f8a74b556ad6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-20916.traj",
+      "sha256": "719b0788bd59379c5d1f7384240f4d7b63620efd6f267564632346da20483b3b"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21379.traj",
+      "bytes": 140836,
+      "etag": "\"407b5d52d6169161f0c2a9f13ef57b94\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21379.traj",
+      "sha256": "a3be191630ce5a815cec912d19693563a24e0c6135045e83922e54580bef738a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21596.traj",
+      "bytes": 98573,
+      "etag": "\"ad1c522b6876e1fae043f021bc3d1fd0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21596.traj",
+      "sha256": "e66d4717e16fb97ed6e25b9658f782eff90bf622df7317b1e33a212c037fec32"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21612.traj",
+      "bytes": 112960,
+      "etag": "\"3753859f7967b5fed2c47b554d9cf5e5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21612.traj",
+      "sha256": "aa91eb7c3210a1fa5b59ece08f48127ae4c62a097401aefd9c959ce05d695887"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21847.traj",
+      "bytes": 82303,
+      "etag": "\"e90e28060cbbfba2b8944f85115a64d8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21847.traj",
+      "sha256": "daf492459bc9b25968cb864af86d2a1595b652e6751bc8e681c3d93b738ba768"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21930.traj",
+      "bytes": 75962,
+      "etag": "\"3bbbc172d3694e2c3b7e4ac169d716c9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-21930.traj",
+      "sha256": "136273fb15a23187a546527c3d9668147e52f922d9d00ec7fd571e024078d00e"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-22080.traj",
+      "bytes": 196681,
+      "etag": "\"572949cb8a49a2cfae695d41e512f73b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-22080.traj",
+      "sha256": "5ad218bfcfedcedfc084d76195362086ead948f6c4a36ea99b0cf401087abf22"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-22456.traj",
+      "bytes": 105653,
+      "etag": "\"f256e766bc59e7a1024a9016950fdea0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-22456.traj",
+      "sha256": "d298651f5ce0be5670a37e46221c019518cbc522b945f694a1103bc0bcc0291a"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-22714.traj",
+      "bytes": 268496,
+      "etag": "\"7ad27b68bbd4d0bbc55c1477f2b13543\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-22714.traj",
+      "sha256": "4bc63c0f0a79b5c87e4013f5c261f39364671fe945d2a65e4ce37a2c24cf2152"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-22914.traj",
+      "bytes": 229188,
+      "etag": "\"fcfcc65e8e432f315d9e47cb6549edaf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-22914.traj",
+      "sha256": "62b6f98cd1b78d82a1e0340317eb53b3e5ba7f30156a2c290d01280bc1dc3834"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23262.traj",
+      "bytes": 111357,
+      "etag": "\"b7bb0b879dc8ebf9c759e4cc5bb68e49\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23262.traj",
+      "sha256": "aafa1c2d4c4c632d1787479721de6c5d060765206bcdfe6c6ab57733bf9adfab"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23413.traj",
+      "bytes": 186488,
+      "etag": "\"61f37383788db4a993c310d39f301860\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23413.traj",
+      "sha256": "9edb5b1dd56ea7782e6c0a2a988918450d9f86682b5170d14816998444742b29"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23534.traj",
+      "bytes": 140038,
+      "etag": "\"b13083391d28012c3ab58097ba28db84\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23534.traj",
+      "sha256": "f405788de92d1d575100b1f92fc7a8ac6f8dcaa5206cbfe9bf806130dc646661"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23824.traj",
+      "bytes": 206755,
+      "etag": "\"25f6fcfa96b4d54050d6522a43a981aa\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23824.traj",
+      "sha256": "bc09f78afdea00bb1d486f8c4dec396ab2c3a315f64d7891dee3ca4de5043524"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23950.traj",
+      "bytes": 61961,
+      "etag": "\"e2ed29eca14a11530fd0455b28ef31d4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-23950.traj",
+      "sha256": "e6bb795a381efc85a212ff5cfa76197a4b895ec4f1ce25351fbe1b6d32b56a23"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24066.traj",
+      "bytes": 324233,
+      "etag": "\"213362ed940f1057f0b162dad1792ee5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24066.traj",
+      "sha256": "8a61af245ab173550c8103cae51464a5ce7c6669f32dadff323362c6c6200d83"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24213.traj",
+      "bytes": 131788,
+      "etag": "\"79b9b46f560fc471d58c8cd44d9d477a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24213.traj",
+      "sha256": "7c0853e4f051dc01a125d002863456e17673985b57859785b8a9c61f54c5195d"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24443.traj",
+      "bytes": 83500,
+      "etag": "\"75b8aaf89c320f10ed9a0aff5bc45c81\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24443.traj",
+      "sha256": "6fda800033a4481881248c2fb572f8e22285d22775aec98739261a53e12e0ddc"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24539.traj",
+      "bytes": 64912,
+      "etag": "\"0f88fb154d0516c40b122a04989226f5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24539.traj",
+      "sha256": "eba02c3f3cc60372263de7c9ea5ad9401d9ed1eb44118860c9d84a59c82b48d8"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24562.traj",
+      "bytes": 449172,
+      "etag": "\"4e50787bab574fb227a0611cb715ea6f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24562.traj",
+      "sha256": "c2a426722572efa66f3a315ef66b99f11628c521061733d4f7def980e0673cdf"
+    },
+    {
+      "key": "verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24661.traj",
+      "bytes": 261189,
+      "etag": "\"7c2577204a06b83d9165e6a8df0bb91d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_gpt4/trajs/sympy__sympy-24661.traj",
+      "sha256": "47d0032b949db63dc2fc0e71d2e1ec8921fcf5ea7b2be8bcfe5beb11a341bd51"
+    }
+  ],
+  "metadata_sha256": "cdf0036abeea8b2766be27f7139bd689c90e4eea7bfdc431d67dd718c199a44d",
+  "official_results_sha256": "26971f1a55d711fd7c5f585443ce6945ff612f7ced94b3bca70268d2d030f65a",
+  "normalized_sha256": "c68440b18b5d81445bdfec71af73d853da87a9da0602b50f1c3102e715cc0120",
+  "split_map_sha256": "5387ca3e94afa6daf17b2800dcdc16e55089d1e09d0ae9e7c070a9c5fe1f8ca9",
+  "audit": {
+    "submission": "20240402_sweagent_gpt4",
+    "benchmark_rows": 500,
+    "retained": 496,
+    "official_resolved": 112,
+    "retained_resolved": 112,
+    "exclusions": [
+      {
+        "instance_id": "django__django-10097",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-7530",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "matplotlib__matplotlib-13989",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "matplotlib__matplotlib-14623",
+        "reason": "missing_trajectory"
+      }
+    ],
+    "unrecognized_files": [],
+    "complete": false,
+    "normalized_sha256": "c68440b18b5d81445bdfec71af73d853da87a9da0602b50f1c3102e715cc0120",
+    "label_policy": "no_logs excluded as unknown unless explicitly listed resolved; no_generation counts unresolved"
+  }
+}

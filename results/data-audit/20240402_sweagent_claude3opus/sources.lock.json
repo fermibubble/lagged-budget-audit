@@ -1,0 +1,3357 @@
+{
+  "github_revision": "40f164d5b8f1d249bf95a6df8b74b577fd8e519d",
+  "dataset_revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a",
+  "dataset": "princeton-nlp/SWE-bench_Verified",
+  "dataset_url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/data/test-00000-of-00001.parquet",
+  "dataset_sha256": "a45b1fe4e2f0c8390b2b2938ac83e92ed5979000856808f3679c07812e9e6dcd",
+  "submission": "20240402_sweagent_claude3opus",
+  "retrieved_utc": "2026-10-16T03:25:28.163393+00:00",
+  "files": [
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-12907.traj",
+      "bytes": 168492,
+      "etag": "\"503eab45a53800185f0326c43b2a2a4d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-12907.traj",
+      "sha256": "9b5a29a3e8ba766874624561c2bc7b622f00cfc80c5ff0bd5fd3b8426a4c8c34"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13033.traj",
+      "bytes": 78813,
+      "etag": "\"ffbeeef0becdaca2e11b34b546b74319\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13033.traj",
+      "sha256": "93d84117ed72b27021475f0d7f85e7e1558020234f43c25ec84d098c1b9c6f53"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13236.traj",
+      "bytes": 119382,
+      "etag": "\"8eb12b0d48bb598e1126331810b4744f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13236.traj",
+      "sha256": "297a8dd0254d69a0c73aab713b08718c2f4b2619ea4017f34ef86d69cb452597"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13453.traj",
+      "bytes": 137537,
+      "etag": "\"dba69f7df43d62939fbaa67b5815169c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13453.traj",
+      "sha256": "35633a5bb266917de0a8a43d848ff4be0683fff245c4f181b95a49a947cd12b4"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13579.traj",
+      "bytes": 146531,
+      "etag": "\"9f279aa02abe8a84497aa9b2cc18fce0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13579.traj",
+      "sha256": "1f786fe7d78c47f256a2884f238b2a72a588c72c41227e593e7cbbc57817a708"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13977.traj",
+      "bytes": 130935,
+      "etag": "\"17d279d2dd46febfa9f246c22bc7c402\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-13977.traj",
+      "sha256": "c839d9be9491a8dd46815becab225bdef196b9dbb9147b52ca9540baf8f6a4a2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14096.traj",
+      "bytes": 76428,
+      "etag": "\"23c8353429845c397330f19d6d42a8c7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14096.traj",
+      "sha256": "429d0be70fab5bfe4cd0c69f3f7f2ca59d70cc106b5477f52e6228810ea342de"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14182.traj",
+      "bytes": 159733,
+      "etag": "\"cfca946be98450197d4d8b2e3b98a823\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14182.traj",
+      "sha256": "ee026e8e518f2730df7961fd54f3f83705e32e7ddfd7db6f90b1f4a17f3e9706"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14309.traj",
+      "bytes": 80143,
+      "etag": "\"bdbdc186b8749eaeef86e4a8dd7276d7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14309.traj",
+      "sha256": "8b39eec50922fedfa2521fe06ea6768a27a57f5595648749aed9712853e34a2e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14369.traj",
+      "bytes": 155177,
+      "etag": "\"fa7fa2f8e878aec33adf240b80d86207\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14369.traj",
+      "sha256": "833fe68df5257a683c8e75799f13908831f00b401b4a69717edc6cc552e9d458"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14508.traj",
+      "bytes": 91662,
+      "etag": "\"b06128f287f87aecd1344e7ca67ebd0e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14508.traj",
+      "sha256": "1332828a9daf138954bc9390152f062d2e8526e563816fbff06ed3e634ba4bf8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14539.traj",
+      "bytes": 162717,
+      "etag": "\"073230a3fbc3513d5729d4c2a5fdaaef\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14539.traj",
+      "sha256": "eabebd13d176592a8a0d83e8c7b1c142ab96b9c01537d20d10a75ec942b1eb24"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14598.traj",
+      "bytes": 147115,
+      "etag": "\"107cecbe05f6296cb89a716f69b7f103\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14598.traj",
+      "sha256": "d461aff364f66006f2b8070e0672143b2fe2f9f7a81c737fd777b1869d045d85"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14995.traj",
+      "bytes": 78237,
+      "etag": "\"76f7995b72db627dbb928f5a69ee42dd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-14995.traj",
+      "sha256": "42b5b209359f20c949b5194fa19550d191ac9171f870da6dae0ffe03f06f0805"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-7166.traj",
+      "bytes": 94098,
+      "etag": "\"b5486a1599ca171f732abc17ac6098da\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-7166.traj",
+      "sha256": "798b8e24bdc3bbc4810fd32c348c8f273ccbd863022b675e8aa159ddb6edbaf9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-7336.traj",
+      "bytes": 94042,
+      "etag": "\"ce215ebf327a1fba03997ec8384e8934\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-7336.traj",
+      "sha256": "4797e79f16d2526f43103818dd3d7c00f03782ffffc85d083c37b6100799f3aa"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-7606.traj",
+      "bytes": 79643,
+      "etag": "\"0b2c9ec6564b78630525a23a727c9bbd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-7606.traj",
+      "sha256": "59d90eb4be844ad42d2b317e066356a9df8cbe3ab4596fd42cb8cb189e77b030"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-7671.traj",
+      "bytes": 161996,
+      "etag": "\"da3513cefec10fc5887d7518c2b5444e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-7671.traj",
+      "sha256": "9211c4450b75bc4c8d344eebfd39ab293a43edde1d702caffb4a976a74cdbd4a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-8707.traj",
+      "bytes": 127162,
+      "etag": "\"1af35324832cb7be1700c44f6c37216e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-8707.traj",
+      "sha256": "12cb0c83430b7e64c7fbd24d5122db754b85e151230ce1af3c5207ac2295c676"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-8872.traj",
+      "bytes": 141231,
+      "etag": "\"419f5184cd034c7655364ec2c12bda5b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/astropy__astropy-8872.traj",
+      "sha256": "3d7afe1f8b1e75acaf210ef3696bed4772d2b988d729008b05b9369c507906ef"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-10554.traj",
+      "bytes": 134855,
+      "etag": "\"29d7d899ecf9e2e0ff0b753566066768\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-10554.traj",
+      "sha256": "838f550e4edc0cbf55afed3b8b0b5b0c1fa6f2832bb3cdd58f073e927af04172"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-10914.traj",
+      "bytes": 110675,
+      "etag": "\"929b43e7a15b05779240f1413b115a28\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-10914.traj",
+      "sha256": "18dc41d4351454e999e0893fe3ee1863cae792728209e4ea42ac388cee15861e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-10973.traj",
+      "bytes": 147593,
+      "etag": "\"fda4c3b7eaed57b1b77d2d674e833303\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-10973.traj",
+      "sha256": "c2d9220e675c898af0bda8f5a01eb3139422b747054c9389dd057c403ecde657"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11087.traj",
+      "bytes": 181244,
+      "etag": "\"d33dd378dc31552008c20e75a5652d03\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11087.traj",
+      "sha256": "aa4d969d581df2fa471be305075e768b23c197edc763bbf68ac4e344089d0cda"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11095.traj",
+      "bytes": 237946,
+      "etag": "\"86828478481976e308e4841751083937\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11095.traj",
+      "sha256": "8f58157ae18bf8147cbc28b559399ad43acaad4a309c5bb5848b424136051cab"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11099.traj",
+      "bytes": 60738,
+      "etag": "\"69e244d64d61c981184b51eee5a2e62a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11099.traj",
+      "sha256": "9b66b2be24d66efdd5e61019b53338b4378c4851f5fecdc04803bc531d8741fc"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11119.traj",
+      "bytes": 83845,
+      "etag": "\"99011cf3cb41ee0d7d1904dd1e4df752\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11119.traj",
+      "sha256": "aad4e3ecb252c97f3e7cc38849cc22fcce592c2fe3228ee3ebe7febed3c29207"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11133.traj",
+      "bytes": 131217,
+      "etag": "\"648c207c37147422178180b5b593ee44\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11133.traj",
+      "sha256": "b60ee9bb7ba103a4d2808cae90f2f3bf67b9ad02cd3b037b58170a6e9bc1583e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11138.traj",
+      "bytes": 113652,
+      "etag": "\"8e5566ef43546ef6c765bede5ccc26f4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11138.traj",
+      "sha256": "3a45cb6d06fb2797471588a8d129888ef7dc540b21289c1b697e1f90aa1f89a9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11149.traj",
+      "bytes": 110493,
+      "etag": "\"d8f37ebefe262a72c2d9bf60c13c69f1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11149.traj",
+      "sha256": "80d7b1a6a0c59c834619766fbf585cbcb003d8005dbb3a3d8b317f6e5688ee25"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11163.traj",
+      "bytes": 98084,
+      "etag": "\"57c69efa1498c48e2c765d3b47260e96\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11163.traj",
+      "sha256": "859fd6cdcafc5aa4e119bc4ac016f4423e243acbd6255d867c52764fe70c72e0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11179.traj",
+      "bytes": 128788,
+      "etag": "\"ebd6fe88d098a35a627244d4af356d18\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11179.traj",
+      "sha256": "f31c565fbd22e927f5c1218eb0873b3c1c2ce6b390020b896e6e0b1dcea109d2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11206.traj",
+      "bytes": 153045,
+      "etag": "\"bc917c290fc3bc358516a934f78d66d0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11206.traj",
+      "sha256": "1b69559ee5e7d766771f73c1d154063c13e3e33005170cad160b160ec05b729b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11211.traj",
+      "bytes": 112634,
+      "etag": "\"d962462464434324985be83ee8a4f0cd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11211.traj",
+      "sha256": "e9cc9d851f3e79b2175f199a45e36981f8a6b9345d72eedc7a121b1ef6866b79"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11239.traj",
+      "bytes": 135650,
+      "etag": "\"39fb190b1707a8d5db1ad0f98bff4881\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11239.traj",
+      "sha256": "66e85f06898ca0aea081406cee7e4f33c1990cf0e5fc139349566851b76d56fc"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11265.traj",
+      "bytes": 206315,
+      "etag": "\"56fcc7eef4c09c5ea9cc7ae04ebb2e2a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11265.traj",
+      "sha256": "dd11aa45c5ecb796c959952d0b6aeb5679cbf34882e49d1d4fe90e256f28bb27"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11276.traj",
+      "bytes": 154400,
+      "etag": "\"6656d3ea5056a537271a1cc88e50bf43\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11276.traj",
+      "sha256": "6fbf0ed88c69febf785a57b7ea08ef5a6fc505d257b7d70078267850a51855f8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11292.traj",
+      "bytes": 110079,
+      "etag": "\"35e7804964a5bba3a463d70919931e13\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11292.traj",
+      "sha256": "885153da2e6e0915d68549d1c017d58a2a4ea60ea2f0344f3a68cb1c70429aca"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11333.traj",
+      "bytes": 144172,
+      "etag": "\"b015e90d86c7b35ef0f56a3e8bab4a0b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11333.traj",
+      "sha256": "5f3d8ce5cfcde5f16944687ba571771d67c687a1d012689a3870b0345cd36da2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11400.traj",
+      "bytes": 108720,
+      "etag": "\"942666fab046edec8bdadaf3b38f7b0f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11400.traj",
+      "sha256": "1110deb283a12d77da1a29fd8b86fa207fc07f84d49a9324cd3d5e478e720b26"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11451.traj",
+      "bytes": 75910,
+      "etag": "\"1b239df48ec35b5f95fbfa441645e0a0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11451.traj",
+      "sha256": "e9096dbc5f82551e1c454e7a64d34f3f80a2022a32d7834507273e6f3144fec0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11477.traj",
+      "bytes": 197683,
+      "etag": "\"019607ba8934d30103c2e91c42a97bd9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11477.traj",
+      "sha256": "c90193500e7c9ab5b51e86947f892f8d5b3c86ff80d624bbbf691c87a7605e3f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11490.traj",
+      "bytes": 128235,
+      "etag": "\"2cf4a7e33ce5a2f77a34eba77c806ccc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11490.traj",
+      "sha256": "1a5174fc0fc611037b74ad3714174ebf51b72c49273ab252e65ec25c5e57449d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11532.traj",
+      "bytes": 127126,
+      "etag": "\"3634f78a46b657c87a736a5db02307d4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11532.traj",
+      "sha256": "8931bb37c402c532bde4e1863e44037d6216ff7b398a77f28dd4a27dffb60b02"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11551.traj",
+      "bytes": 88682,
+      "etag": "\"36f64929199a52ba06a5f7fbbf6cb19e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11551.traj",
+      "sha256": "fbb2a983c530e2afa79cab1034778f7a40c93d7c1977cd082da06ceacffc875d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11555.traj",
+      "bytes": 75904,
+      "etag": "\"665138e583b192ddcbfcdad611aa6bf9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11555.traj",
+      "sha256": "517662f69a31042a105d7aa23e280038a713937f5cf219473edd70a17870c196"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11603.traj",
+      "bytes": 170448,
+      "etag": "\"5d5139cc9da1c794eb86b92ace116896\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11603.traj",
+      "sha256": "fcd8e606526973112c2395cffd9bcb9d4674bf22cbdbbe7120398ef667f6b0d0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11728.traj",
+      "bytes": 163518,
+      "etag": "\"77de13bb2f70006f2758ad31bca4753e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11728.traj",
+      "sha256": "9c851f859a069a6dfe8833c1bb1a2a641304930e84a5937de94dfe8d1530c5b4"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11734.traj",
+      "bytes": 194166,
+      "etag": "\"bed2df654c50a88110e6a9b345218dac\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11734.traj",
+      "sha256": "18bc059ac7e359b1013386b625b43d398c10165064f7b2d514c6b2c7029fa615"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11740.traj",
+      "bytes": 120450,
+      "etag": "\"c44a0969737239451b1b230e607edfd9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11740.traj",
+      "sha256": "b9db945571c5ccc5ed33f148b8bb18da41acb63ba1aa275e98bf03b05f37aa22"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11790.traj",
+      "bytes": 170327,
+      "etag": "\"44a4871f1447abf0284db6c4387afadf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11790.traj",
+      "sha256": "4c5f4fecc8a6f668f07c928c94d9f4f563d1830bd8ec3daecfbf16a5d177badf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11815.traj",
+      "bytes": 118218,
+      "etag": "\"06799ab33565088b4b82f92b9d5bfd37\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11815.traj",
+      "sha256": "0c43fb3e92af37f80202262a930b801883f757e65754dea115750a84706966d3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11820.traj",
+      "bytes": 131433,
+      "etag": "\"e7111fa9f33e85a69598ca82c31c6249\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11820.traj",
+      "sha256": "cd9bec7f8cd2507db1a69322cb77c808cadf26730da42f8b0f836376b8805502"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11848.traj",
+      "bytes": 128101,
+      "etag": "\"544769b80484dc55da67d4c6bed88fe1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11848.traj",
+      "sha256": "921b67818b584e717eab1ff72f07ae372ac6f057ef21f03dbedf20dd1bc8a15c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11885.traj",
+      "bytes": 132006,
+      "etag": "\"3bb81adae3ea6c2e922eb0db3d1b0035\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11885.traj",
+      "sha256": "a24573e531876dc986918de8cd3e2fe438b2f0ca1a87e85d5efc089df97d0ccf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11951.traj",
+      "bytes": 163148,
+      "etag": "\"80cb9d0bbb0d0cd5be5c8f853aa3100e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11951.traj",
+      "sha256": "9e680ff37e3cd611dbdeade2a51cc29ba670ed27a86a1a4ccfe51db84c007744"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11964.traj",
+      "bytes": 147088,
+      "etag": "\"3d2a89012a873773021dad3a4e5eb21f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11964.traj",
+      "sha256": "4554023e4b45682216aedd6a56fcd49902bef4203e7462f00d2b1b3f366d5790"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-11999.traj",
+      "bytes": 103843,
+      "etag": "\"5b3b2468e4ccf1c292eef41966340100\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-11999.traj",
+      "sha256": "3b96bbe1b9b91afaf583e4e5500626712db0d1091d4eda6afbdd9e5fb6e0802f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12039.traj",
+      "bytes": 136230,
+      "etag": "\"72b0ecf4ad3e16fd4b098fff433dc90a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12039.traj",
+      "sha256": "01017eaf462cbd9ca42917744bba050323e60d4549c503c1be28cbcc4cb14e74"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12050.traj",
+      "bytes": 148083,
+      "etag": "\"27e4f3c0d7771cccc5b33de26b541ec6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12050.traj",
+      "sha256": "32823cbb7f15588fe7ab722389cb34489472481e0fb8b893811951790d07cd49"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12125.traj",
+      "bytes": 97576,
+      "etag": "\"66b6e9ffc642650099765464b77b09a4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12125.traj",
+      "sha256": "68b334550894027e8c6bb2ebc21056e76d0d792e93aeab7f981c59d0372b9b07"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12143.traj",
+      "bytes": 126959,
+      "etag": "\"b69df17da0325aa5d7f2d91849e601c3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12143.traj",
+      "sha256": "fede2f6a5448d3e73ce2ea208bcd625fdda55d051911d48332e50fd47abf0995"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12155.traj",
+      "bytes": 117039,
+      "etag": "\"554f64a8093eff3ec9f615494a5d4084\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12155.traj",
+      "sha256": "aee0d0cf545f138448416ae13aa11681c0fa40713df83386d3d39813fe0dcd18"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12193.traj",
+      "bytes": 114483,
+      "etag": "\"25405669d288eb7b0ace64b42deaa913\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12193.traj",
+      "sha256": "ee876dd6f54e188861b6c420e6b359c4b31049295818417862bea03510d28c52"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12209.traj",
+      "bytes": 132760,
+      "etag": "\"14302530a0666cc63e0e4532cf7f0ffe\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12209.traj",
+      "sha256": "cabd897ad96034741a02a4b8e7d4a76bb0f160145705922a6035a0a10e57c356"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12262.traj",
+      "bytes": 109018,
+      "etag": "\"1e97df9982cd6f8eb5090ac607d026ba\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12262.traj",
+      "sha256": "ae71e74bfc62525097d27502b559dbe0f6238e47040ef623d03c750fe71f57b9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12273.traj",
+      "bytes": 118636,
+      "etag": "\"42747842c02eb343593bad74890ef6c0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12273.traj",
+      "sha256": "bb2e0bd79e761ab728262fdd8f40f5abe66196dd1e086877665c9c83f3d043e3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12276.traj",
+      "bytes": 89770,
+      "etag": "\"af98ccee2e647b27115f5142dca075a7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12276.traj",
+      "sha256": "4a601affee91897bd6a3f489a52c114fd991d323b3a276f460cf4ee6b6a1ed7f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12304.traj",
+      "bytes": 71152,
+      "etag": "\"776558ee749860b694c1df3a9d875ab0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12304.traj",
+      "sha256": "e377f1de6b79ae567997a2488b5ee1e641d29f04c8118aab1097dd67fa95849f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12308.traj",
+      "bytes": 156724,
+      "etag": "\"399e63ef0c87e7d9cd665fb3aa4499c3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12308.traj",
+      "sha256": "000abb08f4f25d09ded5b5afe6cdb2de39e38bdf0cefe28ebef30e1562e97e29"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12325.traj",
+      "bytes": 125051,
+      "etag": "\"5f89383ce8c6ec0a2164eb0a60642b7f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12325.traj",
+      "sha256": "de446ab0c5d6acdbbc7b90bd2104f355a2a3f7df6cd00464f9a8421196dedfeb"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12406.traj",
+      "bytes": 155548,
+      "etag": "\"6979294ca9f2c704d9aa9a7223ec3f86\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12406.traj",
+      "sha256": "2a1a586f0bc957ab089819dba1f8e58f91badf8e8498488f6a450502c8965b5f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12663.traj",
+      "bytes": 125403,
+      "etag": "\"0411acb26e7832fa1335f0530d266d66\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12663.traj",
+      "sha256": "6bb1dfcb92e22b43948c65866c01605b47d58f4f1935a0d9bbfe2537d7375394"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12708.traj",
+      "bytes": 99630,
+      "etag": "\"cd6c33f5cc83716c707c7df817f93295\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12708.traj",
+      "sha256": "f00c3d188af596855dfc560ab22a614938ac030b97c30ac3602df182ce40f06d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12713.traj",
+      "bytes": 119361,
+      "etag": "\"202ec8000ce5bb4d7e1bf1a7f9b4d5fc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12713.traj",
+      "sha256": "2a107553b6ad7c8857cc27cb3bfc20ebd47d255949d42ef5f0eb70284e0c6ae9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12741.traj",
+      "bytes": 169031,
+      "etag": "\"4806589b79b39cc219ea8380292a29ba\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12741.traj",
+      "sha256": "0e306a7bbbb6071161fd7849ab2ff2e640c7626b4542334b8ae01e66151a531a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12858.traj",
+      "bytes": 107467,
+      "etag": "\"575d764062efae3d0cdd68920a1daa08\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12858.traj",
+      "sha256": "1e7ae6a4f19f404d457b831bab2afdda9d0b85316202a1616bba57a64ba0a9ba"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-12965.traj",
+      "bytes": 178984,
+      "etag": "\"55c8778896a0769065c63779179ad74c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-12965.traj",
+      "sha256": "98b4246254be774cacde1029ff96d4e82eaf0c3565b83cc75020857b9f930e80"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13012.traj",
+      "bytes": 106677,
+      "etag": "\"1a2d1a98a4f9255e8fb306572c17b6be\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13012.traj",
+      "sha256": "70dda8fa4dd8612bb23ceea755ddb3b9910ec4aff49102d251cb9b15ed6bdecf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13023.traj",
+      "bytes": 154945,
+      "etag": "\"7815d30090809533cec57f87ee1aeb73\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13023.traj",
+      "sha256": "9ee29fa35c4b0e32dd888ba14797d7729923623e35010b17f42a846d6f12f448"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13028.traj",
+      "bytes": 197203,
+      "etag": "\"06d7f9fda51a652331899ac2b9b8f595\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13028.traj",
+      "sha256": "a4a45ae4895114711b51d8b520099e1c549751c56bacf1e2831aee73e269d77f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13033.traj",
+      "bytes": 112235,
+      "etag": "\"916d7478a510cd76c9204b1374cbdf72\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13033.traj",
+      "sha256": "c1d8125e9d428acd9b68f7084c83e69728bb67040fd0e803a1825d20007c0890"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13089.traj",
+      "bytes": 98633,
+      "etag": "\"de34fb2d5eb09d201685bf23145a777c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13089.traj",
+      "sha256": "e48b06820e1309cda00d26f70911e36f32ca8321f09927156b478559231997ac"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13109.traj",
+      "bytes": 140162,
+      "etag": "\"d29b7f9665846c0e5ba45f10a8c4709f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13109.traj",
+      "sha256": "da6ac0157a68bd94c2b343f53dea3f6d3161c1350031c8aeb17f9bb23deebce0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13112.traj",
+      "bytes": 137720,
+      "etag": "\"c272ac6ab8342ccdbf69a6cb4e24b564\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13112.traj",
+      "sha256": "f671e305287f4b8ebc4b1c657db59991c0c3dbaea49ad5e932c606492647f6b9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13121.traj",
+      "bytes": 126119,
+      "etag": "\"325fc43968251f0c296d51ce2e8670b3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13121.traj",
+      "sha256": "4c13be4662b81a8b714c8d2ce68360f0999dcd2ab581784e5d6e1ca75258dcad"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13128.traj",
+      "bytes": 107234,
+      "etag": "\"fa49169ddb5b1e8d084f13a1b3837d44\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13128.traj",
+      "sha256": "fbdf336c25a17ed582bc638845d61f46a3e11cdfe11a098e3f2656d6cd8ac03e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13158.traj",
+      "bytes": 115976,
+      "etag": "\"90055460bd6190442d828205d3784428\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13158.traj",
+      "sha256": "6a48c8257381b49f3aa273ec169f0128b487085a22deceb297a17e54791bec11"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13195.traj",
+      "bytes": 140926,
+      "etag": "\"7b6a014d6f8384cd3ac52128cc6f645f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13195.traj",
+      "sha256": "696a845fb75769044898043af207e576969b43e75f8e9beed10d7d2e2fd6c950"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13212.traj",
+      "bytes": 168051,
+      "etag": "\"cae32e4f267d15a52bea42b3d80f9282\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13212.traj",
+      "sha256": "2353fd4924a04a2444d085f3cf717c768d76dcd24fc6bcb87a71155dad3248db"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13279.traj",
+      "bytes": 79603,
+      "etag": "\"19aac36ba82597dfb7ed307a72ad6d87\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13279.traj",
+      "sha256": "decda1164b75ff1f8162ab8af3420f0356d7680d2ea6fed515813f61bb107007"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13297.traj",
+      "bytes": 124843,
+      "etag": "\"dfaed29f3588e1c1d7879e7a84a7553f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13297.traj",
+      "sha256": "c37266efb6c567975d801bea2c7d6906044a6109b4defda53572143fc8946baf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13315.traj",
+      "bytes": 129711,
+      "etag": "\"778aed7aac60a71e1d6f51525209d6ea\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13315.traj",
+      "sha256": "45e5559cc9be5d1640a6a0f5b58477af031e0cdd3cef44119ace6153379e743c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13343.traj",
+      "bytes": 144255,
+      "etag": "\"1e8690fab724c42bb42cfbea028c1936\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13343.traj",
+      "sha256": "9cf5436103397323047ca44af8b34230274240cb9fedfc5938a5b2d25435a8c0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13344.traj",
+      "bytes": 137818,
+      "etag": "\"567da56ae30ee0431d377340e9cc270a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13344.traj",
+      "sha256": "db1c7a99d5493bffbf0d2ef498b72455b2ea80867fea35df5ad5e85e5fe37184"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13346.traj",
+      "bytes": 108825,
+      "etag": "\"cdacedf489a420d99df0028a4af36337\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13346.traj",
+      "sha256": "9476b1e9691b04b175b4e6b16d7d2b047c91916686ca54aeb2c5bc21bcdd3116"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13363.traj",
+      "bytes": 135208,
+      "etag": "\"6b6f0256207897526d9e210a710d143f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13363.traj",
+      "sha256": "2887a159eb639f98f7f0b57908a88644457f548f341dc9cd077b3f7159347e1c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13401.traj",
+      "bytes": 118830,
+      "etag": "\"dd7bb831f7a5ecaed0aba1e1f3b4f3be\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13401.traj",
+      "sha256": "c25efd044f2f61299f1302b40fa27f81543dcf295f39939911d2a5a2dc5ad08d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13406.traj",
+      "bytes": 117538,
+      "etag": "\"23d717335ef531b4d06517b8c6791d50\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13406.traj",
+      "sha256": "cf9c1f08c710d9b0e5d499c7fff4fbd7b46258548673969b92ad61338c941133"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13410.traj",
+      "bytes": 91541,
+      "etag": "\"960378b8eb19c23b983542e759cfa9e1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13410.traj",
+      "sha256": "8233b8b32f6df76790398c9ec62682faf10ef5d95f890f549d6f02788d36641a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13512.traj",
+      "bytes": 132748,
+      "etag": "\"9d18af4a6d5b3cce9cfe046587651f67\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13512.traj",
+      "sha256": "8822a6548cd7ce71794c446bf076d65e7719316182ed982f84a2fe3c9e001a66"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13513.traj",
+      "bytes": 107899,
+      "etag": "\"6850e062a817581bea88863484b414dc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13513.traj",
+      "sha256": "c31e07f22e3529dc5c52cb77938f157d2a877ebbc8067eeda5abdad63cc88ee8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13516.traj",
+      "bytes": 103599,
+      "etag": "\"5e0ccac85c102ab2a2d79d1c97c65c56\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13516.traj",
+      "sha256": "7e615cfabdcf507597d4f757b75aec7b8178dac71bfb82b3150b949137f91a51"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13551.traj",
+      "bytes": 143721,
+      "etag": "\"7e6f92fdfe014e5c7be417bc699e5a79\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13551.traj",
+      "sha256": "595e97320ff5a1516046606579558e7e0367df82beab1861ad16a6d8bb19dba4"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13568.traj",
+      "bytes": 133507,
+      "etag": "\"219f8b9660b6d07635ee65648581ad7e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13568.traj",
+      "sha256": "ea5772d4de5b71f7baaf8db07ce17ebd5ca0fb26ac8cae96cdaa40d904968f3a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13569.traj",
+      "bytes": 90808,
+      "etag": "\"eab397825b937a6ca2dbaf6299f09274\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13569.traj",
+      "sha256": "73a2f6667aa4e520f194207a879bf2d6e9b0039a2dce21f6ec38cf3e1216ea89"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13590.traj",
+      "bytes": 117293,
+      "etag": "\"c4086a8bdcad6eaca48e803145265b92\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13590.traj",
+      "sha256": "d3b4b9db8c96110c176de7db910fb98d64162315a9503b2a8dcea6dd55d7f57e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13658.traj",
+      "bytes": 169554,
+      "etag": "\"1d21901a252660db609815d560d7e6d7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13658.traj",
+      "sha256": "59b3b272be5c8d0be685d58a588f6f2367e142078bdbf315093b6f98bf8d0ba8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13670.traj",
+      "bytes": 93249,
+      "etag": "\"d0c46b2804e6941db9378c87b43d0cf3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13670.traj",
+      "sha256": "7051de827a3c70408ea36148f88a43cec984cce0f6bb886a6795a5638c9dd1b9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13741.traj",
+      "bytes": 102562,
+      "etag": "\"7473ee36b8c8bbc610279d35a4034c25\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13741.traj",
+      "sha256": "fa401a3f09ecf07aa033b79dbf98d4afdc757316b8bbcc87f0ff375c720b5260"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13786.traj",
+      "bytes": 256891,
+      "etag": "\"4320cc91eea00e7ecf99d10693971a2f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13786.traj",
+      "sha256": "52569226c88993a7498aa2768e83e8f6f8f8d20ef0700b6ecdc501bc2847777f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13807.traj",
+      "bytes": 94965,
+      "etag": "\"968374f4055777c5327d0fbfed0583fe\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13807.traj",
+      "sha256": "c8bf51a4733c1c19dd14537c854a12e4f00ddadb930565c8d6a331bd3e748415"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13809.traj",
+      "bytes": 177431,
+      "etag": "\"4a8cfab3be06f4c18f1dcc12f1968451\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13809.traj",
+      "sha256": "f07eed9e759e4c90f9e70c37531507bd4c7e0504e3cecfec734d8a258d91ef62"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13820.traj",
+      "bytes": 67879,
+      "etag": "\"40293e7053ae938bd67f60fbdfbdfa8f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13820.traj",
+      "sha256": "4a0fae41e94c0721c6d47fccba794358adca2b4510ddb72eb2812896719acd6c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13821.traj",
+      "bytes": 176898,
+      "etag": "\"9a9dee6741cc21d707ca040e79ef70ca\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13821.traj",
+      "sha256": "5818eaa979fdd02943eb442322d7a325c686b0bccf6be3911c7d4111ff9667cb"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13837.traj",
+      "bytes": 115705,
+      "etag": "\"aa5353995e2a4c79cf7c0990961e8ce5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13837.traj",
+      "sha256": "0e89b3965348af560a0aa8b4e987fcbe1874881f136c4d1a5447d27a4aa0027b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13925.traj",
+      "bytes": 106451,
+      "etag": "\"6d871002425e7e0a7514b499bae81b46\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13925.traj",
+      "sha256": "fbff3e3c5731ed48ebb0af1f491f4bd36caccbb79b022077036aa35aca428fb9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13933.traj",
+      "bytes": 128463,
+      "etag": "\"6bd9a16cf0d5303c00dc16a276a07b22\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13933.traj",
+      "sha256": "9de426c05547f716206283b5d39f4fd116727de048e9840c60093b5c626de232"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-13964.traj",
+      "bytes": 120588,
+      "etag": "\"015ccfac9d5b7c004d2d112851fc0b3a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-13964.traj",
+      "sha256": "d430b67311c41859001f2721ee8c37e4a3cff0530e8ffa1c2933aa3a1c7dbafe"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14007.traj",
+      "bytes": 147346,
+      "etag": "\"9bab5e06029484e81b9c355202e774df\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14007.traj",
+      "sha256": "ec23c9862b71ad2c0a291091ce78f89e160be9f9504fd699e9a0b178589b8ae1"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14011.traj",
+      "bytes": 78980,
+      "etag": "\"84f6096da6cba6b77dec69399829cca0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14011.traj",
+      "sha256": "cc4d6f0ac5ed7b0af93167a2ad214b18e32c13616ad38f75812795704f122190"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14017.traj",
+      "bytes": 141249,
+      "etag": "\"9f67413d0ed6c2b589e066d349eb6612\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14017.traj",
+      "sha256": "770432e5002e6f3b4baf97a393e9c4241115a899bafb8f57f3a96b6e953b4f45"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14034.traj",
+      "bytes": 147776,
+      "etag": "\"a3110a373836780657ee753cb1e74278\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14034.traj",
+      "sha256": "a5be6178feaf253a4d68a05d41270f55a3945151067e9612e1a173ab386f9ec4"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14089.traj",
+      "bytes": 63247,
+      "etag": "\"f97ab3491401c06717b173a9edb4f049\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14089.traj",
+      "sha256": "d5d9000e562a24d643e024f9616eb58732a882d0ac26e77197b4db89aa25eaa8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14122.traj",
+      "bytes": 160929,
+      "etag": "\"b3179a5b90f19a021198d74b5ca90a88\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14122.traj",
+      "sha256": "347fa2f93923e1384a940a378c1bdd3cc7d87d707c266cd363457e51fcbfa2b5"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14155.traj",
+      "bytes": 185274,
+      "etag": "\"287452c3529f724e47bf72169a2abc33\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14155.traj",
+      "sha256": "e1d3fa92609f564af2e88314432edd46ac2a8e1ea6c788923eb9fa77eac0ca3b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14170.traj",
+      "bytes": 124559,
+      "etag": "\"35fbffbfc7fbe6eb98eb64e5438313c1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14170.traj",
+      "sha256": "f387ec07de793d9d5e76b5b1374031ad5fef5fce15af403c1c6ddfa86145573f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14238.traj",
+      "bytes": 94550,
+      "etag": "\"fc1d247c727fc09b9a40d92ba685d15b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14238.traj",
+      "sha256": "6460109d1b3aa3887a179b690cd42d934e5134ef880ed1c756c4da2bcc800b99"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14311.traj",
+      "bytes": 88446,
+      "etag": "\"36ac274875e748c3ce88e5d2aee6e1aa\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14311.traj",
+      "sha256": "6e9173ddfa61f4bc6b67c1be251c0362ae5c989e6c339f28a7f64eb844ff2bd0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14315.traj",
+      "bytes": 117900,
+      "etag": "\"2848057bed25f62ba5ebc2c19ab2c86c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14315.traj",
+      "sha256": "1f4a7a1595a6792aaa1d3a8f216ab54e7a00586506305a75b3b3db592e138fa8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14349.traj",
+      "bytes": 266107,
+      "etag": "\"5db880c74051665f6ebecba7a8ddb495\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14349.traj",
+      "sha256": "de6561573798bf21fa4909ad9b78f767d13795072c2e4290485d9db4e6f42f41"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14351.traj",
+      "bytes": 128717,
+      "etag": "\"178320fa447ca46f8b30814e38fa30dd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14351.traj",
+      "sha256": "e8d845cbe96f446d431117c79e9f10a5ebc3b28a53a19ad1f1a32206183242f2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14373.traj",
+      "bytes": 104835,
+      "etag": "\"602e0d326aff4ccd39eba5d503eb1228\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14373.traj",
+      "sha256": "cee3157551d5d5456e971d55c9fb7517c0765ad7c3557eb6b994a553d7a2743c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14376.traj",
+      "bytes": 90785,
+      "etag": "\"7ba5bbdb50215e9ca0dd809eca05115e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14376.traj",
+      "sha256": "1ff09407c5977e07238105476d7c997bd733ff9be1e74210612460204aa5a5bf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14404.traj",
+      "bytes": 155858,
+      "etag": "\"1e0298ce1944ce0a17d98ad1c78e61be\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14404.traj",
+      "sha256": "5b9ad97de63cf5b52f341036e2d3f5eededdb7b5d969e08dfe6b4fb2a32ba92d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14434.traj",
+      "bytes": 178221,
+      "etag": "\"ff1e7b5a17dd84240baf449ba38e999e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14434.traj",
+      "sha256": "a88f7da4ff7598159ae6842933a0602881f8f97e886d606160565d07132c0790"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14493.traj",
+      "bytes": 118769,
+      "etag": "\"93991603f03d163dd27c30cfdf3bd500\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14493.traj",
+      "sha256": "2d249dca97a29694a36d3cb77ced2e4686697c1b89ee33f71ba397e1beebdaca"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14500.traj",
+      "bytes": 61780,
+      "etag": "\"081398cb9698d6ab27837a9b427cd3a1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14500.traj",
+      "sha256": "89fb1485a3db167a6ff5fb4cfff0ee6147a25961e9c203eb8321b6be308a6cc5"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14534.traj",
+      "bytes": 120390,
+      "etag": "\"383d3946340610395aa32e5f395bc4e2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14534.traj",
+      "sha256": "b3b471c2add050de57fae0daacd0dac340c63e39948c92137dd6300005d14f9b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14539.traj",
+      "bytes": 83915,
+      "etag": "\"ffa6fc51f3be634af1f16d0bc415eac0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14539.traj",
+      "sha256": "c7b058d1b4344934d471fedc525dd1b66eea7e184f6c40d70e53fdf57ac68ca6"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14559.traj",
+      "bytes": 151102,
+      "etag": "\"939d04f216caca4741d25d82d2a197fd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14559.traj",
+      "sha256": "a93908fbbeaa57547b3b116654c1582fe343988a0b201eb0142f745f576593f3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14580.traj",
+      "bytes": 100864,
+      "etag": "\"3e29d93d7d60ee6f43e1aee3d6f001f3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14580.traj",
+      "sha256": "1dc803360a93ffc0a857417c49441f3af3fbd5a83ace981216301d4b24dee436"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14608.traj",
+      "bytes": 193707,
+      "etag": "\"84d90ac16299a3634c02f47046fa261d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14608.traj",
+      "sha256": "f77987499def8fa793032545ba46c455b71067f19587f9d9e8947888539126d5"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14631.traj",
+      "bytes": 325350,
+      "etag": "\"88e6451efb44fa19a4ae677c43219024\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14631.traj",
+      "sha256": "c9d969cf311b456dbe307d0aa753722fffb2c7e21fa51435f4a1f9f9f3f10453"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14672.traj",
+      "bytes": 138362,
+      "etag": "\"5e24b8717662015c858d568ce87f6591\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14672.traj",
+      "sha256": "9bebae2f105ea68c11ec972ea3964b5953973fe699ee0757b236b80e66e67ad1"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14725.traj",
+      "bytes": 183572,
+      "etag": "\"4c21d1e8cbbaa867d1c6d39b9e75f00c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14725.traj",
+      "sha256": "5ec764e9bb52f990766ac6274572748b264306d4c7d7ba67648292af069e4703"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14752.traj",
+      "bytes": 82816,
+      "etag": "\"2d7db855ec72deb53b69996268d79209\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14752.traj",
+      "sha256": "d7fb91798a71b1186f38b2a7718c635125cbf18ca6cf50284976e02ef3d3ce38"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14765.traj",
+      "bytes": 74878,
+      "etag": "\"db6946d9cb8f622c0e944d61fcc38849\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14765.traj",
+      "sha256": "4935bb51d6ebe6bc7a333a83d132e55fc41af75dfedf56bf150d6188a7190856"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14771.traj",
+      "bytes": 135643,
+      "etag": "\"f001515660e3b592bca959f739390793\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14771.traj",
+      "sha256": "722b529ae3334c7826a5843f545033305f2cd879ce797707f7e28e2d845ab867"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14787.traj",
+      "bytes": 77065,
+      "etag": "\"8f35218c333b97ad3620fe60e9d3d667\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14787.traj",
+      "sha256": "534319360759dd4834d37db380957bae6cc3fea28eef443da8bfded204fefd7d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14792.traj",
+      "bytes": 54533,
+      "etag": "\"30542271799912d3e93790243e2a32b9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14792.traj",
+      "sha256": "291b6f55d9ee118b2a4fc2ea95b18dab595249a4f6a8ddc33dd7def54d935c3b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14855.traj",
+      "bytes": 76645,
+      "etag": "\"fadd78405b531d7ef190e86dab982e2a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14855.traj",
+      "sha256": "b61a82fb054e299a090bca811105c78fe7cfa2da5cdc50dc6e6cd4e95c04803e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14915.traj",
+      "bytes": 148071,
+      "etag": "\"cee895ab95d1dee0cd2273ca6917a1d4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14915.traj",
+      "sha256": "f09ba8fbfd7112d185fb1119083586a9df06c6971503c8124b2938c602053699"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-14999.traj",
+      "bytes": 138147,
+      "etag": "\"6e948bf5e380ecc2c3f2f016f478a8a3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-14999.traj",
+      "sha256": "8b6c62589deca713b3f2be0065e799ba856154622825b0037d3ba14db55b715b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15022.traj",
+      "bytes": 121291,
+      "etag": "\"d8bfce4234eb9c786f294778c3c73f6a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15022.traj",
+      "sha256": "3acd9bf41db974bdf823b200bf4c3f47be971690309a42acbb96f2dfb17acdb9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15037.traj",
+      "bytes": 119765,
+      "etag": "\"d52413866b1355b81d090a85241e3fc1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15037.traj",
+      "sha256": "3dcc2538f9f6963e7bcc41e3caf5b5caecdfd037ceef499016d1c42769e0e3cf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15098.traj",
+      "bytes": 144618,
+      "etag": "\"18d933dcc04bbc24dd8849d351ac101b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15098.traj",
+      "sha256": "627f4528b8b04ad5e3e3000cf1b0b4952063e8746418eaf8bb6b8d46f51b26c7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15103.traj",
+      "bytes": 82571,
+      "etag": "\"5720b58bac56e56639206fca5acdce51\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15103.traj",
+      "sha256": "28dd15a48104cfe8a3923374827520bfad298e82f929d95a93f2cfa9e874d709"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15104.traj",
+      "bytes": 109445,
+      "etag": "\"e373d4d114555f27fe08e7e1c438a21e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15104.traj",
+      "sha256": "5b46712535059e66c5ea1f5d4c10c0b58f276a9c3076dad7e26ad91b3cd5da5f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15127.traj",
+      "bytes": 98926,
+      "etag": "\"e75d589b2225f412c025d9384d894371\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15127.traj",
+      "sha256": "823b36e7afa80c36898308845a11cc6eee69733756e408d35d33aa41e93a18fa"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15128.traj",
+      "bytes": 134682,
+      "etag": "\"5d9d71db040fea4327f103d90e92d0b6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15128.traj",
+      "sha256": "2b5e1700df103000262edb1c383f4341f7f508272c9e567d44ed2410c2450fc8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15161.traj",
+      "bytes": 114036,
+      "etag": "\"c7e558c151fb233f3c11d59642b9bc13\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15161.traj",
+      "sha256": "4b63c7542590df724aec26884336a378f243f787e65dd27f27424810582dcd03"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15252.traj",
+      "bytes": 182933,
+      "etag": "\"f3fa7e3cb2c35e3310be66778f356ea4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15252.traj",
+      "sha256": "358505b6b646d325003e573d181f6a7ff38eed7d226531d2c0da8626e604b8df"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15268.traj",
+      "bytes": 174151,
+      "etag": "\"ceb2f91b294c8e2ecaa1bd70a066ce8a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15268.traj",
+      "sha256": "0757254ef760e470ff4578ac4ebce7bf9aa91015090d182d10156e88c43e01ec"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15277.traj",
+      "bytes": 144238,
+      "etag": "\"81d3ecd99ad7cc4328517dd9d88f4cfa\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15277.traj",
+      "sha256": "f690e0ed69b67207aae40256bfeeeddec1558af20eb6f4fc7b84b521f506eac8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15278.traj",
+      "bytes": 103498,
+      "etag": "\"b7c6607fa5d3ca35622d74b0ec30d3d9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15278.traj",
+      "sha256": "811e0757628f8614a88c74f0b053fe82f146601fb70e8fb1cec6ee25c5a5f085"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15280.traj",
+      "bytes": 123053,
+      "etag": "\"9f23bbf9a990aebf2660d49d1e42e600\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15280.traj",
+      "sha256": "57e7f7dfd5b7beb06b09560dcd5872ae1658d2805e9cd869426608f9082f5f79"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15315.traj",
+      "bytes": 123094,
+      "etag": "\"c391716c8fbce26f7b0e5e769fa30a3b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15315.traj",
+      "sha256": "3543117a4775a58e6ceb52f4c50e4d0d5c7bc5a90b0d9fa375a034469c3880e6"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15368.traj",
+      "bytes": 123469,
+      "etag": "\"6cf114f582df19a8928d049116d7f9a4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15368.traj",
+      "sha256": "e5b37d0fa0c0d270e8941945aec7b10ed0b1f5d077246b7ba5427e4345fe1c43"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15375.traj",
+      "bytes": 97411,
+      "etag": "\"13305cc305603ffcf901c28e64b3826a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15375.traj",
+      "sha256": "7eea05492ebb231593c3177fe9c9b9a628b9bf049d98411ae96786096f3eae1f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15380.traj",
+      "bytes": 150042,
+      "etag": "\"a40faa1f2f16a712c86be3a82414e52a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15380.traj",
+      "sha256": "7b32f1492134be46bfd9d4164827115ac4fa201878a2f3a508b21407d945e930"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15382.traj",
+      "bytes": 107836,
+      "etag": "\"b7d3c7feca36c2f9ac857a273f8f00d0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15382.traj",
+      "sha256": "477aac78cd4b69d64ae15c615563180cbabe01460a07bd949342f39b6e84d7dc"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15467.traj",
+      "bytes": 139844,
+      "etag": "\"314c68ab43cea4373de9d0a432fb79c8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15467.traj",
+      "sha256": "ecb68f86d60eb77749915fd0049cb525701b364bff491532ddcae55475ff41f6"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15499.traj",
+      "bytes": 110599,
+      "etag": "\"7930d11a787e6bcf0710cbec36e34f0a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15499.traj",
+      "sha256": "bcba30d9b486436053edbafc82b5c0d888862bee4e333cf2fbadf35f0a79eede"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15503.traj",
+      "bytes": 132569,
+      "etag": "\"a14d85af002ba425cd7ee28c4dbf3d3a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15503.traj",
+      "sha256": "83b913999ff9bc979b280b272767bdf8bb090099cd7a6744c72fab572f938264"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15525.traj",
+      "bytes": 160905,
+      "etag": "\"de2cf1282cb2702c2ab2e27760653dfc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15525.traj",
+      "sha256": "6cac6caa006f727aa24430a40fc320cd6301d9a849e678fcaf21baf58a62c160"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15554.traj",
+      "bytes": 154714,
+      "etag": "\"ceed795748148c65df3ab62a85592d7f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15554.traj",
+      "sha256": "7047b048fdce89753c741d466f5d2c1a41de95911d213fa04bb743a9b44b9242"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15561.traj",
+      "bytes": 196272,
+      "etag": "\"098e633234c76f4c651d06049b2fabe5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15561.traj",
+      "sha256": "792dfad686989cd8562d59ba37097cdeebbd4b578fc4e2132499b60150d5e613"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15563.traj",
+      "bytes": 113581,
+      "etag": "\"df8c1b3d6a10b78385ffad043520a043\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15563.traj",
+      "sha256": "54a438046746debde1d61c2d681997314774d205d5d2ebbb173a8283746be26d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15569.traj",
+      "bytes": 170588,
+      "etag": "\"349fdebb66f7441dbbdd6ef4ba5406b4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15569.traj",
+      "sha256": "6a60ec1ef39d0f5a50c2f24f4eecac9a3c72b13fee2570276b1dd2b4b3aebfe7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15572.traj",
+      "bytes": 104095,
+      "etag": "\"250cf9da9ab15252b4b85231b587c37e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15572.traj",
+      "sha256": "76b9352a709bf2273d89bc5c22fcafe4279615dc351db42dcd8718e56300ad71"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15629.traj",
+      "bytes": 112936,
+      "etag": "\"46085658528f1141cab77ca9004e5e46\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15629.traj",
+      "sha256": "00ece1a8cbf5759c3ab84760e4c8c98e2fd81c29f954b746e889253a04adcd15"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15695.traj",
+      "bytes": 141433,
+      "etag": "\"d81072d2faf9d47479c0d7472471fcb3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15695.traj",
+      "sha256": "e095d5b59eeb0751ac6bfc9ebe9aa0eb9e69e28147c628b9bf5509b7952b13eb"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15732.traj",
+      "bytes": 70013,
+      "etag": "\"b4a6055e97b417c91ce9ccbab538219e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15732.traj",
+      "sha256": "d4175db64127ee916682467b280f9069aa348f3ced2731358bfcae7a68bc9eee"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15741.traj",
+      "bytes": 144860,
+      "etag": "\"d18a93b5246ed945c5760d7e8f2143b3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15741.traj",
+      "sha256": "14c98d59fde36ac196ec2e7a44c7420f2584d073322358050b829a3a934f6db3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15814.traj",
+      "bytes": 107293,
+      "etag": "\"de249d7964d2b8fe7a32d7e29a743b2c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15814.traj",
+      "sha256": "6121945ba2d4bf28727ade639186c311ecc97efbb892113d504e7501e3ec8df7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15851.traj",
+      "bytes": 72674,
+      "etag": "\"43a71bd93863385b682d36de7691b789\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15851.traj",
+      "sha256": "14bd1fc9ae9ff4dd408352f0d7dd462bb9b632df22e4c0e50ce423a092f5e956"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15916.traj",
+      "bytes": 134383,
+      "etag": "\"49f5223a3ce524a30f3e3c503ef36e62\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15916.traj",
+      "sha256": "6a562ee426b101f66c332575b43c2445bd4bc26499dcc0cba1028fa3b846152c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15930.traj",
+      "bytes": 129458,
+      "etag": "\"c58def7733da91254058837ca248bd28\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15930.traj",
+      "sha256": "26a5e06a17d19ca087a12bb6150f6ce94d8972bb99d389e6c5008022ade0dea7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15957.traj",
+      "bytes": 142656,
+      "etag": "\"6b96587ab32eb2c7b5b3f73c562d66df\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15957.traj",
+      "sha256": "c9b41815a9a472a98308161eae327dd643acb5c02399cfe93d015cd64334277e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15973.traj",
+      "bytes": 105550,
+      "etag": "\"d90ded43911a2146669823eb85869c5a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15973.traj",
+      "sha256": "93284863c5ddebb76ce49e3e940a52985ff199309e593d05f1d4f6f883a01c21"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-15987.traj",
+      "bytes": 104201,
+      "etag": "\"2d6048ade97794f15afa96b2317cc493\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-15987.traj",
+      "sha256": "a8fefde59bc7d21a10f9ec594cc3ba30e57e09954e0a4953be0918b1210fdd09"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16032.traj",
+      "bytes": 143761,
+      "etag": "\"010f1396119089b268c3d5d8910d35d1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16032.traj",
+      "sha256": "6d911650576134bd3035934284443081e3c6ef6a722265db6f31f0a9a42826ed"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16082.traj",
+      "bytes": 120271,
+      "etag": "\"ec1f3f8a019ab411e5ff7a49d1a28d60\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16082.traj",
+      "sha256": "d13ba91da32f7f26b25f29712e5c00624c409677ba105852ea9eca5fee7ff22d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16136.traj",
+      "bytes": 127807,
+      "etag": "\"8c48d3519a8a740e403e44149c907762\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16136.traj",
+      "sha256": "382707b43d930116b7db2bd9bec74d87747678bed454235f50a96b24ab855fda"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16139.traj",
+      "bytes": 86987,
+      "etag": "\"2fc2cd842cd84e5e4e7795f9f354467d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16139.traj",
+      "sha256": "8a78d83a9b03134c5567e3618c156cb4a4a6ade852d72f91bf6e4330d7042e6e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16145.traj",
+      "bytes": 113145,
+      "etag": "\"0fec5e141ae91fab1dbae76640e0e5ba\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16145.traj",
+      "sha256": "7399371af2b8164a10466f2b71f7a48150c3cb88d86bcd9c22826861d6f3a497"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16255.traj",
+      "bytes": 102967,
+      "etag": "\"53f2df14978f771960ada35cb1fde6a3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16255.traj",
+      "sha256": "75361209666505bd3ab43e6bdbd66831d68ac1cbd21299ed68b774126c6b19dd"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16256.traj",
+      "bytes": 184894,
+      "etag": "\"a916d0ae0a12602c9a3601e0ba3c4b1b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16256.traj",
+      "sha256": "9f9afbf946fd11ba9c22aca769a7554e635a9dc463c527e7ac9ea23bb814cc08"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16263.traj",
+      "bytes": 124419,
+      "etag": "\"c4508ffa90dcf85b480ce86d4d23d7af\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16263.traj",
+      "sha256": "fd207ded2cc9eaa1427a23752c1a06e2df94dc5b0cf68d193cb2a5528e070066"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16315.traj",
+      "bytes": 178909,
+      "etag": "\"cd4c9699adfa565820eff146fd04a130\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16315.traj",
+      "sha256": "1d293b2c4bdc86a9fdafe1646869f75032581009ef37559e5aa44c2b85235710"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16333.traj",
+      "bytes": 85574,
+      "etag": "\"e06b32e554bfb56fdfa1fee14b8ab6d9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16333.traj",
+      "sha256": "9cb68ca5cbaf10f9f9b3d79059a38fcf291af1754efa6cee47218da4d346c7e0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16429.traj",
+      "bytes": 128181,
+      "etag": "\"39ac432b8892421f1d16152c6ebce666\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16429.traj",
+      "sha256": "8f9272a170be3911d64b828f0913800e336943bb079483d1eac32961709dadcc"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16454.traj",
+      "bytes": 102505,
+      "etag": "\"62d2cf9541f0a2a600ab334cf6883596\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16454.traj",
+      "sha256": "1c901776b42512d5c5c3206ffad7eaed55104452b35c915271679cf399c69d47"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16485.traj",
+      "bytes": 113096,
+      "etag": "\"945a026a617c2bc6592cf152292d908d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16485.traj",
+      "sha256": "fb7a649c48a244d1a446f27be0f4895ee8e3f9356508615fe5f6cdf12a124926"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16493.traj",
+      "bytes": 135263,
+      "etag": "\"d96b5359f6d4b198b8a45067b0976e98\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16493.traj",
+      "sha256": "f826e2d6b1117bc544abcffd0d04da493ceffa7a6592e19b3e807e4a07bc9d98"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16502.traj",
+      "bytes": 107924,
+      "etag": "\"e56f9680fb2e4607361b153e31e59455\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16502.traj",
+      "sha256": "29734f13d762ff788e49bc5eb2e0d38703b893647dd7feff55a5b71ad152aec6"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16527.traj",
+      "bytes": 60047,
+      "etag": "\"8375a08c144c544f320acf8e8e0040a6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16527.traj",
+      "sha256": "3008f46a61072eefefba3c51f6e7c2eb53ee82431f559aa05f8a168ccbfdd02d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16569.traj",
+      "bytes": 72432,
+      "etag": "\"b372ea3c55346813b5f9c899e8a1ec34\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16569.traj",
+      "sha256": "0a2d56d27f4153071f149d755bb2c7ff81d086e51d61f1bd5067f89b0f49296e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16595.traj",
+      "bytes": 159190,
+      "etag": "\"f6857b90b8e64ddb35aa1c5f649a608e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16595.traj",
+      "sha256": "cb11140975c70405f4410bced0331511483ff5c7a44a2f531dab712e11211b15"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16631.traj",
+      "bytes": 167383,
+      "etag": "\"514d8a806fbbbd25645b9b4df6f415af\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16631.traj",
+      "sha256": "53b4a33666685f3938d0936a15a6ebb4ed5a3080dfbb724ccb8b9948af16f04f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16642.traj",
+      "bytes": 124110,
+      "etag": "\"7c9d589fb41087db0764d3c5e3301cf9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16642.traj",
+      "sha256": "c9b697e7ab164dfc553e31d858e1d6298bf9ce27e6ccf9d03350a5acd3b96d91"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16661.traj",
+      "bytes": 127400,
+      "etag": "\"6fbbfbb99ab279fa4817f425caea0e8d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16661.traj",
+      "sha256": "441fb0338503b57571968602b9b5032ea416577b8441aeb4b8d547a71ab00374"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16662.traj",
+      "bytes": 126771,
+      "etag": "\"2c1f2ca791ce12aa9a224467cc8a9d5f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16662.traj",
+      "sha256": "a796ec789e1dcee0037c99fbe82f666fa5eb536d1e9e122b11f997f1e9a70816"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16667.traj",
+      "bytes": 129784,
+      "etag": "\"a961328159d9b3d4c66f88e8d819e392\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16667.traj",
+      "sha256": "841934ea057f65ee7ca94740ed390eb770859f9955471e0fddcb444ab8f7af72"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16801.traj",
+      "bytes": 152014,
+      "etag": "\"99ebe3b5785d9bc6e91998698bd11194\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16801.traj",
+      "sha256": "1bb24a7f10dbb90c68603c7346e272761e6c511c3b6408ba606b3e29cc636cb1"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16819.traj",
+      "bytes": 194707,
+      "etag": "\"6e28c6d9ac21364f8c21a78cd59f34da\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16819.traj",
+      "sha256": "5b9f79107ce0313da58d2d02f79d25d4ceadad9ec0be7f1c21985c927d721acc"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16877.traj",
+      "bytes": 178608,
+      "etag": "\"02c210cb09b405fec42c7e351efaaee8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16877.traj",
+      "sha256": "f95d62a27d2be9db770edab958ab457b53193ee247f94d75ad2c12b494c7653c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16899.traj",
+      "bytes": 200328,
+      "etag": "\"1d93535c7c79fec2e062f285e3aa22fe\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16899.traj",
+      "sha256": "c84d56fd6f9376543da894f67f61256e1ac64267e09166957e32d216d190ecb2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16901.traj",
+      "bytes": 127697,
+      "etag": "\"c1f16a383e010483644e6383c9de3f11\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16901.traj",
+      "sha256": "659e97068044acaa87f369a59ddf7a1535d44ec6d0abbdb2f8119adb2e93ea97"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16938.traj",
+      "bytes": 145205,
+      "etag": "\"086ee677e193ba25fa46dfb66ad992ab\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16938.traj",
+      "sha256": "9553a4d5ed0aff56ba316f3d2153ab4876d479c983d1cafe5b8e31e576a2bfe5"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-16950.traj",
+      "bytes": 115541,
+      "etag": "\"d083653534d47e0438eac648bfcaeafb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-16950.traj",
+      "sha256": "241ab429780496af583a87f01eb5713997b7c482f27e1b11b4fd2201e86668cc"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-17029.traj",
+      "bytes": 106985,
+      "etag": "\"2effa105f02cc5cabe5a366f7af70f3d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-17029.traj",
+      "sha256": "76c9c6730fc18d4b43191f213aa19f0fd72e535d05caf50303e2df9ef5a132b3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-17087.traj",
+      "bytes": 110884,
+      "etag": "\"24c469b06351154b38aa4ad13628c23a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-17087.traj",
+      "sha256": "d40430bfb807a604430c947ec73042f8bc93b2d47defaa2cfba303d8f4418c27"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/django__django-9296.traj",
+      "bytes": 121120,
+      "etag": "\"3ecde5d86f3a2e1325124c95f0b9f870\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/django__django-9296.traj",
+      "sha256": "d3c228edada23a78037a176ba3f46ee457de9cb829c768936d6a076807546f42"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-20488.traj",
+      "bytes": 203019,
+      "etag": "\"c3ca4038661df845ee4b91d6b0a2535d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-20488.traj",
+      "sha256": "ce23ad2efe946085cc9c863f15d77a487bed371800added056b903c7e2bc8754"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-20676.traj",
+      "bytes": 135607,
+      "etag": "\"2b3674793b9c5ca821ced483452b5f29\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-20676.traj",
+      "sha256": "0791b51f1c4c104a8cb412c1ac09fde4d1ff142cc26bf7de61a4f8a131a50298"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-20826.traj",
+      "bytes": 144994,
+      "etag": "\"4753dd31b69cf03d85bc0ec61151713d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-20826.traj",
+      "sha256": "d33f7c4787e02c370149d9e0b9634ae769530224d3596b78644f02a9f30ca672"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-20859.traj",
+      "bytes": 164684,
+      "etag": "\"2b5fc0c73f691473f3358564f82ae3bf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-20859.traj",
+      "sha256": "bba9c6ff918d2261d0a8f22b3bf08eb7d40b2b07971aea8760cb14f1280e5fc7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-21568.traj",
+      "bytes": 293226,
+      "etag": "\"57fee16810920855b049610298e999c2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-21568.traj",
+      "sha256": "ff3a39e03d885632d57ca8b303012fb031bed89a85dd52ba7ca39d833c94cdf4"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-22719.traj",
+      "bytes": 125724,
+      "etag": "\"4bcb1cc5625ec63acd99f5222a1db8f4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-22719.traj",
+      "sha256": "209cfcadf0b6fa0bb8ef2499338ef5fbfb4406128914ebeb9feaf05d97658955"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-22865.traj",
+      "bytes": 191265,
+      "etag": "\"b5097ecd419afb11a6a577f305081368\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-22865.traj",
+      "sha256": "53e9f9ee23ef695f47797b8929bd778cdffa7fff99a20a8847ed7ba92486f90a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-22871.traj",
+      "bytes": 145181,
+      "etag": "\"7208ae45f2856977694a608c5d6f973c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-22871.traj",
+      "sha256": "ac0af164846e08fb5ed65a3c3574be4612574ebcf8eafbef2a62b77f87622f7b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-23299.traj",
+      "bytes": 145247,
+      "etag": "\"7676a3992c44f7e93544c93ff9fbc066\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-23299.traj",
+      "sha256": "087081b75847c8b5c895ae4a7d905f6f48f7f05b349de57a18f9958a01a68d39"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-23314.traj",
+      "bytes": 156322,
+      "etag": "\"fa7fec44b788b267c5de65109a218679\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-23314.traj",
+      "sha256": "5fb264fb0d64b00a3350c743aa5b640a0214aa3e721e02a20178c8e751d27881"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-23412.traj",
+      "bytes": 109358,
+      "etag": "\"bd973906e1733912d5f14755c1d2e2a6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-23412.traj",
+      "sha256": "4706be7faa1370dd27f41859f13802c14feb9418d0d970644e62630f0a22a2ea"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-23476.traj",
+      "bytes": 65226,
+      "etag": "\"0f74312423af1c1d6e73e1517f434e36\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-23476.traj",
+      "sha256": "694c86834b516b7de7c3340d7469138a88a823a1413e38b5f733277e16f7074d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24026.traj",
+      "bytes": 136900,
+      "etag": "\"b5e66d19f936ea0d451c57ada23c5882\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24026.traj",
+      "sha256": "e2908d1b94b3508875b9bca633d8b14d47723a7cf98bba2043c50b4aa8036332"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24149.traj",
+      "bytes": 102517,
+      "etag": "\"63ffdf420d3bbf8ec0ec0813c5bee1ff\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24149.traj",
+      "sha256": "0c83366cad43ef6ee0e41fa28882e2f298a666f058f3ecc00eaba2ec806f8381"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24177.traj",
+      "bytes": 162295,
+      "etag": "\"9a930d04119019c6f7ea2cae4546b7ec\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24177.traj",
+      "sha256": "b58ca07874fd1c4123d1f3a7a8d29ba009d611a4d0685b0e1286c74ff08588b9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24570.traj",
+      "bytes": 148925,
+      "etag": "\"68224777c4fd8057bad3cc132f4cdcce\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24570.traj",
+      "sha256": "1c9d43f0d48fe1f2e8111302cc091a4cd06af3bbb7b84fa1840944be52bf1243"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24627.traj",
+      "bytes": 112498,
+      "etag": "\"2acec11a44ecb548b36b8be6fabc247d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24627.traj",
+      "sha256": "3ee73ada7350239e1c2b1fb4fac6df697014eca5c5dd212bd59e6bbf427046c7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24637.traj",
+      "bytes": 137782,
+      "etag": "\"679369a96e5b09c1cfb531bbd26eb9f0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24637.traj",
+      "sha256": "c3a5da18f899ad35577e33adc61656a0100e953c31941fcf89e50033531999dd"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24870.traj",
+      "bytes": 125340,
+      "etag": "\"bcad0ad7896402225ec7e1990fd81b76\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24870.traj",
+      "sha256": "a7f8f9259877c937460caa1909c136401d77b87221081506ab2de133e8837bf0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24970.traj",
+      "bytes": 81653,
+      "etag": "\"10cfc7a70af7fa549ddfb9462fd50216\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-24970.traj",
+      "sha256": "5fae431a064498561845feaaaddf4f6101fd236c7e794a7fb247f99aa8292c87"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25122.traj",
+      "bytes": 120524,
+      "etag": "\"ceea2f3f66e290eb22e25e07be59d200\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25122.traj",
+      "sha256": "48aba646fbfbb19144258ada8deac95715f89061851d804ee83e7fbd90b6b344"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25311.traj",
+      "bytes": 118674,
+      "etag": "\"0640f80bc52fc03e346721a642d4a16f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25311.traj",
+      "sha256": "1818a57e833a5b55cf1a65c639910ba2a890eb64c9d3551b0a4b25657bae8ba4"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25332.traj",
+      "bytes": 161176,
+      "etag": "\"c36c33b3e00e3604eaf78774d41a6fe3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25332.traj",
+      "sha256": "378a9b901d1aeac711f5f93b97d7b0669890f38cf6a1f7c048c84d50a10a3c3a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25479.traj",
+      "bytes": 129641,
+      "etag": "\"69e4a5c8ee9d3b4dc3c9eda30090f54e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25479.traj",
+      "sha256": "5c78747f54f5fb11c7cbe8569b94173bc80585a5a53cfe12f00d78511d40384f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25775.traj",
+      "bytes": 161389,
+      "etag": "\"c0b7c60390975958af0271e28eaabb9c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25775.traj",
+      "sha256": "003a8a46708c40328522ebb9be2a6990470e96e1e02d4d5b1e0423a211b4c070"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25960.traj",
+      "bytes": 137154,
+      "etag": "\"dcd327313eecb5cb009ee9c86364ef47\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-25960.traj",
+      "sha256": "101fb3a434230118417caf8862aaad9dc025d421afeee64f2b05c3e3400da9aa"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26113.traj",
+      "bytes": 160598,
+      "etag": "\"b0cfd8b78dd08c424cd1046d780c8568\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26113.traj",
+      "sha256": "92c1a31d3a410f390fa4c4ead050dddf4af21cec090ff45a881b13deb814257f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26208.traj",
+      "bytes": 145917,
+      "etag": "\"a60c411839eedbecd47d0e4b1ab24a9a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26208.traj",
+      "sha256": "45e5e4c4390397996469d50d2e3125f6253f2b53fe2471fc7f5d50a6373edf42"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26291.traj",
+      "bytes": 164835,
+      "etag": "\"71059be6fdd6b9c5e2be633492850c2e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26291.traj",
+      "sha256": "8ae4694b368fafb7ffcb89fc78d1dbfa688cced87baa8e85eb46489ed7ef955b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26342.traj",
+      "bytes": 178422,
+      "etag": "\"44c2643807433972365015997eef23df\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26342.traj",
+      "sha256": "f8852d3a55cddbd2d12be41a206d1b89635288bb19dde010567738a5ed1e303f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26466.traj",
+      "bytes": 124021,
+      "etag": "\"fc828a1a1aceaab6722b68e4d8e2890a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/matplotlib__matplotlib-26466.traj",
+      "sha256": "8e879ca4764d073bce8a20c79d81b8562ccc64b3e81f75eb64e1e6134e00c5f2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/mwaskom__seaborn-3069.traj",
+      "bytes": 165331,
+      "etag": "\"cc8e63afc6b45961e25ffe0493181a27\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/mwaskom__seaborn-3069.traj",
+      "sha256": "17ee4714c61108026a6201695d3c61222d24bba4faace6b4999f3e4676d94571"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pallets__flask-5014.traj",
+      "bytes": 132804,
+      "etag": "\"bd995f02b347b346c735bf1a8ffcce80\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pallets__flask-5014.traj",
+      "sha256": "c1c11c40f42f9fce757ca1112dbe3ce041149d682ea9d0fe1e69d9929bce72b7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/psf__requests-1142.traj",
+      "bytes": 1044186,
+      "etag": "\"93d6dad33ed3db3afc25d43c3edb0cd5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/psf__requests-1142.traj",
+      "sha256": "6bd0a275acc50cf42c219322c81a705ceb74cdbe7a620afbae9aca314f28af2d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/psf__requests-1724.traj",
+      "bytes": 87452,
+      "etag": "\"085bc3cf5c23432742a63cdf384f57d6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/psf__requests-1724.traj",
+      "sha256": "0b2020423d5a2d1d2da70b34b5cafde58aceebc7d76fe4cb1bf1ce65a56eba0d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/psf__requests-1766.traj",
+      "bytes": 165727,
+      "etag": "\"e79632a8e470de49cfacc9d5c2fb9e1d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/psf__requests-1766.traj",
+      "sha256": "be6a688c0abab6f86afa8f5ece57f065633b48d2f297e7f5106d3244dd8adc6a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/psf__requests-1921.traj",
+      "bytes": 159051,
+      "etag": "\"33850289ae21f56e54ca14342ccfc87a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/psf__requests-1921.traj",
+      "sha256": "c380f73a724d7ff7979ae68b1f50248618b0a54dfd6667bc07eb9889183adf5e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/psf__requests-2317.traj",
+      "bytes": 103849,
+      "etag": "\"118c38aea696a5a3ba39266978927a99\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/psf__requests-2317.traj",
+      "sha256": "b0aa6a5a665c49475b120426955e3a47033ae74b6b23fac6649d87bb949539e1"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/psf__requests-2931.traj",
+      "bytes": 73095,
+      "etag": "\"2029a26f82548614a8d08c0657c67a0b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/psf__requests-2931.traj",
+      "sha256": "842309c713dbbec930337638cdd3bf607a29309632d893839b7287a0ce7dcdd8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/psf__requests-5414.traj",
+      "bytes": 167189,
+      "etag": "\"ceb8ca8756edaad973a4e3029a834368\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/psf__requests-5414.traj",
+      "sha256": "2023a9f7315f4e71e3537a7b155bc1f9ba47d1a29584d2f088ae83a6a3495137"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-2905.traj",
+      "bytes": 110950,
+      "etag": "\"d0579332a5b67673d2951d31c51da0a4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-2905.traj",
+      "sha256": "1b51fc81a25dbdb99337fe685e7c1410b49d998979f779992c13280d5d220c9f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-3151.traj",
+      "bytes": 99126,
+      "etag": "\"a7f145db9dd3ac0b750006d251a38bd5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-3151.traj",
+      "sha256": "64ea0cfe5ceab8a551b0cf1fdbe0242ae64d699f6999c47c75283dde004f1676"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-3305.traj",
+      "bytes": 161485,
+      "etag": "\"173cacf349b4454e873c942f0666ccdf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-3305.traj",
+      "sha256": "643f2194acbdfea7a249c065ff2757e816726c853b06d6b2577be3636c76cfd0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-3677.traj",
+      "bytes": 172553,
+      "etag": "\"2f04761d5b86f53b031c70346cff0343\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-3677.traj",
+      "sha256": "996ab428a5e1b793843d936c171ce72504f93dd1a79ffe06dd8491d2fda8ef67"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-3993.traj",
+      "bytes": 104154,
+      "etag": "\"e29399b9b58cf381ef93326ae728541b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-3993.traj",
+      "sha256": "0a5046e35c07df0ce86c115f9623249fe37ab945392b039f009e12d04b44960b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4075.traj",
+      "bytes": 145754,
+      "etag": "\"7d22fe33f647705a4b67b8e96b6f0712\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4075.traj",
+      "sha256": "1d7d7c53ae39f7ad8879ebdde89c765d5e70a1d13bbf8251f90302a7bf6dc982"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4094.traj",
+      "bytes": 133331,
+      "etag": "\"7ee5646bb800eb5200173395756cf615\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4094.traj",
+      "sha256": "5a7f00c136480e2ee679514778beb21b4cafd2f12253cd3e015b4f2a83c7064d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4629.traj",
+      "bytes": 71523,
+      "etag": "\"afb1ef0b1ebc913110a7bc50575b55fe\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4629.traj",
+      "sha256": "7ab5613ba1a2fe11e0e9a21cf6efdb061f433b5af2f581d3ae62823787e0a7cf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4695.traj",
+      "bytes": 150880,
+      "etag": "\"18fb223c4a7f1a807b77105a52674f5b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4695.traj",
+      "sha256": "7c9471e35f6361b4eba725826c3becf5989207cb35998ffe835d87ca9b0d44fb"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4966.traj",
+      "bytes": 181138,
+      "etag": "\"547478b5c63b10a32bce58fe91fd28af\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-4966.traj",
+      "sha256": "e5246c44c3b254c0fcc36e0f8f622e8590d5610bb7726b657f0908c89d17788d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6461.traj",
+      "bytes": 104552,
+      "etag": "\"d4b0ef7221808c063913c409b49852fa\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6461.traj",
+      "sha256": "164248f77df8407904002840599d8baad47ec466e949dbd16c52bfd29f3bffb9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6599.traj",
+      "bytes": 142376,
+      "etag": "\"43433f8a64a2ac571c8b285746263fb0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6599.traj",
+      "sha256": "4a2bdef2798c13587e9a5ca50faadfcf56a1c9f38225fbd4f89af4b69b529b29"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6721.traj",
+      "bytes": 121206,
+      "etag": "\"8a155e862b48799f4164535982818c1f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6721.traj",
+      "sha256": "e3fec701653fa08f2e60bcdf55ba351edd11763eedd4c10851b5b9f18823df8d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6744.traj",
+      "bytes": 158619,
+      "etag": "\"ec922900e403ecfdbed3bc50da918e0e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6744.traj",
+      "sha256": "2464f2563009c75d16a97cdfc8b6046b4529fe0960f4c4c4e22eafa5b17e89fd"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6938.traj",
+      "bytes": 113149,
+      "etag": "\"da14ffe617cbd7df6b674c9c8cc67d14\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6938.traj",
+      "sha256": "ed3e037021e617fee3718950e718fe9c517b8566920589b8d2ffe096640bbca6"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6992.traj",
+      "bytes": 69390,
+      "etag": "\"8b3094bbad58a1240e48efad1237d31f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-6992.traj",
+      "sha256": "4efb4b9c1b77c8d0d7b96038e5d6d77c619d87cfc986f95ebc349597a4a261bf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-7229.traj",
+      "bytes": 145133,
+      "etag": "\"d8b29081eb74e54d3873efae83b550d1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-7229.traj",
+      "sha256": "83b9dca1f11c29b144262f536905aa788b92affafe883828bdab97214929c600"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-7233.traj",
+      "bytes": 153542,
+      "etag": "\"a9fd41aadc948e4e2f342670a57c51f4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-7233.traj",
+      "sha256": "a16b0f99c2001b84c13f9e3fc83f139f6a3e539e3bc35f76c906e3a38c51faad"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-7393.traj",
+      "bytes": 138337,
+      "etag": "\"b9c4b0423745404047baa80ce0a26021\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pydata__xarray-7393.traj",
+      "sha256": "82bdafd5a41641d9da84aff5e0ed36455bef4a60d1887cdfb48e5db4f5395382"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-4551.traj",
+      "bytes": 113102,
+      "etag": "\"b020d101ff80941a2ce7c29eca6b04dc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-4551.traj",
+      "sha256": "629d18c1b28edb0cf9a92ba1997f9f890aff1765a03c67d0b302dac1c0c15858"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-4604.traj",
+      "bytes": 177965,
+      "etag": "\"8c1a0911c27c8c301527510a81f885c2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-4604.traj",
+      "sha256": "2358a77647919f2177583351d53fe99e770a8dcc6b5f24c5586fc6cbef09074e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-4970.traj",
+      "bytes": 143291,
+      "etag": "\"2222a8dff9de936719d51dda6f51a11f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-4970.traj",
+      "sha256": "e8ea5efddee66dac65063cac6f564894864a6f27c75af52723568070811c70e3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-6386.traj",
+      "bytes": 154493,
+      "etag": "\"a6f3e3888a4513735fdd312e6da4d2ab\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-6386.traj",
+      "sha256": "f1372759be578c694a58633013c4a32f9a375d634f4a01b212abac502ce185b2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-6528.traj",
+      "bytes": 134211,
+      "etag": "\"467678804adf36a43000c68cb576a12e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-6528.traj",
+      "sha256": "5837c1998c5b65935b07608780582c81324ddbacf6225a501eb165bc574c8885"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-6903.traj",
+      "bytes": 101765,
+      "etag": "\"018a8dbebb517d635221e5c55e4fbd29\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-6903.traj",
+      "sha256": "406156fddc0b051623b06896ba7c9a3425848897c5aa84882100c75d451d413a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-7080.traj",
+      "bytes": 119710,
+      "etag": "\"ff2592d06b6cde4e4d13fd1e288c5dde\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-7080.traj",
+      "sha256": "37f7c1265820f41bba335783728b3c606c1d675ae6dc100f49bea1f5e7a66326"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-7277.traj",
+      "bytes": 219304,
+      "etag": "\"d590aa1742a0710bb2ab70d1f1cd4102\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-7277.traj",
+      "sha256": "72e3e3cae3fd9205a59b5485df136c6f6716ccbec30c2a01f52071a634ba8205"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-8898.traj",
+      "bytes": 170339,
+      "etag": "\"72b36b84799a3b68adb806d06bc0107a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pylint-dev__pylint-8898.traj",
+      "sha256": "152068d1c602a024e2b208efe4156b8a20f0b93af1a82d1a43361aaeb54abda0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-10051.traj",
+      "bytes": 104230,
+      "etag": "\"22be087c0356340136c81caeab83dd5a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-10051.traj",
+      "sha256": "e8f57af4004c5ab5711a7e2563ab3402aed3401622a8ef118844dd23e556e52f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-10081.traj",
+      "bytes": 108960,
+      "etag": "\"1e704b6bbb52ea4681c2012ba24fa953\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-10081.traj",
+      "sha256": "c0933f141225dd1cd864ef49947de9647d4cc3ed5642e24c981b2eb2f2b70185"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-10356.traj",
+      "bytes": 137961,
+      "etag": "\"5aa311045e90c0ae241efb7af4658e8a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-10356.traj",
+      "sha256": "48f58a139d2bf0201c95b979f69f0033fed60a1f9c35a7fd325be8d51bad5566"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-5262.traj",
+      "bytes": 211022,
+      "etag": "\"34d5f7598abe6b6ed637465263bd545e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-5262.traj",
+      "sha256": "c7542540864980652afe679015aced6da188b8b1def38ea583ca6c5b00deafb6"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-5787.traj",
+      "bytes": 106174,
+      "etag": "\"310cb8645f75bd79c125790e789fa103\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-5787.traj",
+      "sha256": "bc3916269ba7461d1fd906c94a757a17dc3e6cbd1e674567a5cc4be520b75c87"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-5809.traj",
+      "bytes": 169902,
+      "etag": "\"3efd1691a333cd43a8b0447ff0669855\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-5809.traj",
+      "sha256": "883556a55c45f7cd075f032e5a30c02587ec1a310a6f7b778de53a8c2a9cc484"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-5840.traj",
+      "bytes": 72888,
+      "etag": "\"62c74594ebecc9c3a65ba2d8d8fccea9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-5840.traj",
+      "sha256": "758d56c79d44d7820e9dffe18ae2ee9ed9ee86e65a3041ce210677b01d3bdebd"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-6197.traj",
+      "bytes": 183371,
+      "etag": "\"c46681264f91df97935667ac28a48dad\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-6197.traj",
+      "sha256": "8305c53d0f01d76564af2e02c8a083e8c898151f8d11d43926882a74123a9b60"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7205.traj",
+      "bytes": 97561,
+      "etag": "\"0c46861dea99341535ebbef1c06a6211\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7205.traj",
+      "sha256": "a3440971eb9192e05e89be2a1feb9e640c79b03c3d00820a1b7c3d517a78bc18"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7236.traj",
+      "bytes": 102277,
+      "etag": "\"89bf701a27e1f5f753e69349e678eb61\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7236.traj",
+      "sha256": "3c1c41483cb58c826e5ffc0b41f2e804dc49ec3390ac7c3b9d3bef1a6af85a3f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7324.traj",
+      "bytes": 52100,
+      "etag": "\"e813579c7172357cec0247bb9522d02f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7324.traj",
+      "sha256": "54605232ebfe01fb07b7d6fcd5f2fc64366c59aeefeac124e6936f140f4f2c98"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7432.traj",
+      "bytes": 168409,
+      "etag": "\"bde2dd95c11d27b386274f92e4e3dbe5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7432.traj",
+      "sha256": "ebfddcfb5b196c88aa8f53b13b1f0a2f0015287e98c746fb477cb513e135ab7e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7490.traj",
+      "bytes": 159527,
+      "etag": "\"ae0f77f17d81868341a44bfe06848d28\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7490.traj",
+      "sha256": "7d7b03777c1f4472e6d03168a7e4ac601f1f256a1e64414ecbf66d5e41dabd84"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7521.traj",
+      "bytes": 146261,
+      "etag": "\"8d5c9e444550aae0bf09911380c7ae1c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7521.traj",
+      "sha256": "8f6a67c2e51490615aa5994b531242cc2b7810bd8b10e37f83709794796f899c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7571.traj",
+      "bytes": 104667,
+      "etag": "\"a869dba7aed933aa67dd96dbcb03ca2e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7571.traj",
+      "sha256": "50fe96e70eb5aa1e75fb496bd4c7734368e59f2b2db059119287e90ff5c41945"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7982.traj",
+      "bytes": 82770,
+      "etag": "\"1d820c30f14bb48810b7d8f2e8b78038\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-7982.traj",
+      "sha256": "dc6c473097abc6095e9db1f90210ad8ace66e46e3f9c82816b3d23da46008732"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-8399.traj",
+      "bytes": 104520,
+      "etag": "\"0c6b71d7f7ae33a335de8332dd4a32af\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/pytest-dev__pytest-8399.traj",
+      "sha256": "27c3033bf91979b8c8f9677d82f0bcf90a4742217c6aadbdc6fafe44075624ed"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-10297.traj",
+      "bytes": 165933,
+      "etag": "\"8f0978ba198addcc2fb9079c10fd411f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-10297.traj",
+      "sha256": "b9e5300fe4ca35cfcb865e8e4a222cf270041ceb98e380163857ff85ba3c3e9c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-10844.traj",
+      "bytes": 114419,
+      "etag": "\"4c573e5ce7946cd4ae5070aa7eccba32\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-10844.traj",
+      "sha256": "b162deff23d1ffb0e9bde7d8c02bff0b6cf95e8d814fc9ff99fe89382a85b4df"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-10908.traj",
+      "bytes": 149637,
+      "etag": "\"e31d01bafcee09de9ac176dae6f9392a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-10908.traj",
+      "sha256": "31fa770c00fa2498c744285cc5da862bc7fc763513bdffa8d71f26b4582aa847"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-11310.traj",
+      "bytes": 148323,
+      "etag": "\"644ece00e73ee3f1c7a0074c7641d1b5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-11310.traj",
+      "sha256": "f84e303154827e9a92630ae0dd8966669e3379608b693993814510cabd77cf95"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-11578.traj",
+      "bytes": 132208,
+      "etag": "\"b600fa282da8ec7c9b066772e43b6e71\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-11578.traj",
+      "sha256": "487384ae36002fa9d2c9340b4b77221c70d0409eb89295a96de6252e17de7b80"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-12585.traj",
+      "bytes": 108605,
+      "etag": "\"7094478fe661c2e3b9769420be7eaaaf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-12585.traj",
+      "sha256": "8e11f4c7d5ebb3310a38dcac02beb000016a9c5d4baee3df6c3014a5da701bf0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-12682.traj",
+      "bytes": 177207,
+      "etag": "\"c1f6bd126dfe0e3f4304d347ab798557\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-12682.traj",
+      "sha256": "df4b2776e70031220ed10ee8bb02cb2ca539db72d6d80bc51c58aeef85d806ed"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-12973.traj",
+      "bytes": 87584,
+      "etag": "\"41383d33e3286791ff72986443f67457\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-12973.traj",
+      "sha256": "29901656b4acda2bb82ac5d8aa6e6c8ae0f9802d55a11a7895f57c5bd97a639d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13135.traj",
+      "bytes": 118794,
+      "etag": "\"d2c6d2fa3ed55b961cdc9a9cb81dddbd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13135.traj",
+      "sha256": "af423fe2116f8cd75fa177bd74807de3f29b56215515fe1036319e294df16c37"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13142.traj",
+      "bytes": 140931,
+      "etag": "\"9f3cf2a44dbd1eeb20e25cfb98ce0e39\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13142.traj",
+      "sha256": "71a996088db982597566a9d0e112e0262dea1372cb858cc76677842754f6bf0c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13328.traj",
+      "bytes": 129147,
+      "etag": "\"1d01ba29f3e4a7fcf528da89a052c01e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13328.traj",
+      "sha256": "009518f0ce49c8f324cc11380444f817a30f255b34c74b3c2062bd7cbd78f60c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13439.traj",
+      "bytes": 143802,
+      "etag": "\"b09d40a94fd6b9b45a41556552063301\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13439.traj",
+      "sha256": "12e1a91db5aa2a73cea134452e13a942d51c62feaabdd0e017404911935bb487"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13496.traj",
+      "bytes": 168267,
+      "etag": "\"7b19126c7223f0ed7f5674a1af8c49eb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13496.traj",
+      "sha256": "f12afdf5fb873e7a64d11a34976df09cd16250a3f062e1e64488ecc0c9c7f96e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13779.traj",
+      "bytes": 76714,
+      "etag": "\"4b51034000f3ffe0c1e97ce1d0ad3098\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-13779.traj",
+      "sha256": "bcb9b55b6395f83aac363b51943d01e6cfa85a2ddfb8359402ee3c4aa6b672e8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14053.traj",
+      "bytes": 118009,
+      "etag": "\"a216e024761568d711c7be8906d46375\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14053.traj",
+      "sha256": "2fbc861000e64edc7b308c71d91ce8f008d0eb8a675ddd4ab0813eba1235ca8e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14087.traj",
+      "bytes": 181111,
+      "etag": "\"67daff16ba2e42ec8a59065a86f4fbad\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14087.traj",
+      "sha256": "5edceba0992845c84db3069fbb183a2f60cfd325e4cf51fb3e5fce1991aba9b5"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14141.traj",
+      "bytes": 126185,
+      "etag": "\"d9aa256548cf9e474fdc005746a5670e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14141.traj",
+      "sha256": "98fbea6db05ce22931b5d645b944e0c39c8bc05550cf8e55000785d9386147ad"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14496.traj",
+      "bytes": 140328,
+      "etag": "\"6953b342e5615a497b703b7231c00e3a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14496.traj",
+      "sha256": "156c009cb04f629920bc9205ebddcfb2f4f19570ad41cff32041534707407219"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14629.traj",
+      "bytes": 111490,
+      "etag": "\"2bd6896c926a7e8a7c5be1d41addf2e4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14629.traj",
+      "sha256": "7b885305d50b22c98bd5f51e99868a322d76c5f034ceb2df3cc5fa2d51455d56"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14710.traj",
+      "bytes": 99049,
+      "etag": "\"f527563bf199d1bc4ee7e8f963cdc809\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14710.traj",
+      "sha256": "76f142eb4a1732cf10ea61ef4d9ee727519111ea9b2f75939db899c06a5cdafa"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14894.traj",
+      "bytes": 172312,
+      "etag": "\"fcf9daf5caa399df2f4c292457cff2b5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14894.traj",
+      "sha256": "2b1a014d815ec5a705c72172be9fa77b5fe768b4b68b18ae56738c29accf2f35"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14983.traj",
+      "bytes": 160026,
+      "etag": "\"d57ed263aaa2896fdc957f6a1caf9c43\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-14983.traj",
+      "sha256": "d942962bead2adeca6e0aa6f008eed9684931e96b2670249c5fe388e68996692"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-25102.traj",
+      "bytes": 171845,
+      "etag": "\"9062c5c26977ca164fd836e6c4ec0481\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-25102.traj",
+      "sha256": "6be39b981d96ab94cfd818f4c184c0c54adc2915119b399c9cac51a91d38ff76"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-25232.traj",
+      "bytes": 143081,
+      "etag": "\"66d9979b6b112a845102cfae3c6c56f1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-25232.traj",
+      "sha256": "b4c294845ed21379415314d8fe6d7e2e1d77571411de88fa6fcc0c10e4993da4"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-25747.traj",
+      "bytes": 130776,
+      "etag": "\"f9312f95acc662c5423f32eb74d7298e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-25747.traj",
+      "sha256": "0dee04c8f629ed51b8a3cc4d9b63b58ca447b3df9eb16a5e41156643db63f79e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-26194.traj",
+      "bytes": 115872,
+      "etag": "\"e12ae44295ea23f263e2a98fb8b18f30\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-26194.traj",
+      "sha256": "0eacdda4d80bb31125c13845f05dd1d7fc4c94ad7bb2d814ed11ea361d47f05f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-26323.traj",
+      "bytes": 85626,
+      "etag": "\"22c87f3d7ed20ec409644c78ff28f212\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-26323.traj",
+      "sha256": "06da46893c8786de93ce2d74cfffc25c8bc1e4549dec2e95df19b71d24ecc0f7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-9288.traj",
+      "bytes": 144041,
+      "etag": "\"4c54c89a45ab96676c8b70c7d78db12f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/scikit-learn__scikit-learn-9288.traj",
+      "sha256": "34ec77171f73feb1feaaabdeb92cbd5ecdbf8f0fff6ba40fcc97e51a78c323c0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10323.traj",
+      "bytes": 873530,
+      "etag": "\"6bf3ea8534a5dc1b2c4b9af287adf6f4\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10323.traj",
+      "sha256": "b477b6c236fcfc2db1fdeb1ae46e7cdfac629e704184c0e6e3da6d8b761e0a9d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10449.traj",
+      "bytes": 138572,
+      "etag": "\"db2aaab8a0a3b764e965d5562cbb0f1c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10449.traj",
+      "sha256": "c8a385e852a47ef4b8c445e4bac799b5682297276922f3057cf2e888f6b5811b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10466.traj",
+      "bytes": 89530,
+      "etag": "\"9daadee6f7a4b38ee55bdb8c1ccff92c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10466.traj",
+      "sha256": "68aefe1d44d147dcf7f5a4ac598b8451c7b72636011b44c1a7486416e864b033"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10614.traj",
+      "bytes": 277209,
+      "etag": "\"6482edce0677e619c14bf5f49ddcea3e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10614.traj",
+      "sha256": "08a6104da3dd8d1eaf83f68c156503de8ea76b538e70b2097335104ca9ab07d3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10673.traj",
+      "bytes": 128509,
+      "etag": "\"4a18c5d95c51a337f78690a4a70ce461\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-10673.traj",
+      "sha256": "83c6f87b251e587659b49c8f1d064a3a72e29cc5d20661d6221d947af4f0fd54"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-11445.traj",
+      "bytes": 261729,
+      "etag": "\"923927d9374abc21be27cbe7e74d169b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-11445.traj",
+      "sha256": "39acc99004759e42ffb71c0a7259a6634e1283678a12aedc4a5e4a573222a691"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-11510.traj",
+      "bytes": 935190,
+      "etag": "\"9f21d46c9306c640366d831d7fa63ea1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-11510.traj",
+      "sha256": "9a8eaa9b8b323ca2f2fc4c4ab28ba1cd555af04906269f3693a86a3d7e6cc319"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7440.traj",
+      "bytes": 76947,
+      "etag": "\"979d92ab5b374b394f2872d2e69ee87d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7440.traj",
+      "sha256": "db5b31693cac7bcb2dbac55023f9429ac4466405d21b82196eb1ceb6823cb3e8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7454.traj",
+      "bytes": 154793,
+      "etag": "\"0e41f610be63b490559503d89362d12c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7454.traj",
+      "sha256": "bc2acd978e5fe4f70de6e898c41c9610c1b21be44fb4e7adc801b90ffe0cecf0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7462.traj",
+      "bytes": 113168,
+      "etag": "\"a2700aa1cc914d48c007f1ce144894a0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7462.traj",
+      "sha256": "5cd2cb5b9f8084e6f1d0aca31bead26c6930f6439a2857a846eafc7074e83993"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7590.traj",
+      "bytes": 194351,
+      "etag": "\"e15a360660cdf7aa41958e1324f62d2b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7590.traj",
+      "sha256": "08d5435c2c03fed7b2d76315353f79a42b1ca7b2dcd482bad896f90a7cc7a386"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7748.traj",
+      "bytes": 168763,
+      "etag": "\"1d74bcfe7a1153a61dc30391040a8ccd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7748.traj",
+      "sha256": "38b684b4f6406cc0e2fb0ab50a6a99698cde2ed3ac0c02631c56b27ce7f7df81"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7757.traj",
+      "bytes": 189709,
+      "etag": "\"1404fef2128ab7a3c17e880b6d76e2e3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7757.traj",
+      "sha256": "8d15ea9e1ccb4cd131db1969b47f11bc12e472d8c978b5c5f80f2fc69fd96485"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7889.traj",
+      "bytes": 197569,
+      "etag": "\"b852a8d5563cc1392ca473e2c46f1e35\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7889.traj",
+      "sha256": "c2f18411a1413899e9110db3d6e0762063eb841905846ff59dc7f7e9fac311c5"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7910.traj",
+      "bytes": 128298,
+      "etag": "\"4bb72b5606cba9743d677722b04d0559\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7910.traj",
+      "sha256": "f1b28a4d97910f80d2887e0b1621802be26987f95001f2ccc8ad63ffe5587a13"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7985.traj",
+      "bytes": 964136,
+      "etag": "\"006ca2ec51eec3ab6309a22ab730f019\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-7985.traj",
+      "sha256": "3a4b3ee40585fd205ffaca40219f0bd607a679d36a6baef6c861265edc1dbddf"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8035.traj",
+      "bytes": 166104,
+      "etag": "\"2cc56e65c4a11d465839289b1818bd34\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8035.traj",
+      "sha256": "7be976d8847b9069624174e95c24ade34f2112755e31885e27a5418569c441d8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8056.traj",
+      "bytes": 666512,
+      "etag": "\"c233c87a9f250167e0ff775f636a3472\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8056.traj",
+      "sha256": "8ea079696f10f1d9332bb938625be3fd080dbde1fca9171106f006c1cb9fadf0"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8120.traj",
+      "bytes": 132224,
+      "etag": "\"b8c51450cfc26ebb66caf2727fa303ff\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8120.traj",
+      "sha256": "955c4c8dcd053da78dabefbea98aa5880f4c66f34c5e5b93f9d1fc31cb0e79d2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8265.traj",
+      "bytes": 55096,
+      "etag": "\"3909821dcea14f064847ee2df878cc26\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8265.traj",
+      "sha256": "a244503c8f6fae671a3400f991ae085c5b62ed497a877fe9060771c713c6d47f"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8269.traj",
+      "bytes": 161799,
+      "etag": "\"ac18c81a713a49d4de4739ab19936bb5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8269.traj",
+      "sha256": "46a0e241ee9f5f580f6c4c913b436b9494884b0ac23c3c8012fa99bcb53fe590"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8475.traj",
+      "bytes": 103770,
+      "etag": "\"c8f39c78d679fae408b133c653639ad5\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8475.traj",
+      "sha256": "014590a2ada19bc639fc43c8007d0b44c65ed8e8f00dbcd823a73140e2680f63"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8548.traj",
+      "bytes": 692879,
+      "etag": "\"7f4c7043255020c55cfe47e94e346365\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8548.traj",
+      "sha256": "87802ae9175f71e9d00ff4a67c515219b778893606379c7ceecb52f002fcb822"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8551.traj",
+      "bytes": 671865,
+      "etag": "\"effd447d30f3c7a762059fa629ee1852\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8551.traj",
+      "sha256": "0aa0557081c3dbf91bb1d39341277a3b0377dcfb205b706bd38f7113d21422d9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8593.traj",
+      "bytes": 707236,
+      "etag": "\"cb1d993aeae26ea056ee150e558ab1ee\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8593.traj",
+      "sha256": "9b8e708119a331c28328ee9bcd772aa54c0a7e751d82f727915ad3d595370137"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8595.traj",
+      "bytes": 801305,
+      "etag": "\"51c19e913d53a454abb1b5db8013b004\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8595.traj",
+      "sha256": "a5a7add7084ca292740fefa4a694ccdd94c1ca01450144658476c3e205fefdd1"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8621.traj",
+      "bytes": 709723,
+      "etag": "\"f154f380f3dc17eadcdec9e20ce792bb\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8621.traj",
+      "sha256": "8a8b0b0d1981d455b3e8d615f093fe62f32895f1c4a6b60b25f5d55319adcfde"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8638.traj",
+      "bytes": 152320,
+      "etag": "\"c0f5226aedb1b92b7abf439dcd8f2278\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8638.traj",
+      "sha256": "0ff06a6e5dd35a22e6a8fd4b1844e83347455e26d9ec44fd8c0d7af1166d3d04"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8721.traj",
+      "bytes": 151898,
+      "etag": "\"96591c8b19959a1beaeb5c155735e387\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-8721.traj",
+      "sha256": "e27aac3e2647d82321e80f9f365673ea43dcee2765502b486f51a131dbe373f6"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9229.traj",
+      "bytes": 129024,
+      "etag": "\"b3581985f71beb386d796f79475b496c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9229.traj",
+      "sha256": "9b5f19d4e2781eda5ba00e6a7f2c6d1f5a6a551b6e002dea0b2050a1a7c9e188"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9230.traj",
+      "bytes": 738806,
+      "etag": "\"8163c5001fe41a74bbf04221eb10aeb7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9230.traj",
+      "sha256": "16f6635626ec8ae4a6e6d23c7ae554294f5dbbf0ee08ef0e4205aaeaae0faf23"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9258.traj",
+      "bytes": 169747,
+      "etag": "\"62b9e3654bf0a7e93e97abceba2c530e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9258.traj",
+      "sha256": "b4c45f1a2584c3f7043d6662f83cbda3bdd428b3a1c8b9db07873e3e06ce0498"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9281.traj",
+      "bytes": 735120,
+      "etag": "\"7b56885181b61f32209e488a8e154125\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9281.traj",
+      "sha256": "8f8710939d66533caa47fda6001f6dd855255748d94bae04dc8b6b9e0adf330b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9320.traj",
+      "bytes": 156771,
+      "etag": "\"c8c0a6344dd225ad2bc9c94c1f7f7bb1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9320.traj",
+      "sha256": "38aa0fc0fcec51a98636fc1cd451579cb856f2feb20a5a82638d22d338820bc9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9367.traj",
+      "bytes": 124432,
+      "etag": "\"abe2ecd3ea60956dc534f1e5193f4680\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9367.traj",
+      "sha256": "d7ef084e94d12ecaab4e0bfced231edc645854e47b10868f2436628ea63e43b8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9591.traj",
+      "bytes": 163120,
+      "etag": "\"4d432e1ad38d9fb55ddf26807d10a7dd\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9591.traj",
+      "sha256": "c32e87768f48b0439ea87ebfbbbb52ef2793c4b8a282ca41713d8605df652e9a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9602.traj",
+      "bytes": 121483,
+      "etag": "\"2a162047dec15f2000b1b491c02b3ccc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9602.traj",
+      "sha256": "af09ff55dbd15ce104baf0b108853a37dbb3f04237d8c08af8408b445dba9ef1"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9673.traj",
+      "bytes": 99250,
+      "etag": "\"e1004768652d71774f8a437c04a54941\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9673.traj",
+      "sha256": "91912bf24a3dfde2590b4c3896a3ab8249571d4a85c886fc805477c284416f09"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9698.traj",
+      "bytes": 375691,
+      "etag": "\"2f89503c913c68c7e1770c682a65884e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9698.traj",
+      "sha256": "f8a650f70a1a3ba90ecdfe08680cb1a5a5828c89ab4d65e9f541899aec3b8542"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9711.traj",
+      "bytes": 97720,
+      "etag": "\"57fcde735875e77163395410a99a0425\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sphinx-doc__sphinx-9711.traj",
+      "sha256": "5a1fdde27813afeb99e7a951dab9d49d59d81d6e3b7916e56fc9e5878c525349"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-11618.traj",
+      "bytes": 80841,
+      "etag": "\"8825226545ad8bf25768c538731f83b1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-11618.traj",
+      "sha256": "5566d2e36aa965a5b65a9b14355306524426082ea970b4fde1ec84425089669a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-12096.traj",
+      "bytes": 82829,
+      "etag": "\"f070860f58fd87839289d421a35be5f3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-12096.traj",
+      "sha256": "8a3c625c36cd3413c906248fa539d5296eadca95ad732ae7ff90f493d95ff338"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-12419.traj",
+      "bytes": 148749,
+      "etag": "\"ef066f292174e163d9d154d2e8dee3d7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-12419.traj",
+      "sha256": "79ffdbb08e05a84f7753d6fd579d5a6fb5cb9356fcff2736f391139d389b4c2b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-12481.traj",
+      "bytes": 109560,
+      "etag": "\"cbf8ab21ed1b5678dd3930a5d2885323\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-12481.traj",
+      "sha256": "1ff9bfd2b48500ccefa50f5e32ca9769d4fb1be4f3c21301871249e7443f4ad4"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-12489.traj",
+      "bytes": 179395,
+      "etag": "\"61b2067e34794c4651b6e5518755de73\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-12489.traj",
+      "sha256": "6ad83b836da5acfdb5f552c7786edde5b20484eb4b571ad4b725159ef5961ef1"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13031.traj",
+      "bytes": 72726,
+      "etag": "\"2d879f1695b9a80e29e7942cf6d90dba\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13031.traj",
+      "sha256": "825b618274bb56aa9504357bcf094cc40dac275c4d7a07ccfcbd650cf64d287c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13372.traj",
+      "bytes": 93055,
+      "etag": "\"e46cdc4ce981469ee6d17caa59efb23b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13372.traj",
+      "sha256": "4ce3a24e2b5eb199d00cd122a27289bc94027031edf001da6886ac4be817e290"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13480.traj",
+      "bytes": 144969,
+      "etag": "\"2b00c8e7e7660fdb502648e5d4624bbf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13480.traj",
+      "sha256": "54f769a0afc98a1c6512e1bef350b9d0b60a97637a67fd096c567fc4c9a17aa9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13551.traj",
+      "bytes": 166851,
+      "etag": "\"e4951f70b7d4b6a130675cc0cf1727fc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13551.traj",
+      "sha256": "d4d65bdd238ad9543b98dfffc2ed313f653a41b92af97cb7c4e406e002a0824c"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13615.traj",
+      "bytes": 157301,
+      "etag": "\"386b2eecc18bb391da295cab16c41ebf\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13615.traj",
+      "sha256": "66fb7e387594f4590c49ba9aa52c9b124aaabb1176ec190423d2ad18f5a5746a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13647.traj",
+      "bytes": 124767,
+      "etag": "\"3e67bc41135eece5d67ac9ce534236ef\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13647.traj",
+      "sha256": "89c75cbbc51a69a4b5a775510af37da6ad1f78d7d14949966886ba6a8eec459b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13757.traj",
+      "bytes": 159706,
+      "etag": "\"79f04d72569b9a5acff39f62599c686e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13757.traj",
+      "sha256": "91ac309e8e6ff8fbccf2088d8c4d15b2af0623058aeea692d21948ebd0a7323a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13798.traj",
+      "bytes": 104663,
+      "etag": "\"1c2866a9dabfd514ca60e0467a532ff2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13798.traj",
+      "sha256": "d7ef51be7536749f28d7c347cd3f8f888f9730244ae88180d8855f8157a475ee"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13877.traj",
+      "bytes": 368680,
+      "etag": "\"c348bbbeb1bbaeb95900534e24575009\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13877.traj",
+      "sha256": "1c3de9e228cb23d46787ecbc35fe183d1e9cf1a598e57318176974237f592c39"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13878.traj",
+      "bytes": 130368,
+      "etag": "\"9601ec4a4c088516323e9e37f8d45da1\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13878.traj",
+      "sha256": "482755b9ee662b07054925d68a692a023e0e5d55fcec26cd6f9ac0bbb46c6cb3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13974.traj",
+      "bytes": 148954,
+      "etag": "\"930b32f2b0e2d8079e2f33a5668bb5a3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-13974.traj",
+      "sha256": "05f7b1a3a480775bbc54af393b5dec080cc5d42fec79e6ac6a3565c2001c50da"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-14248.traj",
+      "bytes": 143793,
+      "etag": "\"a15fef48bf680c7efaf3c22133c599c9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-14248.traj",
+      "sha256": "deea5c304b8d877d68b68878ce4992640ceb76fc22dcce100b0a058e4562d3ba"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-14711.traj",
+      "bytes": 137224,
+      "etag": "\"213cc1a2a714cdef8e765a461e19a178\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-14711.traj",
+      "sha256": "9d30c917d372987a18fdf5c674c16c16266fe29176d1bb07048c1566714a18bb"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-14976.traj",
+      "bytes": 141281,
+      "etag": "\"f6508cbfe56034fb055f89572335e895\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-14976.traj",
+      "sha256": "4b1620a754da7051fc4f07fed8c4e99c139bb09092ea03975ad2915f31ed19f9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15017.traj",
+      "bytes": 87812,
+      "etag": "\"c7a87c96bdbed03c8c6a16300b27d0c6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15017.traj",
+      "sha256": "376bcce550c6fc3309ce0860384162a7d08f83c3b8c6ece6fd02e3b274fc9594"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15345.traj",
+      "bytes": 165067,
+      "etag": "\"5e2ef4bc0ef297e40f0a264b214129a0\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15345.traj",
+      "sha256": "af3dfa9f284d68628ee45c96f32803508c0a0e0a572c88c30202a32ed677a3a5"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15349.traj",
+      "bytes": 95120,
+      "etag": "\"d75658860dffa95c76365488487b8bf6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15349.traj",
+      "sha256": "0600b986ee7d95c2e952ae1cb12679f937f7ff02d6be1d92deba55f234dff2d7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15599.traj",
+      "bytes": 107441,
+      "etag": "\"1de8f606517c41d98e8d3706295bbb60\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15599.traj",
+      "sha256": "09eab0dd6e005404e3b4c3d03e54af6e5ce958697eed4e607c6e38e69d2c9867"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15809.traj",
+      "bytes": 114340,
+      "etag": "\"848ed13346d28c4c47a12c9583d46649\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15809.traj",
+      "sha256": "0a1153cdf04c3f830f45e3008a2aec5f0fb2bb48757dc34c9bbd871159135069"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15875.traj",
+      "bytes": 100091,
+      "etag": "\"c49f2343cc6f904b688519ede8fd1071\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15875.traj",
+      "sha256": "74b94e3f2a941889784db43747383641c22679e1dac71efc4e04f658c7502e66"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15976.traj",
+      "bytes": 96038,
+      "etag": "\"87576c30274ba0aafbd54001942de72c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-15976.traj",
+      "sha256": "8590a05f190b6aeb2b726fab85df3cb7815f6ed17e68431aef9dd0968238c1d3"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-16450.traj",
+      "bytes": 85381,
+      "etag": "\"532dbd82bdc96e19a28d2d3d0c4ac31e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-16450.traj",
+      "sha256": "befe09916c1df6564e420b6af22d19c28393a964182fb1b7b1ac4ae1f8cf4ac1"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-16597.traj",
+      "bytes": 148953,
+      "etag": "\"fe84540953c4c9a4ba5a077206f2917e\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-16597.traj",
+      "sha256": "af9d4c9fde85d6d01cd8ff52996b2b3feeadda367c5d4b8ee508107953b94b36"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-16792.traj",
+      "bytes": 121961,
+      "etag": "\"dca17e576f5bc4f55ae7f60e6662e4de\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-16792.traj",
+      "sha256": "d5e173247b390b9cb3fa974bff26e98db805d4379b875c43599e15c0426fcf52"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-16886.traj",
+      "bytes": 153624,
+      "etag": "\"d6699c9922c6503f5f3154521a36c973\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-16886.traj",
+      "sha256": "1659e06dd5d2748f2756d42b22825aa45c20501e7771aa20273509bc7fc7daf8"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-17139.traj",
+      "bytes": 106341,
+      "etag": "\"7b9ef502d79290d9a1fa4bc917217d63\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-17139.traj",
+      "sha256": "f787e2a7b6936fba516e3e7482418524f9fe3a31a210d603f4feacae7dcc2c9e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-17318.traj",
+      "bytes": 63914,
+      "etag": "\"9380f55fb229573d6598fcd9ff2ef58b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-17318.traj",
+      "sha256": "8d6f89098b2044e4561b7c1529272cab2aedf3eb252562d3b201f0770abef464"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-17630.traj",
+      "bytes": 170065,
+      "etag": "\"1dab28c2a83110d7c2747c4df30fa1d7\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-17630.traj",
+      "sha256": "0d2b76c2091e3ab0860ffc7e2e6ae4ad4e0d1f88489010cca6b9b750fcffe10d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-17655.traj",
+      "bytes": 97285,
+      "etag": "\"2f508faa7bd1cb8a8b1b92a8bd163991\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-17655.traj",
+      "sha256": "fa2ba21afb125944d6070a5f79ad16136eb2b4a04c6935b7b203eefa1c31ecdd"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-18189.traj",
+      "bytes": 184597,
+      "etag": "\"abffc8f09c96cd0e62c8272894930cf6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-18189.traj",
+      "sha256": "d284008845d68013c12d52a65a474e52540d0897d6eb7c7adf13c405a55c3622"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-18698.traj",
+      "bytes": 112502,
+      "etag": "\"bd110a54db1c434cda6592547ff900f9\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-18698.traj",
+      "sha256": "14f6b09e85bb8f4e10f4b089382ed15828ed6abb99911578d58cdaaed7364989"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19040.traj",
+      "bytes": 140998,
+      "etag": "\"870d85c30420fd9a698f028f06d925bc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19040.traj",
+      "sha256": "a9f5e45a598dfa10e6ded9b02c3470d3b51d4187ce01eaed952b53faffcc1819"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19495.traj",
+      "bytes": 91143,
+      "etag": "\"4e28f359f8ba0b5fc3391ff3a842da86\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19495.traj",
+      "sha256": "dec4a3914689a4fd801257bf0a608715409de01b2aa758ad25744aa797c1e55b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19637.traj",
+      "bytes": 74045,
+      "etag": "\"f7c2a8411b2cdb8d16132943308c0f60\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19637.traj",
+      "sha256": "9a2058a574656e320a2ef29b727c2e947d8c1a2b609266b8c8b6c49e6a66b0c7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19783.traj",
+      "bytes": 142460,
+      "etag": "\"a480d47ddfcd0710927b6e0bd6335b30\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19783.traj",
+      "sha256": "3fb2cec8be270ff579751fb5928e824dd6baa755982f622f4d811196c9c91b58"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19954.traj",
+      "bytes": 180788,
+      "etag": "\"6dd948b826d818c255c6e2257b518277\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-19954.traj",
+      "sha256": "f169e61f781d57c95379bce201c366f3e8aa27c094c3dc3f7a1ad50716ff7268"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20154.traj",
+      "bytes": 134820,
+      "etag": "\"86aa0543ce525c2215aa5721dcc1d74f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20154.traj",
+      "sha256": "f82c406012d89bd37e2b6eaf9eb6e348f795c10d3d09455f02f38a7278b6ba8a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20428.traj",
+      "bytes": 138395,
+      "etag": "\"83d4d1f8b34f438c8a4f0bef643d8d23\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20428.traj",
+      "sha256": "cbf9d2c987a36c8a383b2100bc96076b456b684fc7d6ec7024b7a075768d7268"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20438.traj",
+      "bytes": 166399,
+      "etag": "\"44560c76e1659ae203a2d091acd628fc\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20438.traj",
+      "sha256": "f95a11ca4e47e444b43e3ebb1361d54a518e65bbe45b8c312e6c4f914073454e"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20590.traj",
+      "bytes": 139857,
+      "etag": "\"1ec43ffaf3f2c45ae03cf67dd957357f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20590.traj",
+      "sha256": "abe7c7df78a90cf30146849d19f59912f532740dca801d3441556ad8f32838b7"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20801.traj",
+      "bytes": 143208,
+      "etag": "\"ea81017f97212a95574cca9fa55a9181\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20801.traj",
+      "sha256": "e2487af8d17bf3464bad7b4f97a01411274f31db5c86de316e8e73f386d385e2"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20916.traj",
+      "bytes": 142500,
+      "etag": "\"3fb020a4f778e2fa4675a0248c90a66b\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-20916.traj",
+      "sha256": "b0d45f168927b10d6977bf83622627cd5b453117e560f3abdeef2fbcdc99e19d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21379.traj",
+      "bytes": 140722,
+      "etag": "\"96fb2f6f988163702259b89a24471ab8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21379.traj",
+      "sha256": "d2d372e619d5c5fbb618c585a0075ee791ef9fdc011335888e56e52f37bfadbd"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21596.traj",
+      "bytes": 132017,
+      "etag": "\"7dbf13659d71867d4152bc81fcc2b8a3\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21596.traj",
+      "sha256": "931e54afc863af53d1e8b3a7f29a047b383555a9a9e7e3c557184c563387a80a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21612.traj",
+      "bytes": 94091,
+      "etag": "\"146e9ffda9821850c5ff1851c4b041e6\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21612.traj",
+      "sha256": "f780f2d000a231a4a0c03094dc8c83468411cf1953084056f7a88740f604e202"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21847.traj",
+      "bytes": 153961,
+      "etag": "\"e5a5e789dbf5fc902dfd72499321844a\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21847.traj",
+      "sha256": "86dc351c324e8434f1edc30ee009d2efdb3040f959a8c310546423c2a4f6c2be"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21930.traj",
+      "bytes": 107019,
+      "etag": "\"0fdb0a45b56e735c95ffa911f78cc658\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-21930.traj",
+      "sha256": "58da3534ef14fd8462e99f8c99fd87be47f232dc6bccfeb3cbd9c7edf2cbe9ae"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-22080.traj",
+      "bytes": 121874,
+      "etag": "\"157d3e3077f74014f39844b87d62deba\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-22080.traj",
+      "sha256": "a17502eced7189513bcc36170a9bcf6e8af4cfed665f146929efad5826523875"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-22456.traj",
+      "bytes": 138328,
+      "etag": "\"73de548412972430557452c212c4472f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-22456.traj",
+      "sha256": "cc3be629795296164c2b4e84d0be6bf45e85dbfcdc302d50cecab1751e7f1caa"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-22714.traj",
+      "bytes": 80507,
+      "etag": "\"8109e9d824beab5967ecee332da1a7d2\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-22714.traj",
+      "sha256": "d3e3415e66994d63e15ffd17e21343b82ba8a1c8b4e23d998aa879636673463d"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-22914.traj",
+      "bytes": 107228,
+      "etag": "\"9a7920de3475d56a5960ec853b2f1a4f\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-22914.traj",
+      "sha256": "964f830078712661bfa37a37d475b6fa9b829419fdd839643363a3f1d85ac32b"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-23413.traj",
+      "bytes": 123984,
+      "etag": "\"7b32ba2aa37c6c953f7cbb9ea73ad3d8\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-23413.traj",
+      "sha256": "0666c8bac1123515087d3edbdbb084569dfee40940b1e2b0be9ea4891a0f838a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-23534.traj",
+      "bytes": 118662,
+      "etag": "\"fd636ae063d825c5dd3c902b07976a08\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-23534.traj",
+      "sha256": "c994dc8d02a3f1edd588f1b3a2c0a88eba4906e71afcbb6c8238f7bc93013d44"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-23824.traj",
+      "bytes": 152558,
+      "etag": "\"5321d09933da87a84075b549b29e412d\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-23824.traj",
+      "sha256": "1217c3fa8a750345ca4412a9c7a4f1598b3ae4d2bab8e9dc6863192ab4c50a57"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-23950.traj",
+      "bytes": 60385,
+      "etag": "\"cb80bc8cfc55b975a341f17c8b079b69\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-23950.traj",
+      "sha256": "5247a716f924ee8e1d00f8122878a6cd70d7852585af29bffad066054f312290"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24066.traj",
+      "bytes": 83882,
+      "etag": "\"ce0f24ba822c07a08c277f8b63ca10af\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24066.traj",
+      "sha256": "948c1fb895e7b41ba89894d1b35a6243b8020c776ab612ed482b6be2459462a5"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24213.traj",
+      "bytes": 177270,
+      "etag": "\"0c8423c1f984c979127b40d8bdc51b80\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24213.traj",
+      "sha256": "514e39ba027d99cfd305e8dc58f0dc3292a1ea605ca86a16a5645872784cc27a"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24539.traj",
+      "bytes": 89059,
+      "etag": "\"2514c2b87c82d9310186b9269e5d589c\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24539.traj",
+      "sha256": "2f1f524e5ddf9c8ff7fead21d9d0259e5bed2401f36a21f5a3bdc0cf2aea2134"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24562.traj",
+      "bytes": 174134,
+      "etag": "\"c2a935d7ac8d7bd9c5375f394ff05509\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24562.traj",
+      "sha256": "32372d257bb7f4f34560d25bb938e9814e4b8f2806443a368bcc775cae1be7a9"
+    },
+    {
+      "key": "verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24661.traj",
+      "bytes": 164223,
+      "etag": "\"fe4fce157355ee190d16f30033cde164\"",
+      "source": "https://swe-bench-submissions.s3.amazonaws.com/verified/20240402_sweagent_claude3opus/trajs/sympy__sympy-24661.traj",
+      "sha256": "d2144f0bb9e036db60e5ca90227224a4b70534f0048963e7a3854207dd0dbe5c"
+    }
+  ],
+  "metadata_sha256": "02986df6fca37cbf0febe2a36d784e6813b1e1331d30a50ee2a4386d70bd66ca",
+  "official_results_sha256": "18a7f9f8ac2ede71046c3d961ce4a7478b025549a5c4298ff811d60245e692b7",
+  "normalized_sha256": "737d49e811480406a9fbab6bd5e3cddbc99a842299db99f5e90093570c02c472",
+  "split_map_sha256": "5387ca3e94afa6daf17b2800dcdc16e55089d1e09d0ae9e7c070a9c5fe1f8ca9",
+  "audit": {
+    "submission": "20240402_sweagent_claude3opus",
+    "benchmark_rows": 500,
+    "retained": 443,
+    "official_resolved": 79,
+    "retained_resolved": 67,
+    "exclusions": [
+      {
+        "instance_id": "astropy__astropy-13398",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "astropy__astropy-14365",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-10097",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-10880",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-10999",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-11066",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-11141",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-11299",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-11433",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-11749",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-11880",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-12419",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-12754",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-12774",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-13417",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-13449",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-13794",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-13810",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-14053",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-14140",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-15731",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-15863",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-16100",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-16116",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-16560",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-16612",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-17084",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "django__django-7530",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "matplotlib__matplotlib-13989",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "matplotlib__matplotlib-14623",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "matplotlib__matplotlib-25287",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "mwaskom__seaborn-3187",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "psf__requests-6028",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "pydata__xarray-3095",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "pydata__xarray-4356",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "pydata__xarray-4687",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "pylint-dev__pylint-4661",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "pytest-dev__pytest-5631",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "pytest-dev__pytest-6202",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "scikit-learn__scikit-learn-13124",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "scikit-learn__scikit-learn-15100",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "scikit-learn__scikit-learn-25931",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "scikit-learn__scikit-learn-25973",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sphinx-doc__sphinx-10435",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sphinx-doc__sphinx-8459",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sphinx-doc__sphinx-9461",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sphinx-doc__sphinx-9658",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-13091",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-13852",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-14531",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-16766",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-18199",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-18211",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-18763",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-19346",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-23262",
+        "reason": "missing_trajectory"
+      },
+      {
+        "instance_id": "sympy__sympy-24443",
+        "reason": "missing_trajectory"
+      }
+    ],
+    "unrecognized_files": [],
+    "complete": false,
+    "normalized_sha256": "737d49e811480406a9fbab6bd5e3cddbc99a842299db99f5e90093570c02c472",
+    "label_policy": "no_logs excluded as unknown unless explicitly listed resolved; no_generation counts unresolved"
+  }
+}

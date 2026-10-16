@@ -1,0 +1,241 @@
+{
+  "submission": "20240402_sweagent_claude3opus",
+  "benchmark_rows": 500,
+  "retained": 443,
+  "official_resolved": 79,
+  "retained_resolved": 67,
+  "exclusions": [
+    {
+      "instance_id": "astropy__astropy-13398",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "astropy__astropy-14365",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-10097",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-10880",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-10999",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-11066",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-11141",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-11299",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-11433",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-11749",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-11880",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-12419",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-12754",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-12774",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-13417",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-13449",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-13794",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-13810",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-14053",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-14140",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-15731",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-15863",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-16100",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-16116",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-16560",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-16612",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-17084",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-7530",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-13989",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-14623",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-25287",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "mwaskom__seaborn-3187",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "psf__requests-6028",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "pydata__xarray-3095",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "pydata__xarray-4356",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "pydata__xarray-4687",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "pylint-dev__pylint-4661",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-5631",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-6202",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-13124",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-15100",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-25931",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-25973",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-10435",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8459",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-9461",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-9658",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-13091",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-13852",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-14531",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-16766",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-18199",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-18211",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-18763",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-19346",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-23262",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "sympy__sympy-24443",
+      "reason": "missing_trajectory"
+    }
+  ],
+  "unrecognized_files": [],
+  "complete": false,
+  "normalized_sha256": "737d49e811480406a9fbab6bd5e3cddbc99a842299db99f5e90093570c02c472",
+  "label_policy": "no_logs excluded as unknown unless explicitly listed resolved; no_generation counts unresolved"
+}

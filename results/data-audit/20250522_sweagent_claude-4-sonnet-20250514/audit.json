@@ -1,0 +1,13 @@
+{
+  "submission": "20250522_sweagent_claude-4-sonnet-20250514",
+  "benchmark_rows": 500,
+  "retained": 500,
+  "official_resolved": 333,
+  "retained_resolved": 333,
+  "exclusions": [],
+  "unrecognized_files": [],
+  "complete": true,
+  "normalized_sha256": "1120540bb0241e60a98e181fa365ddf015e4e142d939ae1bfda2f6e7c4c6834b",
+  "label_policy": "no_logs excluded as unknown unless explicitly listed resolved; no_generation counts unresolved",
+  "acquisition": "HTTP suffix metadata extraction"
+}

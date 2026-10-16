@@ -1,0 +1,29 @@
+{
+  "submission": "20240402_sweagent_gpt4",
+  "benchmark_rows": 500,
+  "retained": 496,
+  "official_resolved": 112,
+  "retained_resolved": 112,
+  "exclusions": [
+    {
+      "instance_id": "django__django-10097",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "django__django-7530",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-13989",
+      "reason": "missing_trajectory"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-14623",
+      "reason": "missing_trajectory"
+    }
+  ],
+  "unrecognized_files": [],
+  "complete": false,
+  "normalized_sha256": "c68440b18b5d81445bdfec71af73d853da87a9da0602b50f1c3102e715cc0120",
+  "label_policy": "no_logs excluded as unknown unless explicitly listed resolved; no_generation counts unresolved"
+}

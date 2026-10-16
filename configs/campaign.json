@@ -2697,7 +2697,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2711,7 +2711,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2725,7 +2725,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2739,7 +2739,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2753,7 +2753,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2767,7 +2767,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2781,7 +2781,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2795,7 +2795,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2809,7 +2809,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2823,7 +2823,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2837,7 +2837,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2851,7 +2851,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2865,7 +2865,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2879,7 +2879,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2893,7 +2893,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2907,7 +2907,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2921,7 +2921,7 @@
       "feedback": "frozen_warmup",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },
@@ -2935,7 +2935,7 @@
       "feedback": "admitted_only",
       "density_mode": "expected",
       "duration_mode": "fixed",
-      "deadline": Infinity,
+      "deadline": null,
       "arrival_mode": "batch"
     }
   },

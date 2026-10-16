@@ -1,0 +1,57 @@
+ranges 100
+Traceback (most recent call last):
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/.venv/lib/python3.11/site-packages/urllib3/response.py", line 929, in _error_catcher
+    yield
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/.venv/lib/python3.11/site-packages/urllib3/response.py", line 1046, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/.venv/lib/python3.11/site-packages/urllib3/response.py", line 1029, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 466, in read
+    s = self.fp.read(amt)
+        ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1311, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1167, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/scripts/fetch_metadata_ranges.py", line 53, in <module>
+    for i,f in enumerate(pool.map(one,objects)):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/scripts/fetch_metadata_ranges.py", line 39, in one
+    payload=response.raw.read(wanted+1)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/.venv/lib/python3.11/site-packages/urllib3/response.py", line 1134, in read
+    data = self._raw_read(amt)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/.venv/lib/python3.11/site-packages/urllib3/response.py", line 1045, in _raw_read
+    with self._error_catcher():
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/cmeesala/Documents/Codex/2026-10-16/ple/work/lagged-budget-audit/.venv/lib/python3.11/site-packages/urllib3/response.py", line 934, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='swe-bench-submissions.s3.amazonaws.com', port=443): Read timed out.

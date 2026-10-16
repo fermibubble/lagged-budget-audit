@@ -1,0 +1,68 @@
+[
+  {
+    "submission": "20240620_sweagent_claude3.5sonnet",
+    "counts": {
+      "objects": 500,
+      "calls_equal_trajectory_steps": 460,
+      "cumulative_cost_differs": 496
+    },
+    "api_calls_minus_steps": {
+      "0": 460,
+      "1": 32,
+      "2": 8
+    },
+    "code_semantics": "Legacy APIStats resets calls, tokens and instance_cost while preserving total_cost; exact submitting revision unavailable"
+  },
+  {
+    "submission": "20240728_sweagent_gpt4o",
+    "counts": {
+      "objects": 465,
+      "calls_equal_trajectory_steps": 442,
+      "cumulative_cost_differs": 462
+    },
+    "api_calls_minus_steps": {
+      "-1": 2,
+      "0": 442,
+      "1": 17,
+      "3": 4
+    },
+    "code_semantics": "Legacy APIStats resets calls, tokens and instance_cost while preserving total_cost; exact submitting revision unavailable"
+  },
+  {
+    "submission": "20240402_sweagent_gpt4",
+    "counts": {
+      "objects": 496,
+      "calls_equal_trajectory_steps": 443,
+      "cumulative_cost_differs": 488
+    },
+    "api_calls_minus_steps": {
+      "0": 443,
+      "1": 44,
+      "2": 7,
+      "3": 2
+    },
+    "code_semantics": "Legacy APIStats resets calls, tokens and instance_cost while preserving total_cost; exact submitting revision unavailable"
+  },
+  {
+    "submission": "20240402_sweagent_claude3opus",
+    "counts": {
+      "objects": 443,
+      "calls_equal_trajectory_steps": 421,
+      "cumulative_cost_differs": 432
+    },
+    "api_calls_minus_steps": {
+      "0": 421,
+      "1": 20,
+      "2": 1,
+      "3": 1
+    },
+    "code_semantics": "Legacy APIStats resets calls, tokens and instance_cost while preserving total_cost; exact submitting revision unavailable"
+  },
+  {
+    "submission": "20250522_sweagent_claude-4-sonnet-20250514",
+    "full_sample_vs_range_stats_identical": true,
+    "sample_api_calls": 54,
+    "sample_trajectory_steps": 54,
+    "code_semantics": "Declared release v1.1.0 InstanceStats resets per run; embedded commit unavailable (404)"
+  }
+]
